@@ -5,75 +5,10 @@ require_once('../../Includes/functions.inc.php');
 
 
 
+
 $user_id = $_SESSION['userid'];
 
-// <------------------TOTAL INCOME FEATURE------------------->
 
-// Function to get user's income records
-function getUserIncomeRecords($conn, $user_id)
-{
-  // Replace this query with your actual query to get income records for a user
-  $sql = "SELECT * FROM userincome WHERE id = '$user_id'";
-  $result = mysqli_query($conn, $sql);
-
-  $incomeRecords = array();
-  while ($row = mysqli_fetch_assoc($result)) {
-    $incomeRecords[] = $row;
-  }
-
-  return $incomeRecords;
-}
-
-// Function to calculate total income
-function calculateTotalIncome($incomeRecords)
-{
-  $totalIncome = 0;
-
-  foreach ($incomeRecords as $record) {
-    $totalIncome += $record['incomeAmount'];
-  }
-
-  return $totalIncome;
-}
-
-// Get user's income records
-$incomeRecords = getUserIncomeRecords($conn, $user_id);
-
-// Calculate total income
-$totalIncome = calculateTotalIncome($incomeRecords);
-
-// <------------------TOTAL TRANSACTIONS FEATURE ------------------------->
-
-function getUserTransactionRecords($conn, $user_id){
-  // Replace this query with your actual query to get income records for a user
-  $sql = "SELECT * FROM transactions WHERE id = '$user_id'";
-  $transactionResult = mysqli_query($conn, $sql);
-
-  $transactionRecords = array();
-  while ($row = mysqli_fetch_assoc($transactionResult)) {
-    $transactionRecords[] = $row;
-  }
-
-  return $transactionRecords;
-}
-
-// Function to calculate total income
-function calculateTotalTransactions($transactionRecords)
-{
-  $totalTransaction = 0;
-
-  foreach ($transactionRecords as $tranRecord) {
-    $totalTransaction += $tranRecord['amount'];
-  }
-
-  return $totalTransaction;
-}
-
-// Get user's transactions records
-$transactionRecords = getUserTransactionRecords($conn, $user_id);
-
-// Calculate total transaction
-$totalTransaction = calculateTotalTransactions($transactionRecords);
 
 ?>
 <!DOCTYPE html>
@@ -193,7 +128,7 @@ $totalTransaction = calculateTotalTransactions($transactionRecords);
       </div>
       <div class="statistics-card">
         <h3>Net Balance</h3>
-        <p>$2,000</p>
+        <p>$<?= $netBalance;?></p>
       </div>
     </section>
   </section>
