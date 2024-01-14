@@ -4,8 +4,10 @@ require '../../includes/dbh.inc.php';
 require_once('../../Includes/functions.inc.php');
 
 
-// Assuming $_SESSION["userid"] contains the current user's ID
+
 $user_id = $_SESSION['userid'];
+
+// <------------------TOTAL INCOME FEATURE------------------->
 
 // Function to get user's income records
 function getUserIncomeRecords($conn, $user_id)
@@ -39,6 +41,40 @@ $incomeRecords = getUserIncomeRecords($conn, $user_id);
 
 // Calculate total income
 $totalIncome = calculateTotalIncome($incomeRecords);
+
+// <------------------TOTAL TRANSACTIONS FEATURE ------------------------->
+
+function getUserTransactionRecords($conn, $user_id){
+  // Replace this query with your actual query to get income records for a user
+  $sql = "SELECT * FROM transactions WHERE id = '$user_id'";
+  $transactionResult = mysqli_query($conn, $sql);
+
+  $transactionRecords = array();
+  while ($row = mysqli_fetch_assoc($transactionResult)) {
+    $transactionRecords[] = $row;
+  }
+
+  return $transactionRecords;
+}
+
+// Function to calculate total income
+function calculateTotalTransactions($transactionRecords)
+{
+  $totalTransaction = 0;
+
+  foreach ($transactionRecords as $tranRecord) {
+    $totalTransaction += $tranRecord['amount'];
+  }
+
+  return $totalTransaction;
+}
+
+// Get user's transactions records
+$transactionRecords = getUserTransactionRecords($conn, $user_id);
+
+// Calculate total transaction
+$totalTransaction = calculateTotalTransactions($transactionRecords);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -153,7 +189,7 @@ $totalIncome = calculateTotalIncome($incomeRecords);
       </div>
       <div class="statistics-card">
         <h3>Total Expenses</h3>
-        <p>$3,000</p>
+        <p>$<?= $totalTransaction;?></p>
       </div>
       <div class="statistics-card">
         <h3>Net Balance</h3>
