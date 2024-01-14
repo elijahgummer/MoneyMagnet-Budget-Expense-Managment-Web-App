@@ -81,7 +81,7 @@ $totalIncome = calculateTotalIncome($incomeRecords);
           <tbody>
             <?php
             $user_id = $_SESSION['userid'];
-            $query = "SELECT userincome.incomeID, userincome.id AS userincome_id, userincome.source, userincome.incomeAmount, userincome.date , userdata.*
+            $query = "SELECT userincome.incomeID, userincome.id AS userincomeID, userincome.source, userincome.incomeAmount, userincome.date , userdata.*
                                     FROM userincome
                                     JOIN userdata ON userincome.id = userdata.id
                                     JOIN transactions ON userincome.id = transactions.id
@@ -132,7 +132,7 @@ $totalIncome = calculateTotalIncome($incomeRecords);
 
           <div class="form-group">
             <label for="amount" style="color: #333;">Amount:</label>
-            <input type="number" id="amount" name="amount" required>
+            <input type="number" id="amount" name="incomeAmount" required>
           </div>
 
           <div class="form-group">
