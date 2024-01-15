@@ -29,6 +29,8 @@ require_once("navbar.php");
                         echo "<div class='successMessage'><i class='fas fa-check-circle'></i> You have successfully changed your password!</div>";
                     } else if ($_GET["error"] == "wronglogin") {
                         echo "<div class='errorMessage'><i class='fas fa-exclamation-circle'></i> Incorrect account information. Please try again.</div>";
+                    } else if ($_GET["error"] == "passwordsdontmatch") {
+                        echo "<div class='errorMessage'><i class='fas fa-exclamation-circle'></i> Passwords Don't Match</div>";
                     }
                 }
                 ?>

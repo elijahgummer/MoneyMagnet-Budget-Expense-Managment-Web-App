@@ -21,6 +21,16 @@ function invalidEmail($email)
     return $result;
 }
 
+function pwdMatch ($pwd, $pwdRepeat) {
+    if ($pwd !== $pwdRepeat) {
+        $result = true;
+    }
+    else {
+        $result = false;
+    }
+    return $result;
+    }
+
 function uidExists($conn, $email)
 {
     $sql = "SELECT * FROM userdata WHERE email = ?;";
@@ -171,6 +181,26 @@ $totalTransaction = calculateTotalTransactions($transactionRecords);
 // <------------NET BALANCE------->
 
 $netBalance = $totalIncome - $totalTransaction;
+
+
+function resetPassword($conn, $pwd, $email) {
+    $sql = "UPDATE userdata SET password = ? WHERE email= ?";
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql)) {
+        header("location: ../forgotpwd.php?error=stmtfailed");
+        exit();
+
+    }
+
+    $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
+
+    mysqli_stmt_bind_param($stmt, "ss", $hashedPwd, $email);
+    mysqli_stmt_execute($stmt);
+    //$run_query =  mysqli_query($conn, $sql);
+    header("location: ../forgotpwd.php?error=none");
+    exit();
+    
+}
 
 
 
