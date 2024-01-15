@@ -62,7 +62,7 @@ textarea:focus {
 }
 
 button.addReminder {
-    background-color: #4CAF50; /* Green button background */
+    background-color: #FFC800; /* Green button background */
     color: #fff;
     border: none;
     padding: 12px 20px;
@@ -73,7 +73,7 @@ button.addReminder {
 }
 
 button.addReminder:hover {
-    background-color: #009688; /* Hover background color */
+    background-color: #E6B800; /* Hover background color */
 }
 
 /* Reminder List */
@@ -115,12 +115,12 @@ button.addReminder:hover {
 }
 
 
-ul {
+.reminderList {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+.reminderLi {
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
 }

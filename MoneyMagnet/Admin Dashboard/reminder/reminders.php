@@ -57,7 +57,7 @@ require_once('../../Includes/functions.inc.php');
                     foreach ($query_run as $reminders) {
                 ?>
                         <ul id="reminderList">
-                            <li>
+                            <li class="reminderLi">
                                 <span class="reminderName">Reminder Name: <?= $reminders['reminderName']; ?></span><br>
                                 <span class="reminderID">ID: <?= $reminders['reminderID']; ?></span><br>
                                 <span class="reminderDate">Date: <?= $reminders['reminderDate']; ?></span><br>
