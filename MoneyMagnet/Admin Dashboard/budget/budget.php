@@ -27,8 +27,10 @@ require_once('../../Includes/functions.inc.php');
             <div class="containertable">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Budget Details</h4>
+                        <h4 class="budget-header">Budget Details</h4>
+                        
                         <button id="openModalBtn" class="createbtn">Create Budget</button>
+
                     </div>
 
                     <div class="modal" id="budgetModal">
