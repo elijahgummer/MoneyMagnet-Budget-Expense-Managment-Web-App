@@ -24,9 +24,6 @@ require_once('../../Includes/functions.inc.php');
             <div class="messageyel">
                 <?php include('../message.php'); ?>
             </div>
-
-            <div class="row">
-                <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
                             <h4>Budget Details
@@ -165,9 +162,6 @@ require_once('../../Includes/functions.inc.php');
                             </table>
                         </div>
                     </div>
-                </div>
-            </div>
-        
         </main>
     </section>
 
