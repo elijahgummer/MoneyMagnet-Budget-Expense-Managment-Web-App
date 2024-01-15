@@ -10,9 +10,6 @@ require_once('../../Includes/functions.inc.php');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- ===== Iconscout CSS ===== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +20,7 @@ require_once('../../Includes/functions.inc.php');
 
 <body>
     <section class="home-section">
-        <div class="container mt-4">
+        <main>
             <div class="messageyel">
                 <?php include('../message.php'); ?>
             </div>
@@ -105,7 +102,7 @@ require_once('../../Includes/functions.inc.php');
                                         <input type="number" id="totalAmount" name="totalAmount" required />
                                     </div>
                                     <div class="modal-buttons">
-                                        <button type="button" class="btn-cancel" id="cancelModalBtn">Cancel</button>
+                                        <button type="button" class="btn-cancel" id="closeModalBtn">Cancel</button>
                                         <button type="submit" name="save_budget" class="btn-save">Save Budget</button>
                                     </div>
                                 </form>
@@ -170,7 +167,8 @@ require_once('../../Includes/functions.inc.php');
                     </div>
                 </div>
             </div>
-        </div>
+        
+        </main>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

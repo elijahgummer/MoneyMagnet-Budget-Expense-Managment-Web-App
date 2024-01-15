@@ -1,3 +1,9 @@
+body {
+  background-color: #F5F5F5;
+  height: 100vh;
+  z-index: 300;
+}
+
 /* Add this CSS to your page or external stylesheet */
 
 /* Style for action buttons */
@@ -220,4 +226,19 @@ textarea {
 .plusButton:focus-visible>.plusIcon {
   fill: black;
   transform: rotate(180deg);
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  margin: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
