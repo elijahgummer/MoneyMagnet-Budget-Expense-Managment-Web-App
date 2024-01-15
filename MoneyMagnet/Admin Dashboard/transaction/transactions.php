@@ -82,7 +82,7 @@ $user_id = $_SESSION['userid'];
                         <?php
                             }
                         } else {
-                            echo "<h5> No Budgets Found </h5>";
+                            echo "<h5> No Transactions Found </h5>";
                         }
                         ?>
                     </tbody>
