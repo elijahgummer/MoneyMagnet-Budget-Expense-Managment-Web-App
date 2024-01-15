@@ -1,5 +1,6 @@
 <?php
     require_once("../dashNavbar.php");
+    require ("../../includes/functions.inc.php");
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -25,7 +26,7 @@
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Total Expenses</div>
-            <div class="number">5,000</div>
+            <div class="number">$<?= $totalTransaction?></div>
             <div class="indicator">
               <i class="bx bx-up-arrow-alt"></i>
               <span class="text">Up from yesterday</span>
@@ -36,7 +37,7 @@
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Total Income</div>
-            <div class="number">8,000</div>
+            <div class="number">$<?= $totalIncome?></div>
             <div class="indicator">
               <i class="bx bx-up-arrow-alt"></i>
               <span class="text">Up from yesterday</span>
