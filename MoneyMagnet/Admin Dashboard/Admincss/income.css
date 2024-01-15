@@ -1,6 +1,4 @@
-
-
-.container {
+.incomeContainer {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -15,8 +13,7 @@ h2 {
   color: #333;
 }
 
-form, table {
-  margin-top: 20px;
+.incomeForm, table {
   width: 100%;
   border-collapse: collapse;
 }
@@ -132,14 +129,16 @@ tbody tr:nth-child(even) {
   animation: input-focus 0.3s ease;
 }
 
-.crudButtons i {
+.crudButtons {
+  display: flex;
   color: white;
   font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.crudButtons {
-  margin: 10px;
-}
+
 
 
 /* Transaction Statistics */
@@ -195,13 +194,6 @@ tbody tr:nth-child(even) {
       font-size: 28px;
   }
 
-  nav ul li {
-      margin-right: 10px;
-  }
-
-  nav a {
-      font-size: 16px;
-  }
 
   .transaction-list h2,
   .transaction-form h2,
@@ -223,4 +215,25 @@ tbody tr:nth-child(even) {
   }
 }
 
+.btn{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 4px 8px;
+  border: none;
+  color: white;
+  margin: 4px;
+}
+
+.dangerbtn {
+  background-color: #BB2D3B;
+}
+
+.infobtn {
+  background-color: #31D2F2;
+}
+
+.warningbtn {
+  background-color: #FFCA2C;
+}
 

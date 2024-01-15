@@ -18,9 +18,6 @@ $user_id = $_SESSION['userid'];
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reminders</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- ===== Iconscout CSS ===== -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,7 +29,8 @@ $user_id = $_SESSION['userid'];
 <body>
   <section class="home-section">
     <main>
-      <div class="container">
+      
+      <div class="incomeContainer">
         <h2 style="color: #FFC800;">Income Details</h2>
         <div class="messageyel">
           <?php include('../message.php'); ?>
@@ -74,10 +72,10 @@ $user_id = $_SESSION['userid'];
 
                   <td>
                     <div class="crudButtons">
-                      <a href="incomeView.php?incomeID=<?= $income['incomeID']; ?>" class="btn btn-info btn-sm"><i class="uil uil-eye"></i></a>
-                      <a href="incomeEdit.php?incomeID=<?= $income['incomeID']; ?>" class="btn btn-warning btn-sm"><i class="uil uil-edit"></i></a>
+                      <a href="incomeView.php?incomeID=<?= $income['incomeID']; ?>" class="btn infobtn"><i class="uil uil-eye"></i></a>
+                      <a href="incomeEdit.php?incomeID=<?= $income['incomeID']; ?>" class="btn warningbtn"><i class="uil uil-edit"></i></a>
                       <form action="income-code.php" method="POST" class="d-inline">
-                        <button type="submit" name="delete_income" value="<?= $income['incomeID']; ?>" class="btn btn-danger btn-sm"><i class="uil uil-times"></i></button>
+                        <a type="submit" name="delete_income" value="<?= $income['incomeID']; ?>" class="btn dangerbtn"><i class="uil uil-times"></i></a>
                       </form>
                     </div>
                   </td>
@@ -95,7 +93,7 @@ $user_id = $_SESSION['userid'];
         </table>
 
         <!-- Add Income Form -->
-        <form action="income-code.php" method="post">
+        <form class="incomeForm" action="income-code.php" method="post">
           <div class="form-group">
             <label for="source" style="color: #333;">Income Source:</label>
             <input type="text" id="source" name="source" required>

@@ -7,36 +7,6 @@ require_once('../../Includes/functions.inc.php');
 // Assuming $_SESSION["userid"] contains the current user's ID
 $user_id = $_SESSION['userid'];
 
-// Function to get user's income records
-function getUserIncomeRecords($conn, $user_id) {
-    // Replace this query with your actual query to get income records for a user
-    $sql = "SELECT * FROM userincome WHERE id = '$user_id'";
-    $result = mysqli_query($conn, $sql);
-
-    $incomeRecords = array();
-    while ($row = mysqli_fetch_assoc($result)) {
-        $incomeRecords[] = $row;
-    }
-
-    return $incomeRecords;
-}
-
-// Function to calculate total income
-function calculateTotalIncome($incomeRecords) {
-    $totalIncome = 0;
-
-    foreach ($incomeRecords as $record) {
-        $totalIncome += $record['incomeAmount'];
-    }
-
-    return $totalIncome;
-}
-
-// Get user's income records
-$incomeRecords = getUserIncomeRecords($conn, $user_id);
-
-// Calculate total income
-$totalIncome = calculateTotalIncome($incomeRecords);
 ?>
 
 <!DOCTYPE html>
@@ -63,7 +33,6 @@ $totalIncome = calculateTotalIncome($incomeRecords);
 <body>
     <section class="home-section">
         <main>
-
             <section class="transaction-list">
                 <div class="messageyel">
                     <?php include('../message.php'); ?>
