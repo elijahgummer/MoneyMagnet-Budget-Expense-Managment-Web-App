@@ -31,7 +31,12 @@
     top: 10px;
     right: 10px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 30px;
+    color: black;
+}
+
+.close:hover {
+    color: #696464;
 }
 
 .settings-container {
