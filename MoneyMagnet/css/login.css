@@ -30,6 +30,7 @@ html {
     255,
     0.15
   ); /* Update background color with opacity */
+  margin-top: 70px;
 }
 
 form {
