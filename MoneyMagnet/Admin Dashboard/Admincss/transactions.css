@@ -51,12 +51,14 @@ main {
 
 /* Transaction List */
 .transaction-list {
-    flex: 1;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    z-index: 0;
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+
 }
 
 .transaction-list h2 {
@@ -74,7 +76,7 @@ table th,
 table td {
     border: 1px solid #ccc;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 table th {
@@ -89,7 +91,8 @@ table th {
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    z-index: 2;
+    z-index: 0;
+
 }
 
 .transaction-form h2 {
@@ -212,3 +215,34 @@ button.addTransaction:hover {
         font-size: 14px;
     }
 }
+
+.crudButtons {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 4px 8px;
+    border: none;
+    color: white;
+    margin: 10px;
+  }
+  
+  .dangerbtn {
+    background-color: #BB2D3B;
+  }
+  
+  .infobtn {
+    background-color: #31D2F2;
+  }
+  
+  .warningbtn {
+    background-color: #FFCA2C;
+  }

@@ -18,8 +18,6 @@ $user_id = $_SESSION['userid'];
     <title>Transactions</title>
 
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- ===== Iconscout CSS ===== -->
@@ -51,7 +49,7 @@ $user_id = $_SESSION['userid'];
                     </thead>
                     <tbody id="transactionTable">
                         <?php
-                        
+
                         $query = "SELECT transactions.transactionID, transactions.id AS transaction_id, transactions.Description, transactions.transactionDate, transactions.amount, userdata.*, userincome.*
                         FROM transactions
                         JOIN userdata ON transactions.id = userdata.id
@@ -72,11 +70,13 @@ $user_id = $_SESSION['userid'];
 
 
                                     <td>
-                                        <a href="transactionsView.php?transactionID=<?= $transaction['transactionID']; ?>" class="btn btn-info btn-sm"><i class="uil uil-eye"></i></a>
-                                        <a href="transactionsEdit.php?transactionID=<?= $transaction['transactionID']; ?>" class="btn btn-warning btn-sm"><i class="uil uil-edit"></i></a>
-                                        <form action="transactions-code.php" method="POST" class="d-inline">
-                                            <button type="submit" name="delete_transaction" value="<?= $transaction['transactionID']; ?>" class="btn btn-danger btn-sm"><i class="uil uil-times"></i></button>
-                                        </form>
+                                        <div class="crudButttons">
+                                            <a href="transactionsView.php?transactionID=<?= $transaction['transactionID']; ?>" class="btn infobtn"><i class="uil uil-eye"></i></a>
+                                            <a href="transactionsEdit.php?transactionID=<?= $transaction['transactionID']; ?>" class="btn warningbtn"><i class="uil uil-edit"></i></a>
+                                            <form action="transactions-code.php" method="POST" class="d-inline">
+                                                <button type="submit" name="delete_transaction" value="<?= $transaction['transactionID']; ?>" class="btn dangerbtn"><i class="uil uil-times"></i></button>
+                                            </form>
+                                        </div>
                                     </td>
                                 </tr>
                         <?php
@@ -127,7 +127,6 @@ $user_id = $_SESSION['userid'];
 
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>

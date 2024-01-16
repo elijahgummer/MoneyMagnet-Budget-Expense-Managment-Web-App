@@ -39,7 +39,7 @@ input {
 
 button.addIncome {
   background-color: #FFC800;
-  color: #000;
+  color: #ffff;
   padding: 12px;
   border: none;
   border-radius: 4px;
@@ -129,14 +129,7 @@ tbody tr:nth-child(even) {
   animation: input-focus 0.3s ease;
 }
 
-.crudButtons {
-  display: flex;
-  color: white;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+
 
 
 
@@ -213,6 +206,15 @@ tbody tr:nth-child(even) {
       padding: 5px;
       font-size: 14px;
   }
+}
+
+.crudButtons {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .btn{

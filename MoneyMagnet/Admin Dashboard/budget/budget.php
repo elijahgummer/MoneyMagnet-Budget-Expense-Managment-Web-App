@@ -28,7 +28,7 @@ require_once('../../Includes/functions.inc.php');
                 <div class="card">
                     <div class="card-header">
                         <h4 class="budget-header">Budget Details</h4>
-                        
+
                         <button id="openModalBtn" class="createbtn">Create Budget</button>
 
                     </div>
@@ -138,11 +138,13 @@ require_once('../../Includes/functions.inc.php');
                                             <td><?= $budget['TotalAmount']; ?></td>
 
                                             <td>
-                                                <a href="budgetView.php?BudgetID=<?= $budget['BudgetID']; ?>" class="btn btn-info btn-sm"><i class="uil uil-eye"></i></a>
-                                                <a href="budgetEdit.php?BudgetID=<?= $budget['BudgetID']; ?>" class="btn btn-warning btn-sm"><i class="uil uil-edit"></i></a>
-                                                <form action="budget-code.php" method="POST" class="d-inline">
-                                                    <button type="submit" name="delete_budget" value="<?= $budget['BudgetID']; ?>" class="btn btn-danger btn-sm"><i class="uil uil-times"></i></button>
-                                                </form>
+                                                <div class="crudButtons">
+                                                    <a href="budgetView.php?BudgetID=<?= $budget['BudgetID']; ?>" class="btn infobtn"><i class="uil uil-eye"></i></a>
+                                                    <a href="budgetEdit.php?BudgetID=<?= $budget['BudgetID']; ?>" class="btn warningbtn"><i class="uil uil-edit"></i></a>
+                                                    <form action="budget-code.php" method="POST" class="d-inline">
+                                                        <button type="submit" name="delete_budget" value="<?= $budget['BudgetID']; ?>" class="btn dangerbtn"><i class="uil uil-times"></i></button>
+                                                    </form>
+                                                </div>
                                             </td>
                                         </tr>
                                 <?php

@@ -285,3 +285,35 @@ textarea {
   }
 }
 
+
+.crudButtons {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 4px 8px;
+  border: none;
+  color: white;
+  margin: 10px;
+}
+
+.dangerbtn {
+  background-color: #BB2D3B;
+}
+
+.infobtn {
+  background-color: #31D2F2;
+}
+
+.warningbtn {
+  background-color: #FFCA2C;
+}
+
