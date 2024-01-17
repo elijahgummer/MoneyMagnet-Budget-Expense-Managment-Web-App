@@ -217,6 +217,13 @@ textarea {
   margin: auto;
   padding: 30px;
 }
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
 /* Improved table styles */
 
 .table {
