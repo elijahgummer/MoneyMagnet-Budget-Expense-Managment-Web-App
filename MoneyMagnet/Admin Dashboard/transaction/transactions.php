@@ -109,21 +109,23 @@ $user_id = $_SESSION['userid'];
             </section>
         </main>
 
-        <section class="transaction-statistics">
-            <h2>Transaction Statistics</h2>
-            <div class="statistics-card">
-                <h3>Total Income</h3>
-                <p>$<?= $totalIncome; ?></p>
-            </div>
-            <div class="statistics-card">
-                <h3>Total Expenses</h3>
-                <p>$3,000</p>
-            </div>
-            <div class="statistics-card">
-                <h3>Net Balance</h3>
-                <p>$2,000</p>
-            </div>
-        </section>
+        <div class="transaction-stat-container">
+            <section class="transaction-statistics">
+                <h2>Transaction Statistics</h2>
+                <div class="statistics-card">
+                    <h3>Total Income</h3>
+                    <p>$<?= $totalIncome; ?></p>
+                </div>
+                <div class="statistics-card">
+                    <h3>Total Expenses</h3>
+                    <p>$3,000</p>
+                </div>
+                <div class="statistics-card">
+                    <h3>Net Balance</h3>
+                    <p>$2,000</p>
+                </div>
+            </section>
+        </div>
 
     </section>
 

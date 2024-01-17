@@ -17,9 +17,8 @@
     <div id="settingsModal" class="modal">
         <div class="modal-content">
             <a href="../dashboard/dashboard.php"><span class="close" id="closeModalBtn">&times</span></a>
-            <h2>Settings</h2>
+            <h2>User Settings</h2>
             <div class="settings-container">
-                <h3>User Settings</h3>
                 <form>
                     <div class="form-group">
                         <label for="username">Username</label>

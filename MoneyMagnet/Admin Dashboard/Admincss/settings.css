@@ -41,6 +41,7 @@
 
 .settings-container {
     text-align: left;
+    padding: 20px;
 }
 
 .settings-container h3 {
@@ -52,8 +53,6 @@
 .form-group {
     margin-bottom: 20px;
 }
-
-
 
 input[type="text"],
 input[type="email"],
