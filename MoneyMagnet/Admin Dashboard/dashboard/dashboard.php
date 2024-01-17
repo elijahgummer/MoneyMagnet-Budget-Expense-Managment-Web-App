@@ -130,7 +130,7 @@
           </div>
         </div>
         <div class="top-sales box">
-          <div class="title">Top Seling Product</div>
+          <div class="title">Reminders</div>
           <ul class="top-sales-details">
             <li>
               <a href="#">
