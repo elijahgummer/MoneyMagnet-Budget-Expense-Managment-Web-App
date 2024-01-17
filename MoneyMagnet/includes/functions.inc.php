@@ -102,7 +102,7 @@ function loginUser($conn, $email, $pwd)
         session_start();
         $_SESSION["userid"] = $uidExists["id"];
         $_SESSION["useremail"] = $uidExists["email"];
-        header("Location: ../Admin Dashboard/dashboard/dashboard.php");
+        header("Location: ../AdminDashboard/dashboard/dashboard.php");
         exit();
     }
 }

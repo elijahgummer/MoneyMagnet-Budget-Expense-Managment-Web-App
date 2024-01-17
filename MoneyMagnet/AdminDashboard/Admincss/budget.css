@@ -1,0 +1,338 @@
+:root {
+  --background-color: #F5F5F5;
+  --primary-color: #4CAF50;
+  --danger-color: #f44336;
+  --info-color: #31D2F2;
+  --warning-color: #FFCA2C;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  z-index: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-action {
+  margin-right: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.3s ease;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: slideIn 0.5s ease;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #333;
+}
+
+.budget-header {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: end;
+}
+
+.createbtn {
+  background-color: #FFC800;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: 400;
+  transition: background 0.5s;
+}
+
+.createbtn:hover {
+  background-color: #E6B800;
+}
+
+.infoMessage {
+  background-color: #FFD700;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.modal h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: sans-serif;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+  font-family: sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: url("arrow.png") no-repeat right center;
+}
+
+.select-wrapper:after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.modal-buttons {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.btn-save,
+.btn-cancel {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-save {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-save:hover {
+  background-color: #45a049;
+}
+
+.btn-cancel {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #d32f2f;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(-20%);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+
+.containertable{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  width: 95%;
+  height: 60%;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px;
+}
+
+.card-body {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+/* Improved table styles */
+
+.table {
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  background-color: #333;
+  color: #fff;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* Center-align text in specific columns */
+.table th.text-center,
+.table td.text-center {
+  text-align: center;
+}
+
+/* Add additional styles for action buttons */
+.table .btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767.98px) {
+  .table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .table-responsive.table-bordered {
+      border: 0;
+  }
+
+  .table-responsive.table-bordered th,
+  .table-responsive.table-bordered td {
+      border: 0;
+  }
+}
+
+
+.crudButtons {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 4px 8px;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dangerbtn {
+  text-align: center;
+  background-color: #BB2D3B;
+}
+
+.infobtn {
+  text-align: center;
+  background-color: #31D2F2;
+}
+
+.warningbtn {
+  text-align: center;
+  background-color: #FFCA2C;
+}
+

@@ -17,6 +17,6 @@ if (isset($_POST["submit"])) {
     loginUser($conn, $email, $pwd);
 }
 else {
-    header("Location: ../Admin Dashboard/dashboard.php");
+    header("Location: ../AdminDashboard/dashboard.php");
     exit();
 }
