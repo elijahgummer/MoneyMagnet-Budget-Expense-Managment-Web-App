@@ -75,7 +75,7 @@ $user_id = $_SESSION['userid'];
                       <a href="incomeView.php?incomeID=<?= $income['incomeID']; ?>" class="btn infobtn"><i class="uil uil-eye"></i></a>
                       <a href="incomeEdit.php?incomeID=<?= $income['incomeID']; ?>" class="btn warningbtn"><i class="uil uil-edit"></i></a>
                       <form action="income-code.php" method="POST" class="d-inline">
-                        <a type="submit" name="delete_income" value="<?= $income['incomeID']; ?>" class="btn dangerbtn"><i class="uil uil-times"></i></a>
+                        <button type="submit" name="delete_income" value="<?= $income['incomeID']; ?>" class="btn dangerbtn"><i class="uil uil-times"></i></button>
                       </form>
                     </div>
                   </td>

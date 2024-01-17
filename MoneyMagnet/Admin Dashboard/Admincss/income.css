@@ -229,6 +229,8 @@ tbody tr:nth-child(even) {
 
 .dangerbtn {
   background-color: #BB2D3B;
+  z-index: 2;
+  cursor: pointer;
 }
 
 .infobtn {
