@@ -22,46 +22,46 @@ session_start();
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Transaction View Details 
-                            <a href="transactions.php" class="btn btn-danger float-end">BACK</a>
+                        <h4>Income View Details 
+                            <a href="income.php" class="btn btn-danger float-end">BACK</a>
                         </h4>
                     </div>
                     <div class="card-body">
 
                         <?php
-                        if(isset($_GET['transactionID']))
+                        if(isset($_GET['incomeID']))
                         {
-                            $transaction_id = mysqli_real_escape_string($conn, $_GET['transactionID']);
-                            $query = "SELECT * FROM transactions WHERE transactionID ='$transaction_id' ";
+                            $income_id = mysqli_real_escape_string($conn, $_GET['incomeID']);
+                            $query = "SELECT * FROM userincome WHERE incomeID ='$income_id' ";
                             $query_run = mysqli_query($conn, $query);
 
                             if(mysqli_num_rows($query_run) > 0)
                             {
-                                $transaction = mysqli_fetch_array($query_run);
+                                $income = mysqli_fetch_array($query_run);
                                 ?>
                                 
                                     <div class="mb-3">
-                                        <label>transactionID</label>
+                                        <label>incomeID</label>
                                         <p class="form-control">
-                                            <?=$transaction['transactionID'];?>
+                                            <?=$income['incomeID'];?>
                                         </p>
                                     </div>
                                     <div class="mb-3">
-                                        <label>transactionDate</label>
+                                        <label>incomeDate</label>
                                         <p class="form-control">
-                                            <?=$transaction['transactionDate'];?>
+                                            <?=$income['date'];?>
                                         </p>
                                     </div>
                                     <div class="mb-3">
-                                        <label>Description</label>
+                                        <label>Source of Income e.g job, sidehustle</label>
                                         <p class="form-control">
-                                            <?=$transaction['Description'];?>
+                                            <?=$income['source'];?>
                                         </p>
                                     </div>
                                     <div class="mb-3">
-                                        <label>Amount</label>
+                                        <label>Income Amount</label>
                                         <p class="form-control">
-                                            <?=$transaction['amount'];?>
+                                            <?=$income['incomeAmount'];?>
                                         </p>
                                     </div>
 
