@@ -1,16 +1,22 @@
+:root {
+  --background-color: #F5F5F5;
+  --primary-color: #4CAF50;
+  --danger-color: #f44336;
+  --info-color: #31D2F2;
+  --warning-color: #FFCA2C;
+}
+
 body {
-  background-color: #F5F5F5;
+  background-color: var(--background-color);
   height: 100vh;
   z-index: 300;
   font-family: 'Poppins', sans-serif;
 }
 
-/* Styles for action buttons */
 .btn-action {
   margin-right: 5px;
 }
 
-/* Styles for the budget modal */
 .modal {
   display: none;
   position: fixed;
@@ -71,10 +77,9 @@ body {
   transition: background 0.5s;
 }
 
-.createbtn:hover{
+.createbtn:hover {
   background-color: #E6B800;
 }
-
 
 .infoMessage {
   background-color: #FFD700;
@@ -87,7 +92,6 @@ body {
   margin-bottom: 10px;
   width: 80%;
 }
-
 
 .modal h2 {
   font-size: 24px;
