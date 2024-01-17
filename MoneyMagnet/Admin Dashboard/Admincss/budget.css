@@ -71,7 +71,6 @@ body {
   border: none;
   border-radius: 7px;
   padding: 10px;
-  margin: 10px;
   font-size: 1.2em;
   font-weight: 400;
   transition: background 0.5s;
@@ -213,7 +212,7 @@ textarea {
 }
 
 .card{
-  width: 80%;
+  width: 95%;
   height: 60%;
   background-color: white;
   border: none;
@@ -222,16 +221,20 @@ textarea {
   padding: 30px;
 }
 
+.card-body {
+  width: 100%;
+  overflow-y: auto;
+}
+
 .card-header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 10px;
 }
 /* Improved table styles */
 
 .table {
-  width: 80%;
   margin-bottom: 1rem;
   color: #212529;
   border-collapse: collapse;
@@ -299,10 +302,9 @@ textarea {
 
 .crudButtons {
   display: flex;
+  align-items: center;
   color: white;
   font-weight: bold;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -313,18 +315,24 @@ textarea {
   padding: 4px 8px;
   border: none;
   color: white;
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
 .dangerbtn {
+  text-align: center;
   background-color: #BB2D3B;
 }
 
 .infobtn {
+  text-align: center;
   background-color: #31D2F2;
 }
 
 .warningbtn {
+  text-align: center;
   background-color: #FFCA2C;
 }
 
