@@ -88,6 +88,7 @@ button.addReminder:hover {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    text-align: center;
 }
 
 .reminder-list h2 {
