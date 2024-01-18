@@ -118,11 +118,11 @@ $user_id = $_SESSION['userid'];
                 </div>
                 <div class="statistics-card">
                     <h3>Total Expenses</h3>
-                    <p>$3,000</p>
+                    <p>$<?= $totalTransaction;?></p>
                 </div>
                 <div class="statistics-card">
                     <h3>Net Balance</h3>
-                    <p>$2,000</p>
+                    <p>$<?= $netBalance;?></p>
                 </div>
             </section>
         </div>
