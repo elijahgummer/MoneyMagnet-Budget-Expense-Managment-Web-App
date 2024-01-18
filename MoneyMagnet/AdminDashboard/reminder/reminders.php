@@ -26,6 +26,9 @@ require_once('../../Includes/functions.inc.php');
         <main>
             <section class="reminder-form">
                 <h2>Add a Reminder</h2>
+                <div class="messageyel">
+                    <?php include('../message.php'); ?>
+                </div>
                 <form id="reminderForm" action="reminders-code.php" method="POST">
                     <div class="form-group">
                         <label for="reminderName">Reminder Name:</label>
