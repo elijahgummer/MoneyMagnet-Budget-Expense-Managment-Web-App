@@ -1,14 +1,33 @@
 <?php
-    if(isset($_SESSION['message'])) :     
+if (isset($_SESSION['message'])) :
 ?>
 
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Hey!</strong> <?= $_SESSION['message']; ?>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alert</title>
+        <link rel="stylesheet" href="..\Admincss\message.css">
+    </head>
+
+    <body>
+        <div id="infoMes" class='infoMessage'>
+            <i class='fas fa-info-circle'></i><strong>Hey!</strong> <?= $_SESSION['message']; ?>
+            <i id="close" class="fa-solid fa-x" onclick="closeMessage()"></i>
+
+        </div>
+
+        <script src="..\Adminjs\message.js"></script>
+    </body>
+
+    </html>
 
 
-<?php 
+
+
+<?php
     unset($_SESSION['message']);
-    endif;
+endif;
 ?>
