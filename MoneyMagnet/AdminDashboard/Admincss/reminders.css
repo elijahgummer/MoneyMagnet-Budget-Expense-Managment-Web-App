@@ -13,17 +13,21 @@ body {
 }
 
 
-
-
-
 /* Reminder Form */
 .reminder-form {
-    flex: 1;
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout for centering */
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    width: 50%;
+    margin: 10px auto; /* Set margin to auto for centering */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
 
 .reminder-form h2 {
     font-size: 28px;
@@ -70,6 +74,7 @@ button.addReminder {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+
 }
 
 button.addReminder:hover {
