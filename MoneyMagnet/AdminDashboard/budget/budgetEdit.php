@@ -14,8 +14,6 @@ require '../../includes/dbh.inc.php';
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
-    <link rel="stylesheet" href="../Admincss/budget.css">
     <title>Student Edit</title>
 </head>
 

@@ -32,9 +32,6 @@ $user_id = $_SESSION['userid'];
       
       <div class="incomeContainer">
         <h2 style="color: #FFC800;">Income Details</h2>
-        <div class="messageyel">
-          <?php include('../message.php'); ?>
-        </div>
         <!-- Display Table -->
         <table>
           <thead>
