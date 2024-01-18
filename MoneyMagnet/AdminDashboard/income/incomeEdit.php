@@ -42,7 +42,7 @@ require '../../includes/dbh.inc.php';
                             if (mysqli_num_rows($query_run) > 0) {
                                 $income = mysqli_fetch_array($query_run);
                         ?>
-                                <form action="incomes-code.php" method="POST">
+                                <form action="income-code.php" method="POST">
                                     <input type="hidden" name="incomeID" value="<?= $income['incomeID']; ?>">
                                     <div class="mb-3">
                                         <label>Source of Income</label>

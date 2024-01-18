@@ -26,30 +26,27 @@ if(isset($_POST['delete_income']))
     }
 }
 
-if(isset($_POST['updateBudget']))
+if(isset($_POST['updateincome']))
 {
-    $budget_id = mysqli_real_escape_string($conn, $_POST['BudgetID']);
-    $budget_name = mysqli_real_escape_string($conn, $_POST['Name']);
-    $budget_category = mysqli_real_escape_string($conn, $_POST['category']);
-    $budget_description = mysqli_real_escape_string($conn, $_POST['Description']);
-    $startDate = mysqli_real_escape_string($conn, $_POST['StartDate']);
-    $endDate = mysqli_real_escape_string($conn, $_POST['EndDate']);
-    $total_amount = mysqli_real_escape_string($conn, $_POST['TotalAmount']);
+    $income_id = mysqli_real_escape_string($conn, $_POST['incomeID']);
+    $income_source = mysqli_real_escape_string($conn, $_POST['source']);
+    $date = mysqli_real_escape_string($conn, $_POST['incomeDate']);
+    $total_amount = mysqli_real_escape_string($conn, $_POST['incomeAmount']);
 
 
-    $query = "UPDATE budgets SET Name ='$budget_name', Description ='$budget_description', category ='$budget_category', TotalAmount ='$total_amount',  StartDate ='$startDate', EndDate ='$endDate' WHERE BudgetID ='$budget_id' ";
+    $query = "UPDATE userincome SET source ='$income_source', incomeAmount ='$total_amount', date ='$date' WHERE incomeID ='$income_id' ";
     $query_run = mysqli_query($conn, $query);
 
     if($query_run)
     {
-        $_SESSION['message'] = "Budget Updated Successfully";
-        header("Location: goals.php");
+        $_SESSION['message'] = "income Updated Successfully";
+        header("Location: income.php");
         exit(0);
     }
     else
     {
-        $_SESSION['message'] = "Budget Not Updated";
-        header("Location: goals.php");
+        $_SESSION['message'] = "income Not Updated";
+        header("Location: income.php");
         exit(0);
     }
 
