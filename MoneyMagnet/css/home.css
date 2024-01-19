@@ -1,6 +1,20 @@
+#about .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 2;
+    width: 50%;
+}
 
-
-h1 {
+.title {
     color: white;
     font-size: 80px;
     font-family: 'Poppins', sans-serif;
@@ -9,10 +23,15 @@ h1 {
     line-height: 33.863px;
 }
 
-
-img {
-    width: 680px;
-    height: 692px;
+.image-container {
+    display: flex;
+    justify-content: flex-end; /* Align the content to the end (right side) */
+    align-items: flex-start; /* Align to the top */
 }
 
-
+.image-container img {
+    width: 780px;
+    height: 792px;
+    margin: 20px 20px 0 auto; /* Top, right, bottom, left */
+    display: block; /* Remove the unnecessary 'display: flex;' */
+}
