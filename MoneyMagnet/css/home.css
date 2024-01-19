@@ -5,8 +5,9 @@ body {
     background-repeat: no-repeat;
     background-size: 60%; /* Adjust to make the background image smaller */
     background-position: top right; /* Align the background image to the top right */
-    background-position-y: 50px; /* Move the background image down by 20px */
-    margin: 0px 20px 20px 20px; /* Remove default body margin */
+    background-position-x: 493px; /* Move the background image to the left by 20px */
+    background-position-y: 30px; /* Move the background image down by 30px */
+    margin: 0px 60px 20px 20px; /* Remove default body margin */
 }
 
 #about .container {
@@ -20,40 +21,37 @@ body {
 h3 span {
     color: #f0f424;
     margin-left: 10px;
-  }
-
+    font-size: 30px;
+}
 
 h3 {
-font-family: "Montserrat", sans-serif;
-font-style: bold;
-font-weight: 700;
-font-size: 40px;
-line-height: 57px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #ffffff;
-mix-blend-mode: normal;
-margin-left: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    margin-left: 20px; /* Adjust the margin to move the title to the left */
 }
 
 .content-container {
     display: flex;
     align-items: center; /* Align items in the center vertically */
-    justify-content: center;
     flex-wrap: wrap;
     z-index: 2;
     width: 60%;
-    margin-top: -230px; /* Adjust to control the vertical position of the content */
-    margin-right: -70px;
-    padding-top: 50px; /* Adjust to add space above the content */
+    margin-top: -160px; /* Adjust to control the vertical position of the content */
+    margin-left: 35px;
 }
 
 .title, .sentence {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-
 }
 
 .title {
@@ -63,5 +61,5 @@ margin-left: 50px;
 
 .sentence {
     font-size: 16px; /* Adjust sentence font size */
-    margin: 20px 10px 0 49px; /* Adjust margin for the sentence */
+    margin: 20px 10px 0 20px; /* Adjust margin for the sentence */
 }

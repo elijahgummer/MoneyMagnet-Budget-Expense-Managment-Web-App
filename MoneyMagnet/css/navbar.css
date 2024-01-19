@@ -24,6 +24,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative; /* Add position: relative to the nav element */
+  z-index: 1; /* Set a z-index for the regular state of the navigation */
 }
 
 img.logo {
@@ -113,6 +115,7 @@ nav .fa-solid {
       padding-top: 50px; 
       z-index: 2;
       transition: right 0.5s;
+      
   }
 
   nav ul li {
