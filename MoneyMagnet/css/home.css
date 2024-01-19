@@ -1,37 +1,64 @@
+body {
+    background-image: url("../images/house.png");
+    background-repeat: no-repeat;
+    background-size: 60%; /* Adjust to make the background image smaller */
+    background-position: top right; /* Align the background image to the top right */
+    background-position-y: 50px; /* Move the background image down by 20px */
+    margin: 0px 20px 20px 20px; /* Remove default body margin */
+}
+
 #about .container {
+    height: 100vh; /* Set the container height to 100% of the viewport height */
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Align the content to the very left */
 }
+
+h3 span {
+    color: #f0f424;
+    margin-left: 10px;
+  }
+
+
+h3 {
+font-family: "Montserrat", sans-serif;
+font-style: bold;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #ffffff;
+mix-blend-mode: normal;
+opacity: 0.7;
+margin-left: 50px;
+}
+
 .content-container {
-    position: absolute;
     display: flex;
+    align-items: center; /* Align items in the center vertically */
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     z-index: 2;
-    width: 50%;
+    width: 60%;
+    margin-top: -50px; /* Adjust to control the vertical position of the content */
+    padding-top: 50px; /* Adjust to add space above the content */
+}
+
+.title, .sentence {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .title {
-    color: white;
     font-size: 80px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    margin: 14px 10px 10px 49px;
-    line-height: 33.863px;
+    margin-bottom: 10px; /* Adjust spacing between title and sentence */
 }
 
-.image-container {
-    display: flex;
-    justify-content: flex-end; /* Align the content to the end (right side) */
-    align-items: flex-start; /* Align to the top */
-}
-
-.image-container img {
-    width: 780px;
-    height: 792px;
-    margin: 20px 20px 0 auto; /* Top, right, bottom, left */
-    display: block; /* Remove the unnecessary 'display: flex;' */
+.sentence {
+    font-size: 16px; /* Adjust sentence font size */
+    margin: 20px 10px 0 49px; /* Adjust margin for the sentence */
 }

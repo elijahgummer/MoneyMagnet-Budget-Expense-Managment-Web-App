@@ -15,12 +15,13 @@
         <div class="container">
             <div class="content-container">
                 <h1 class="title">Money Magnet</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> ornare aliquet nulla in posuere. Fusce sodales elit sit amet mauris iaculis, et mattis felis suscipit.</p>
-            </div>
-            <div class="image-container">
-                <img src="images/house.png" width="500px" height="600px" alt="House Image">
+                <h3>Helps You, <span class="auto-type"></span></h3>
+                <!-- <p class="sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> ornare aliquet nulla in posuere. Fusce sodales elit sit amet mauris iaculis, et mattis felis suscipit.</p> -->
             </div>
         </div>
     </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>
