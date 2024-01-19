@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
 body {
     background-image: url("../images/house.png");
     background-repeat: no-repeat;
@@ -42,7 +44,8 @@ margin-left: 50px;
     flex-wrap: wrap;
     z-index: 2;
     width: 60%;
-    margin-top: -50px; /* Adjust to control the vertical position of the content */
+    margin-top: -230px; /* Adjust to control the vertical position of the content */
+    margin-right: -70px;
     padding-top: 50px; /* Adjust to add space above the content */
 }
 
@@ -50,10 +53,11 @@ margin-left: 50px;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+
 }
 
 .title {
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 10px; /* Adjust spacing between title and sentence */
 }
 
