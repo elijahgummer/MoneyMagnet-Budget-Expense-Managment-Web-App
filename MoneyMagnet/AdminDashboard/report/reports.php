@@ -45,40 +45,71 @@
         function generateCharts() {
             // Income vs. Expenses Chart
             var incomeExpenseData = {
-                // Add your data here
+                labels: ['January', 'February', 'March', 'April', 'May'],
+                datasets: [{
+                    label: 'Income',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1,
+                    data: [1000, 1500, 1200, 1800, 2000]
+                }, {
+                    label: 'Expenses',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1,
+                    data: [800, 1000, 900, 1200, 1500]
+                }]
             };
 
             var incomeExpenseChart = new Chart(document.getElementById('incomeExpenseCanvas'), {
-                type: 'bar', // Choose the chart type (bar, line, pie, etc.)
+                type: 'bar',
                 data: incomeExpenseData,
                 options: {
-                    // Add chart options here
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
                 }
             });
 
             // Category-wise Spending Breakdown Chart
             var spendingBreakdownData = {
-                // Add your data here
+                labels: ['Groceries', 'Utilities', 'Entertainment', 'Dining'],
+                datasets: [{
+                    data: [300, 150, 200, 100],
+                    backgroundColor: ['rgba(255, 99, 132, 0.8)', 'rgba(75, 192, 192, 0.8)', 'rgba(255, 205, 86, 0.8)', 'rgba(54, 162, 235, 0.8)']
+                }]
             };
 
             var spendingBreakdownChart = new Chart(document.getElementById('spendingBreakdownCanvas'), {
-                type: 'doughnut', // Choose the chart type
-                data: spendingBreakdownData,
-                options: {
-                    // Add chart options here
-                }
+                type: 'doughnut',
+                data: spendingBreakdownData
             });
 
             // Historical Trends Chart
             var historicalTrendsData = {
-                // Add your data here
+                labels: ['2018', '2019', '2020', '2021', '2022'],
+                datasets: [{
+                    label: 'Total Income',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    data: [5000, 6000, 7000, 8000, 9000]
+                }, {
+                    label: 'Total Expenses',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    data: [3000, 4000, 5000, 6000, 7000]
+                }]
             };
 
             var historicalTrendsChart = new Chart(document.getElementById('historicalTrendsCanvas'), {
-                type: 'line', // Choose the chart type
+                type: 'line',
                 data: historicalTrendsData,
                 options: {
-                    // Add chart options here
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
                 }
             });
         }
