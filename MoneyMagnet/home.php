@@ -14,12 +14,12 @@ require_once("navbar.php");
 </head>
 
 <body>
-    <div id="about">
+    <div id="header">
         <div class="container">
             <div class="content-container">
                 <h2 class="title">Money Magnet</h2>
                 <div class="type-animation-text">
-                    <h3>Helps You, <span class="auto-type"></span></h3>
+                    <h3 class=>Helps You, <span class="auto-type"></span></h3>
                 </div>
                 <div class="fixed-container">
                     <div class="InputContainer">
@@ -45,6 +45,9 @@ require_once("navbar.php");
 
             </div>
         </div>
+    </div>
+    <div id="about">
+
     </div>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>

@@ -10,7 +10,7 @@ body {
   margin: 0px 60px 20px 20px; /* Remove default body margin */
 }
 
-#about .container {
+#header .container {
   height: 100vh; /* Set the container height to 100% of the viewport height */
   position: relative;
   display: flex;
@@ -170,4 +170,15 @@ h3 {
   margin-right: 10px;
   padding: 10px;
   font-size: 20px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% auto;
+  height: 500px;
+  background-color: #E7EAD7;
+  margin-top: 800px;
+
 }
