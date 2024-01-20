@@ -61,6 +61,9 @@ h3 {
 }
 
 .sentence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px; /* Adjust sentence font size */
   margin: 20px 10px 0 20px; /* Adjust margin for the sentence */
 }

@@ -39,7 +39,7 @@ require_once("navbar.php");
 
                     </div>
                 </div>
-                <!-- <p class="sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> ornare aliquet nulla in posuere. Fusce sodales elit sit amet mauris iaculis, et mattis felis suscipit.</p> -->
+                <p class="sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> ornare aliquet nulla in posuere. Fusce sodales elit sit amet mauris iaculis, et mattis felis suscipit.</p>
             </div>
         </div>
     </div>
