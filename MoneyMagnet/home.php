@@ -19,7 +19,7 @@ require_once("navbar.php");
             <div class="content-container">
                 <h2 class="title">Money Magnet</h2>
                 <div class="type-animation-text">
-                <h3>Helps You, <span class="auto-type"></span></h3>
+                    <h3>Helps You, <span class="auto-type"></span></h3>
                 </div>
                 <div class="fixed-container">
                     <div class="InputContainer">
@@ -27,8 +27,8 @@ require_once("navbar.php");
 
                         <label for="input" class="labelforsearch">
                             <div class="searchIcon">
-                            <i class="fa-solid fa-magnifying-glass"></i> 
-                            </div>   
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
                         </label>
                         <div class="border"></div>
 
@@ -38,8 +38,11 @@ require_once("navbar.php");
                         </button>
 
                     </div>
+                    <p class="sentence">Empower your financial journey with<br> Money Magnet, where smart budgeting<br> and seamless expense tracking come <br>together to help you achieve your <br>financial goals and build a secure future.</p>
+                    <button class="getStarted">Get Started<i class="fa-solid fa-arrow-right"></i></button>
+
                 </div>
-                <p class="sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> ornare aliquet nulla in posuere. Fusce sodales elit sit amet mauris iaculis, et mattis felis suscipit.</p>
+
             </div>
         </div>
     </div>

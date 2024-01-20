@@ -65,7 +65,7 @@ h3 {
   justify-content: center;
   align-items: center;
   font-size: 16px; /* Adjust sentence font size */
-  margin: 20px 10px 0 20px; /* Adjust margin for the sentence */
+  margin: 30px 10px 0 20px; /* Adjust margin for the sentence */
 }
 
 .fixed-container {
@@ -76,7 +76,7 @@ h3 {
   margin: 30px;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 330px 0 0 0;
+  margin: 530px 0 0 0;
 }
 
 .InputContainer {
@@ -143,4 +143,31 @@ h3 {
 .micButton:hover {
   background-color: rgb(255, 230, 230);
   transition-duration: 0.3s;
+}
+
+.getStarted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  background-color: #F1C94B;
+  color: white;
+  padding: 8px 20px 8px 20px;
+  margin: 35px 30px 10px 10px;
+  border: none;
+  border-radius: 30px;
+  transition: background 0.5s;
+  width: 341px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.getStarted:hover {
+  background-color: #ffc400;
+}
+
+.getStarted i {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
 }
