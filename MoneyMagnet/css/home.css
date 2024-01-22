@@ -12,19 +12,17 @@ body {
 
 #header .container {
   height: 100vh; /* Set the container height to 100% of the viewport height */
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align the content to the very left */
 }
 
-h3 span {
+.typeHeader span {
   color: #f0f424;
   margin-left: 10px;
   font-size: 30px;
 }
 
-h3 {
+.typeHeader {
   font-family: "Montserrat", sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -176,9 +174,16 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+}
+
+#about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
   height: 500px;
   background-color: #ffffff;
   margin-top: 800px;
   border-radius: 18px;
+  color: black;
 }
