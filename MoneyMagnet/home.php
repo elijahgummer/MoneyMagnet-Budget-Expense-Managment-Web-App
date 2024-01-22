@@ -49,8 +49,8 @@ require_once("navbar.php");
     <div id="about">
         <div class="container">
             <div class="content-container">
-            <h2 class="header">Why Us?</h2>
-            <p class="content">stuff</p>
+            <h2 class="header">Why Us</h2>
+            <p class="content">Opt for Money Magnet for a user-friendly and efficient financial experience,<br> prioritizing simplicity and exclusive money management.</p>
             </div>
         </div>
 
