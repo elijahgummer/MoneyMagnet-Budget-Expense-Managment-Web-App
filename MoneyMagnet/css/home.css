@@ -211,3 +211,12 @@ body {
   text-align: center;
   font-weight: 600;
 }
+
+#about .image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+}
+

@@ -51,8 +51,26 @@ require_once("navbar.php");
             <div class="content-container">
             <h2 class="header">Why Us</h2>
             <p class="content">Opt for Money Magnet for a user-friendly and efficient financial experience,<br> prioritizing simplicity and exclusive money management.</p>
+
+            <div class="image-container">
+            <div class="imageContent-container">
+                <h5>Innovation</h5>
+                <p>Experience the future of finance with our cutting-edge, modern solutions.</p>
+            </div>
+            <div class="imageContent-container">
+                <h5>Efficiency</h5>
+                <p>Streamline tasks with our efficient tools, saving you time and effort.</p>
+            </div>
+            <div class="imageContent-container">
+                <h5>Simplicity</h5>
+                <p>Navigate effortlessly with our intuitive design for easy financial management.</p>
             </div>
         </div>
+            </div>
+            
+            
+        </div>
+        
 
     </div>
 
