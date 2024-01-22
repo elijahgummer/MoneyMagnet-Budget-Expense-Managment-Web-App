@@ -48,6 +48,7 @@ require_once("navbar.php");
     </div>
     <div id="about">
         <h2 class="header">Why Us?</h2>
+        <p>stuff</p>
     </div>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
