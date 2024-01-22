@@ -48,9 +48,10 @@ require_once("navbar.php");
     </div>
     <div id="about">
         <div class="container">
+            <div class="content-container">
             <h2 class="header">Why Us?</h2>
-            <p>stuff</p>
-            <p>stuff</p>
+            <p class="content">stuff</p>
+            </div>
         </div>
 
     </div>
