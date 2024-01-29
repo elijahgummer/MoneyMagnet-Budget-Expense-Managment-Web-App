@@ -285,6 +285,12 @@ body {
   margin: 5px;
 }
 
+#features .feature-header-smaller {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 5px;
+}
+
 #features .content {
   font-size: 15px;
   font-weight: 450;

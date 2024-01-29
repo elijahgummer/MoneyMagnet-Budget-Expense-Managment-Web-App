@@ -89,6 +89,16 @@ require_once("navbar.php");
                 <h4 class="feature-header">EXPENSE TRACKING</h4>
                 <p class="content">Effortlessly track your<br> expenses and gain insights<br> into your spending habits<br> with our intuitive expense<br> tracking tools.</p>
             </div>
+            <div class="feature-card">
+                <img src="images/growth-chart.png" alt="growth-chart">
+                <h4 class="feature-header-smaller">INVESTMENT INSIGHTS</h4>
+                <p class="content">Maximize Growth with Investment Insights – Uncover opportunities for smarter investments and financial success.</p>
+            </div>
+            <div class="feature-card">
+                <img src="images/budget-notepad.png" alt="budget-notepad">
+                <h4 class="feature-header">BUDGETING TOOLS</h4>
+                <p class="content">Seamlessly manage your<br> finances and achieve your<br> goals with our powerful<br> budgeting tools.</p>
+            </div>
         </div>
     </div>
 
