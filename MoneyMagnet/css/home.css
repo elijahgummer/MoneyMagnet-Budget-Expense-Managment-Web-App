@@ -246,9 +246,14 @@ body {
   height: 90px;
   background-color: #ffffff;
   margin: 50px;
+  padding: 60px;
 }
 
-#features .
+
+#features .header {
+  font-size: 3em;
+  font-weight: 700;
+}
 
 
 

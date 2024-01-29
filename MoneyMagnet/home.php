@@ -80,7 +80,7 @@ require_once("navbar.php");
     <div id="features">
         <div class="container">
             <div class="content-container">
-                <h3>Features</h3>
+                <h3 class="header">Features</h3>
             </div>
         </div>
     </div>
