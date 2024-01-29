@@ -238,4 +238,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+#features .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 

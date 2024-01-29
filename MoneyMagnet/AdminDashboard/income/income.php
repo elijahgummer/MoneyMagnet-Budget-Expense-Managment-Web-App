@@ -37,7 +37,7 @@ $user_id = $_SESSION['userid'];
           <thead>
             <tr>
               <th>id</th>
-              <th>incomeID</th>
+              <th>incomeID</th> 
               <th>Income Source</th>
               <th>Amount</th>
               <th>Date</th>
