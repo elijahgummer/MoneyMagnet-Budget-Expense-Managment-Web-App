@@ -86,7 +86,7 @@ require_once("navbar.php");
         <div class="features-container">
             <div class="feature-card">
                 <img src="images/wallet-magnify-glass.png" alt="wallet-magnify-glass">
-                <h4 class="header">EXPENSE TRACKING</h4>
+                <h4 class="feature-header">EXPENSE TRACKING</h4>
                 <p class="content">Effortlessly track your<br> expenses and gain insights<br> into your spending habits<br> with our intuitive expense<br> tracking tools.</p>
             </div>
         </div>
