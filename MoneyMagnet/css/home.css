@@ -243,7 +243,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 90px;
+  height: 160px;
   background-color: #ffffff;
   margin: 50px;
   padding: 60px;
@@ -267,6 +267,7 @@ body {
 }
 
 #features .feature-card {
+  margin-top: -90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -277,6 +278,8 @@ body {
   border-radius: 17px;
   background-color: #ffffff;
   padding: 25px;
+  box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
+  z-index: 2;
 }
 
 #features .feature-header {
@@ -296,6 +299,7 @@ body {
   font-weight: 450;
   margin: 10px;
 }
+
 
 
 
