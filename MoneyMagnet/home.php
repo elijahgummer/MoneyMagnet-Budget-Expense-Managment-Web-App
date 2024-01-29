@@ -83,6 +83,13 @@ require_once("navbar.php");
                 <h3 class="header">Features</h3>
             </div>
         </div>
+        <div class="features-container">
+            <div class="feature-card">
+                <img src="images/wallet-magnify-glass.png" alt="wallet-magnify-glass">
+                <h4 class="header">EXPENSE TRACKING</h4>
+                <p class="content">Effortlessly track your<br> expenses and gain insights<br> into your spending habits<br> with our intuitive expense<br> tracking tools.</p>
+            </div>
+        </div>
     </div>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>

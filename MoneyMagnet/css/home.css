@@ -255,6 +255,29 @@ body {
   font-weight: 700;
 }
 
+#features img {
+  width: 78px;
+  height: 67px;
+}
+
+#features .features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#features .feature-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 17px;
+  background-color: #ffffff;
+}
+
 
 
 
