@@ -105,7 +105,9 @@ require_once("navbar.php");
     <div class="process">
         <div class="container">
             <div class="content-container">
-                
+                <div class="process-container">
+                    
+                </div>
             </div>
         </div>
     </div>
