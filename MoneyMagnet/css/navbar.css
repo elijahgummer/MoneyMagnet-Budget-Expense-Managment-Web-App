@@ -40,11 +40,11 @@ nav ul li{
 
 nav ul button {
   color: #000;
-  border-radius: 17px;
+  border-radius: 25px;
   background: #F1C94B;
   padding: 10px;
   border: none;
-  width: 88px;
+  width: 100px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: bold;
