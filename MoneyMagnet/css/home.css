@@ -238,6 +238,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* FEATURES */
+
 #features .container {
   display: flex;
   justify-content: center;
@@ -245,7 +247,7 @@ body {
   width: 100%;
   height: 160px;
   background-color: #ffffff;
-  margin: 50px;
+  margin: 50px 20px;
   padding: 60px;
 }
 
@@ -262,12 +264,12 @@ body {
 
 #features .features-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 #features .feature-card {
-  margin-top: -90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,6 +277,7 @@ body {
   text-align: center;
   width: 300px;
   height: 300px;
+  margin: -90px 0 0 0;
   border-radius: 17px;
   background-color: #ffffff;
   padding: 25px;
@@ -285,20 +288,24 @@ body {
 #features .feature-header {
   font-size: 1.4em;
   font-weight: 700;
-  margin: 5px;
+  margin: 10px 0;
 }
 
 #features .feature-header-smaller {
   font-size: 1.2em;
   font-weight: 700;
-  margin: 5px;
+  margin: 10x 0;
 }
 
 #features .content {
   font-size: 15px;
   font-weight: 450;
-  margin: 10px;
+  margin: 10px 0;
 }
+
+
+
+/* PROCESS */
 
 
 
