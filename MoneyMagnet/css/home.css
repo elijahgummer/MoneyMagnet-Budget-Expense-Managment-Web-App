@@ -10,6 +10,8 @@ body, html {
   margin: 0; /* Remove default body margin */
   padding: 0;
   width: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto;  /* Enable vertical scrollbar */
 }
 
 #header .container {
@@ -313,7 +315,7 @@ body, html {
   margin-top: 50px;
   background-color: #ffffff;
   width: 100%;
-  height: 600px;
+  height: 400px;
 }
 
 #process .content-container {
