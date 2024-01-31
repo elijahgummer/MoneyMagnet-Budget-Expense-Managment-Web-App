@@ -10,7 +10,7 @@ body, html {
   margin: 0; 
   padding: 0;
   width: 100%;
-  overflow-x: hidde
+  overflow-x: hidden;
   overflow-y: auto;  
 }
 
