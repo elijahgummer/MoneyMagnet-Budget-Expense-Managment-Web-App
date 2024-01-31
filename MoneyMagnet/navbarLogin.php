@@ -17,7 +17,7 @@
                 <ul id="sidemenu">
                     <li><a href="home.php">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Features</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <button><a href="login.php">Sign In</a></button>
