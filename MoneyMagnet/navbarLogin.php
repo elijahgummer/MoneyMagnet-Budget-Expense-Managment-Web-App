@@ -18,7 +18,7 @@
                     <li><a href="home.php">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <button><a href="login.php">Sign In</a></button>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
