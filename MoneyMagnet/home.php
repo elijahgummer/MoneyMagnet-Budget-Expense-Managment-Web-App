@@ -102,7 +102,7 @@ require_once("navbar.php");
         </div>
     </div>
 
-    <div class="process">
+    <div id="process">
         <div class="container">
             <div class="content-container">
                 <h3 class="header">HOW IT WORKS</h3>

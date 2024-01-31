@@ -307,7 +307,11 @@ body {
 
 /* PROCESS */
 
-
+#process .container {
+  background-color: #ffffff;
+  width: 100%;
+  height: 600px;
+}
 
 
 
