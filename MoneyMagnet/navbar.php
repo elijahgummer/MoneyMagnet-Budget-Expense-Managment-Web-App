@@ -20,7 +20,7 @@
                     <li><a href="#features">Features</a></li>
                     <li><a href="#process">Process</a></li>
                     <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#reviews">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <button><a href="login.php">Sign In</a></button>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
