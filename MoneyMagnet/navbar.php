@@ -19,7 +19,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#process">Process</a></li>
-                    <li><a href="#reviews">Cont</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
                     <button><a href="login.php">Sign In</a></button>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
