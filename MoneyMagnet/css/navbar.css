@@ -24,7 +24,7 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative; /* Add position: relative to the nav element */
-  z-index: 1; /* Set a z-index for the regular state of the navigation */
+  z-index: 5; /* Set a z-index for the regular state of the navigation */
 }
 
 img.logo {
