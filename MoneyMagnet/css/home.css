@@ -320,5 +320,12 @@ body {
   text-align: center;
 }
 
+#process .header {
+  font-size: 2em;
+  font-weight: 800;
+  margin: 50px;
+  
+}
+
 
 
