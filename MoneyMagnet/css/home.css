@@ -332,5 +332,10 @@ body, html {
   padding: 5px;
 }
 
+/* REVIEWS */
 
-
+#reviews .container {
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 400px;
+}
