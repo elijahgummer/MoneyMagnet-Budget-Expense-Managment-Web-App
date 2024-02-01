@@ -121,6 +121,7 @@ require_once("navbar.php");
         <div class="container">
             <div class="content-container">
                 <h5 class="header">Reviewed by people</h5>
+                <h2 class="sub-header">Client's Testimonals</h2>
             </div>
         </div>
     </div>
