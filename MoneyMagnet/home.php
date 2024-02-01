@@ -120,7 +120,7 @@ require_once("navbar.php");
     <div id="reviews">
         <div class="container">
             <div class="content-container">
-                <h5 class="header">Reviewd by people</h5>
+                <h5 class="header">Reviewed by people</h5>
             </div>
         </div>
     </div>
