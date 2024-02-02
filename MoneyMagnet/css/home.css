@@ -342,6 +342,8 @@ body, html {
   margin-top: 40px 10px 10px 10px;
 }
 
+
+
 #reviews .header {
   font-weight: 100;
   font-size: 1.75em;
@@ -353,6 +355,11 @@ body, html {
   font-size: 2.75em;
   font-weight: 700;
   margin: 5px;
+}
+
+#reviews .content{
+  color: #B1817B;
+  font-size: 16px;
 }
 
 #reviews .content-container {
