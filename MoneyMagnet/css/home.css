@@ -374,10 +374,14 @@ body, html {
   margin: 10px;
 }
 
-#reviews .card {
+#reviews .card-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+#reviews .card {
   width: 400px;
   height: 200px;
   color: #ffffff;
