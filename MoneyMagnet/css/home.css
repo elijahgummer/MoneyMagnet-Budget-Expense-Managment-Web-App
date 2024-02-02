@@ -349,8 +349,8 @@ body, html {
   margin: 40px 10px 10px 10px;
 }
 
-#reviews .sub-content {
-  font-size: 2.25em;
+#reviews .sub-header {
+  font-size: 4.25em;
   font-weight: 700;
   margin: 5px;
 }
