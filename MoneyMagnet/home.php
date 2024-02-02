@@ -134,6 +134,15 @@ require_once("navbar.php");
                     <!-- image can go here later -->
                 </div>
             </div>
+            <div class="card">
+                <p class="card-content"></p>
+                <div class="profile-content">
+                    <img src="#" alt="user-image" class="profile-image">
+                    <p class="profile-name"></p>
+                    <p class="location"></p>
+                    <!-- image can go here later -->
+                </div>
+            </div>
         </div>
     </div>
 
