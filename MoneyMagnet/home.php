@@ -125,6 +125,7 @@ require_once("navbar.php");
                 <p class="content">Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
             </div>
 
+            <div class="card-container">
             <div class="card">
                 <p class="card-content"></p>
                 <div class="profile-content">
@@ -143,6 +144,7 @@ require_once("navbar.php");
                     <!-- image can go here later -->
                 </div>
             </div>
+        </div>
         </div>
     </div>
 
