@@ -369,3 +369,9 @@ body, html {
   flex-direction: column;
   margin: 10px;
 }
+
+#reviews .card {
+  width: 400px;
+  height: 400px;
+  color: #ffffff;
+}
