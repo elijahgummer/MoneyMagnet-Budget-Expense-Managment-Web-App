@@ -342,6 +342,13 @@ body, html {
   margin-top: 50px;
 }
 
+#reviews .header {
+  font-weight: 200;
+  font-size: 1em;
+  font-family: 'Mulish', sans-serif;
+  margin: 50px;
+}
+
 #reviews .content-container {
   display: flex;
   align-items: center;
