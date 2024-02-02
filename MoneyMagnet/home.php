@@ -124,6 +124,16 @@ require_once("navbar.php");
                 <h2 class="sub-header">Client's Testimonals</h2>
                 <p class="content">Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
             </div>
+
+            <div class="card">
+                <p class="card-content"></p>
+                <div class="profile-content">
+                    <img src="#" alt="user-image" class="profile-image">
+                    <p class="profile-name"></p>
+                    <p class="location"></p>
+                    <!-- image can go here later -->
+                </div>
+            </div>
         </div>
     </div>
 
