@@ -371,6 +371,9 @@ body, html {
 }
 
 #reviews .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 400px;
   height: 400px;
   color: #ffffff;
