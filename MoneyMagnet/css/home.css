@@ -342,11 +342,7 @@ body, html {
   margin-top: 40px 10px 10px 10px;
 }
 
-#reviews .content-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 #reviews .header {
   font-weight: 100;
