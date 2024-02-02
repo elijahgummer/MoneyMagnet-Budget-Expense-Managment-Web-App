@@ -336,6 +336,7 @@ body, html {
 
 #reviews .container {
   display: flex;
+  align-items: center;
   background-color: #F8F8F8;
   width: 100%;
   height: 650px;
