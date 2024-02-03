@@ -139,7 +139,7 @@ require_once("navbar.php");
                 <p class="card-content"></p>
                 <div class="profile-content">
                     <img src="#" alt="user-image" class="profile-image">
-                    <p class="profile-name"></p>
+                    <p class="profile-name">Ron Rizzly</p>
                     <p class="location"></p>
                     <!-- image can go here later -->
                 </div>
