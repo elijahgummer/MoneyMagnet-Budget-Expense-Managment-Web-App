@@ -126,6 +126,15 @@ require_once("navbar.php");
             </div>
 
             <div class="card-container">
+                <div class="card">
+                <p class="card-content"></p>
+                <div class="profile-content">
+                    <img src="#" alt="user-image" class="profile-image">
+                    <p class="profile-name">Harry Potter</p>
+                    <p class="location">Belgrade</p>
+                    <!-- image can go here later -->
+                </div>
+            </div>
             <div class="card">
                 <p class="card-content"></p>
                 <div class="profile-content">
@@ -135,15 +144,7 @@ require_once("navbar.php");
                     <!-- image can go here later -->
                 </div>
             </div>
-            <div class="card">
-                <p class="card-content"></p>
-                <div class="profile-content">
-                    <img src="#" alt="user-image" class="profile-image">
-                    <p class="profile-name">Harry Potter</p>
-                    <p class="location">Belgrade</p>
-                    <!-- image can go here later -->
-                </div>
-            </div>
+            
         </div>
         </div>
     </div>
