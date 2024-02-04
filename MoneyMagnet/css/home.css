@@ -393,5 +393,6 @@ body, html {
 #reviews .card .profile-name {
   font-weight: 800;
   color: black; 
+  font-size: 16px;
 }
 
