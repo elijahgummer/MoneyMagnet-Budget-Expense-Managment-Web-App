@@ -390,3 +390,7 @@ body, html {
   margin: 45px;
 }
 
+#reviews .card .profile-name {
+  font-weight: 800;
+}
+
