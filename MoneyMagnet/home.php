@@ -141,6 +141,7 @@ require_once("navbar.php");
                     <img src="#" alt="user-image" class="profile-image">
                     <p class="profile-name">Ron Rizzly</p>
                     <p class="location">London</p>
+                    <i class="fa-solid fa-quote-right"></i>
                     <!-- image can go here later -->
                 </div>
             </div>
