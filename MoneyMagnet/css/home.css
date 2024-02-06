@@ -410,3 +410,9 @@ body, html {
   font-size: 25px;
 }
 
+#reviews .card .profile-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
