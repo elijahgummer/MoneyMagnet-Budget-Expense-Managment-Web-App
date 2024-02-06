@@ -130,7 +130,7 @@ require_once("navbar.php");
                 <div class="card">
                 <p class="card-content"></p>
                 <div class="profile-content">
-                    <img src="#" alt="user-image" class="profile-image">
+                    <img src="images/harry.png" alt="user-image" class="profile-image">
                     <p class="profile-name">Harry Potter</p>
                     <p class="location">Belgrade</p>
                     <i class="fa-solid fa-quote-right"></i>
@@ -140,7 +140,7 @@ require_once("navbar.php");
             <div class="card">
                 <p class="card-content"></p>
                 <div class="profile-content">
-                    <img src="#" alt="user-image" class="profile-image">
+                    <img src="images/Ron.png" alt="user-image" class="profile-image">
                     <p class="profile-name">Ron Rizzly</p>
                     <p class="location">London</p>
                     <i class="fa-solid fa-quote-right"></i>

@@ -413,3 +413,8 @@ body, html {
 #reviews .card .profile-content {
 }
 
+#reviews .card img {
+  width: 70px;
+  height: 70px;
+}
+
