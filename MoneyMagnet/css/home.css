@@ -382,6 +382,7 @@ body, html {
 }
 
 #reviews .card {
+  display: flex;
   width: 400px;
   height: 200px;
   color: #ffffff;
