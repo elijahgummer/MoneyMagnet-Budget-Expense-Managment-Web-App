@@ -128,21 +128,25 @@ require_once("navbar.php");
 
             <div class="card-container">
                 <div class="card">
-                <p class="card-content"></p>
+                <p class="card-content">“I AM RICH IN WIZARD MONEY KNOW”</p>
                 <div class="profile-content">
                     <img src="images/harry.png" alt="user-image" class="profile-image">
+                    <div class="user-info">
                     <p class="profile-name">Harry Potter</p>
                     <p class="location">Belgrade</p>
+                    </div>
                     <i class="fa-solid fa-quote-right"></i>
                     <!-- image can go here later -->
                 </div>
             </div>
             <div class="card">
-                <p class="card-content"></p>
+                <p class="card-content">“Bloody hell, this is the best wizard money tracker ever!!!!”</p>
                 <div class="profile-content">
                     <img src="images/Ron.png" alt="user-image" class="profile-image">
+                    <div class="user-info">
                     <p class="profile-name">Ron Rizzly</p>
                     <p class="location">London</p>
+                    </div>
                     <i class="fa-solid fa-quote-right"></i>
                     <!-- image can go here later -->
                 </div>

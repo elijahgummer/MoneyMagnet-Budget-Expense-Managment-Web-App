@@ -408,13 +408,30 @@ body, html {
 #reviews .card .profile-content .fa-solid {
   color: yellow;
   font-size: 70px;
+  margin: 10px;
 }
 
 #reviews .card .profile-content {
+  display: flex;
+  align-items: center;
+}
+
+#reviews .card .profile-content .user-info {
+  margin: 10px;
 }
 
 #reviews .card img {
   width: 70px;
   height: 70px;
+  margin: 10px;
+}
+
+#reviews .card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  font-weight: 500;
 }
 
