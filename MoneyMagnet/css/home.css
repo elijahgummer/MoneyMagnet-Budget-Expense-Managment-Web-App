@@ -441,5 +441,9 @@ body, html {
 
 /* call to action area */
 
-
+#action .container {
+  width: 50%;
+  height: 500px;
+  background-color: #F5F5F5;
+}
 
