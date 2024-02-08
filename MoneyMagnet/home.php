@@ -158,7 +158,10 @@ require_once("navbar.php");
 
     <div id="action">
         <div class="container">
-        
+        <div class="content-container">
+            <h1 class="header">Catalyst for Financial Transformation</h1>
+            <p class="content">Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
+        </div>
         </div>
     </div>
 
