@@ -441,6 +441,10 @@ body, html {
 
 /* call to action area */
 
+#action {
+  display: flex;
+}
+
 #action .container {
   display: flex;
   align-items: center;
