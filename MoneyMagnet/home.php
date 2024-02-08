@@ -159,6 +159,7 @@ require_once("navbar.php");
     <div id="action">
         <div class="container">
         <div class="content-container">
+            <!-- put an image main image later on maybe -->
             <h1 class="header">Catalyst for Financial Transformation</h1>
             <p class="content">Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
             <button class="call-to-action-btn">Join Know</button>
