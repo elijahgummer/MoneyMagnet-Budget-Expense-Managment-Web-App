@@ -362,8 +362,10 @@ body, html {
 }
 
 #reviews .content{
+  text-align: center;
   color: #B1817B;
   font-size: 16px;
+  flex-wrap: flex;
 }
 
 #reviews .content-container {
@@ -372,6 +374,7 @@ body, html {
   justify-content: center;
   flex-direction: column;
   margin: 10px;
+  width: 500px;
 }
 
 #reviews .card-container {
