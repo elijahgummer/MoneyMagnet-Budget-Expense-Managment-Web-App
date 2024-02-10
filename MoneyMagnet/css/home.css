@@ -445,6 +445,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 #action .container {
@@ -457,7 +458,9 @@ body, html {
 }
 
 #action .sub-content {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
