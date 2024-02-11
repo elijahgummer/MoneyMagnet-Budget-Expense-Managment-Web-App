@@ -471,10 +471,8 @@ body, html {
   top: 0;
 }
 
-#action .sub-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#action .content {
+  font-weight: 600;
 }
 
 #action .call-to-action-btn {

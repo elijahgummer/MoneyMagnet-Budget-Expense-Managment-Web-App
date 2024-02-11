@@ -164,11 +164,10 @@ require_once("navbar.php");
         <div class="content-container">
             <!-- put an image main image later on maybe -->
             
-            <div class="sub-content">
+            
             <p class="content">Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
             <button class="call-to-action-btn">Join Know</button>
             <!-- Put an illustation potetially later on -->
-            </div>
         </div>
         </div>
     </div>
