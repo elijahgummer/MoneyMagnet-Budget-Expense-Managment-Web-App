@@ -465,8 +465,10 @@ body, html {
 
 #action .sub-content {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  margin-top: auto;
 }
 
 
