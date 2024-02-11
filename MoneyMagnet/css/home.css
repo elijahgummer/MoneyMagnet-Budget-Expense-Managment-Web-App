@@ -453,8 +453,15 @@ body, html {
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  height: 500px;
+  height: 505px;
   background-color: #F5F5F5;
+  margin-top: 40px;
+}
+
+#action .call-to-action-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 40px;
 }
 
@@ -488,5 +495,9 @@ body, html {
 
 #action .call-to-action-btn:hover {
   background-color: #ffc400;
+}
+
+#action .call-to-action-image {
+  border: #F5F5F5 solid 3px;
 }
 

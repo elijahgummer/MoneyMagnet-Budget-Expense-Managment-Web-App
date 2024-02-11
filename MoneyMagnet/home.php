@@ -157,6 +157,9 @@ require_once("navbar.php");
     </div>
 
     <div id="action">
+        <div class="call-to-action-container">
+        <img class="call-to-action-image" src="images/callToAction.png" alt="call to action">
+        </div>
         <div class="container">
             <div class="header-container">
                 <h1 class="header">Catalyst for Financial Transformation</h1>
