@@ -136,7 +136,7 @@ body, html {
   transition-duration: 0.3s;
 }
 
-.searchIcon path {
+#header .searchIcon path {
   fill: rgb(114, 114, 114);
 }
 
