@@ -83,7 +83,7 @@ body, html {
   margin: 530px 0 0 0;
 }
 
-.InputContainer {
+#header .InputContainer {
   height: 40px;
   display: flex;
   align-items: center;
