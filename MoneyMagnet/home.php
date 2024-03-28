@@ -73,20 +73,7 @@ require_once("navbar.php");
         </div>
     </div>
 
-    <div id="process">
-        <div class="container">
-            <div class="content-container">
-                <h3 class="header">HOW IT WORKS</h3>
-                <div class="process-container">
-                    <div class="process-timeline">
-                        <div class="step-info">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  
 
     <div id="reviews">
         <div class="container">
