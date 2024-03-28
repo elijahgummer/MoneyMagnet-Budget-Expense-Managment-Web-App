@@ -149,7 +149,7 @@ body, html {
   transition-duration: 0.3s;
 }
 
-.getStarted {
+#header .getStarted {
   display: flex;
   justify-content: space-between;
   align-items: center;
