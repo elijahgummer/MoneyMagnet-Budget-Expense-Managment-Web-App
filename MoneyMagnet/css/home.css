@@ -28,7 +28,7 @@ body, html {
   font-size: 30px;
 }
 
-.typeHeader {
+#header .typeHeader {
   font-family: "Montserrat", sans-serif;
   font-style: bold;
   font-weight: 700;
