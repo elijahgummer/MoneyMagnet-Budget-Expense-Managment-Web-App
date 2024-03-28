@@ -15,7 +15,7 @@ body, html {
 }
 
 #header .container {
-  height: 100vh; /* Set the container height to 100% of the viewport height */
+  height: auto; /* Set the container height to 100% of the viewport height */
   display: flex;
   align-items: center;
 }
@@ -183,7 +183,7 @@ body, html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 160px;
+  height: auto;
   background-color: #ffffff;
   margin: 50px 20px;
   padding: 60px;
