@@ -20,7 +20,7 @@ body, html {
   align-items: center;
 }
 
-.typeHeader span {
+#header .typeHeader span {
   color: #f0f424;
   margin-left: 10px;
   font-size: 30px;
