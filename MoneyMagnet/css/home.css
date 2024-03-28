@@ -14,6 +14,8 @@ body, html {
   overflow-y: auto;  
 }
 
+/* HEADER AREA */
+
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
   display: flex;
