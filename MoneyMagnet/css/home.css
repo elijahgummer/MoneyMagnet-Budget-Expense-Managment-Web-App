@@ -174,73 +174,7 @@ body, html {
   font-size: 20px;
 }
 
-#about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-#about .container {
-  display: flex;
-  justify-content: center;
-  width: 900px;
-  height: 500px;
-  background-color: #ffffff;
-  margin-top: 800px;
-  border-radius: 18px;
-  color: black;
-  
-}
-
-#about .container .content-container{
-  width: 100%;
-  height:auto;
-}
-
-#about .container .content-container .header {
-  display: flex;
-  justify-content: center;
-  font-weight: 800;
-  font-family: 'Poppins', sans-serif;
-  font-size: 70px;
-  top: 0;
-  margin: 10px;
-  padding: 10px;
-}
-
-#about .container .content-container .content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-weight: 800;
-}
-
-#about .image-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  margin: 50px;
-  bottom: 0;
-}
-
-#about .why-images {
-  width: 122px;
-  height: 123px;
-}
-
-#about .why-headers {
-  font-size: 18px;
-  font-weight: 700;
-  font-family: 'Poppins', sans-serif;
-  margin: 5px;
-}
-
-#about .why-content {
-  font-size: 15px;
-  font-family: 'Poppins', sans-serif;
-}
 
 /* FEATURES */
 

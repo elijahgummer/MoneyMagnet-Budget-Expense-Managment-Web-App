@@ -73,8 +73,6 @@ require_once("navbar.php");
         </div>
     </div>
 
-  
-
     <div id="reviews">
         <div class="container">
             <div class="content-container">
