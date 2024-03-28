@@ -123,7 +123,7 @@ body, html {
   background-color: rgb(223, 223, 223);
 }
 
-.micIcon {
+#header .micIcon {
   width: 12px;
 }
 
