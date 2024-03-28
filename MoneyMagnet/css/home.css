@@ -112,7 +112,7 @@ body, html {
   padding: 0px 12px;
 }
 
-.searchIcon {
+#header .searchIcon {
   width: 15px;
   color: #f0f424;
 }
