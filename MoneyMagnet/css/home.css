@@ -127,7 +127,7 @@ body, html {
   width: 12px;
 }
 
-.micButton {
+#header .micButton {
   padding: 0px 15px 0px 12px;
   border: none;
   background-color: transparent;
