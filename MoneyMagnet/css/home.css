@@ -242,31 +242,6 @@ body, html {
   margin: 10px 0;
 }
 
-
-
-/* PROCESS */
-
-#process .container {
-  margin-top: 50px;
-  background-color: #ffffff;
-  width: 100%;
-  height: 400px;
-}
-
-#process .content-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-#process .header {
-  font-size: 2.5em;
-  font-weight: 800;
-  margin: 50px;
-  padding: 5px;
-}
-
 /* REVIEWS */
 
 #reviews .container {
