@@ -47,36 +47,6 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-    <div id="about">
-        <div class="container">
-            <div class="content-container">
-                <h2 class="header">Why Us</h2>
-                <p class="content">Opt for Money Magnet for a user-friendly and efficient financial experience,<br> prioritizing simplicity and exclusive money management.</p>
-
-                <div class="image-container">
-                    <div class="imageContent-container">
-                        <img class="why-images" src="images/innovative.png" alt="lightbulb">
-                        <h5 class="why-headers">INNOVATION</h5>
-                        <p class="why-content">Experience the future of<br> finance with our cutting-edge,<br> modern solutions.</p>
-                    </div>
-                    <div class="imageContent-container">
-                        <img class="why-images" src="images/efficiency.png" alt="clock">
-                        <h5 class="why-headers">EFFICIENCY</h5>
-                        <p class="why-content">Streamline tasks with our<br> efficient tools, saving you time<br> and effort.</p>
-                    </div>
-                    <div class="imageContent-container">
-                        <img class="why-images" src="images/simplicity.png" alt="puzzle">
-                        <h5 class="why-headers">SIMPLICITY</h5>
-                        <p class="why-content">Navigate effortlessly with our<br> intuitive design for easy<br> financial management.</p>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-
-    </div>
 
     <div id="features">
         <div class="container">
