@@ -107,7 +107,7 @@ body, html {
   caret-color: rgb(255, 81, 0);
 }
 
-.labelforsearch {
+#header .labelforsearch {
   cursor: text;
   padding: 0px 12px;
 }
