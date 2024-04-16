@@ -10,7 +10,11 @@ require_once("navbar.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<<<<<<< HEAD
     <title>Money Magnet | Home</title>
+=======
+    <title>Monet Magnet | Home</title>
+>>>>>>> 5c81a1141e693ef59ae9d3abba4d52c6eb11eb08
 
 </head>
 
