@@ -11,10 +11,7 @@ require_once("navbar.php");
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Money Magnet | Home</title>
-
-
 </head>
-
 <body>
     <div id="header">
         <div class="container">
