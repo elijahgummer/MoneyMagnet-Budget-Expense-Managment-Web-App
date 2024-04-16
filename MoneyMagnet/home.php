@@ -10,7 +10,7 @@ require_once("navbar.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>home</title>
+    <title>Money Magnet | Home</title>
 
 </head>
 
@@ -48,7 +48,7 @@ require_once("navbar.php");
         </div>
     </div>
 
-    <div id="features">
+     <div id="features">
         <div class="container">
             <div class="content-container">
                 <h3 class="header">Features</h3>
@@ -72,7 +72,7 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-
+<!--
     <div id="reviews">
         <div class="container">
             <div class="content-container">
@@ -91,7 +91,7 @@ require_once("navbar.php");
                     <p class="location">Belgrade</p>
                     </div>
                     <i class="fa-solid fa-quote-right"></i>
-                    <!-- image can go here later -->
+                
                 </div>
             </div>
             <div class="card">
@@ -103,7 +103,7 @@ require_once("navbar.php");
                     <p class="location">London</p>
                     </div>
                     <i class="fa-solid fa-quote-right"></i>
-                    <!-- image can go here later -->
+                
                 </div>
             </div>
             
@@ -120,15 +120,15 @@ require_once("navbar.php");
                 <h1 class="header">Catalyst for Financial Transformation</h1>
             </div>
         <div class="content-container">
-            <!-- put an image main image later on maybe -->
+            
             
             
             <p class="content">Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
             <button class="call-to-action-btn">Join Know</button>
-            <!-- Put an illustation potetially later on -->
+            
         </div>
         </div>
-    </div>
+    </div> -->
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="js/home.js"></script>
