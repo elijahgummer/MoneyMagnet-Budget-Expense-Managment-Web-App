@@ -25,6 +25,8 @@ nav {
   flex-wrap: wrap;
   position: relative; /* Add position: relative to the nav element */
   z-index: 5; /* Set a z-index for the regular state of the navigation */
+  background: linear-gradient(119.83deg, rgba(183, 183, 183, 0.7) 24.67%, rgba(0, 0, 0, 0.4) 76.97%);
+  backdrop-filter: blur(10px);
 }
 
 img.logo {
