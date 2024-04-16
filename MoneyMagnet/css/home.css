@@ -10,8 +10,6 @@ body, html {
   margin: 0; 
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;  
   background-color: black;
 }
 
@@ -49,7 +47,7 @@ body, html {
   flex-wrap: wrap;
   z-index: 2;
   width: 60%;
-  margin-top: -160px; /* Adjust to control the vertical position of the content */
+  margin-top: 160px; /* Adjust to control the vertical position of the content */
   margin-left: 35px;
 }
 

@@ -1,7 +1,7 @@
 <?php
     require_once("navbar.php");
 ?>
-
+    
 <!DOCTYPE html>
 <html lang="en">
 
