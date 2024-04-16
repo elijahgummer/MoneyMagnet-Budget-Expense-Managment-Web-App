@@ -46,7 +46,7 @@ require_once("navbar.php");
         </div>
     </div>
 
-     <div id="features">
+     <!-- <div id="features">
         <div class="container">
             <div class="content-container">
                 <h3 class="header">Features</h3>
@@ -70,7 +70,6 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-<!--
     <div id="reviews">
         <div class="container">
             <div class="content-container">
