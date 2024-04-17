@@ -18,7 +18,7 @@ html {
   height: auto; /* Set the container height to 100% of the viewport height */
   display: flex;
   align-items: center;
-  height: 900px;
+  height: 800px;
 }
 #header .typeHeader span {
   color: #f0f424;
@@ -159,13 +159,13 @@ html {
   align-items: center;
   width: 100%;
   height: auto;
-  background-color: #ffffff;
   margin: 50px 20px;
   padding: 60px;
 }
-#features .header {
+#features .h1 {
   font-size: 3em;
   font-weight: 700;
+  color: white;
 }
 #features img {
   width: 108px;
