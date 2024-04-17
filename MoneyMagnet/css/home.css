@@ -13,13 +13,15 @@ html {
   background-color: black;
 }
 /* HEADER AREA */
-.bubble {
+.svg-container {
+  position: relative;
+  width: 400px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+}
+.svg-container svg {
   position: absolute;
-  width: 432px;
-  height: 538px;
-  left: 356.91px;
-  top: 57.45px;
-  transform: rotate(130deg);
+  top: 0;
+  left: 0;
 }
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
