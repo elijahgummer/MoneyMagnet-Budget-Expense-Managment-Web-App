@@ -1,3 +1,6 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
 nav {
   display: flex;
   align-items: center;
@@ -8,6 +11,7 @@ nav {
   background: linear-gradient(119.83deg, rgba(183, 183, 183, 0.7) 24.67%, rgba(0, 0, 0, 0.4) 76.97%);
   backdrop-filter: blur(10px);
   width: 100%;  
+  padding: 10px;
 }
 img.logo {
   width: 300px;
