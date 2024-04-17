@@ -17,7 +17,6 @@ body, html {
   display: flex;
   align-items: center;
 }
-
 #header .typeHeader span {
   color: #f0f424;
   margin-left: 10px;
