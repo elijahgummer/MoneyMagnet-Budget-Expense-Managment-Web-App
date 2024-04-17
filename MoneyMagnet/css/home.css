@@ -35,7 +35,6 @@ body, html {
   mix-blend-mode: normal;
   margin-left: 20px; /* Adjust the margin to move the title to the left */
 }
-
 #header .container .content-container {
   display: flex;
   align-items: center; /* Align items in the center vertically */
