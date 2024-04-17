@@ -340,11 +340,9 @@ body, html {
   margin: 10px;
   font-size: 17px;
 }
-
 #action .call-to-action-btn:hover {
   background-color: #ffc400;
 }
-
 #action .call-to-action-image {
   border: #F5F5F5 solid 3px;
 }
