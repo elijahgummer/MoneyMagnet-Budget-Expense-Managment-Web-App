@@ -13,16 +13,7 @@ html {
   background-color: black;
 }
 /* HEADER AREA */
-.svg-container {
-  position: relative;
-  width: 400px; /* Adjust as needed */
-  height: 400px; /* Adjust as needed */
-}
-.svg-container svg {
-  position: absolute;
-  top: -100;
-  left: 0;
-}
+
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
   display: flex;
