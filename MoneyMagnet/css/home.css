@@ -115,7 +115,6 @@ body, html {
   cursor: pointer;
   transition-duration: 0.3s;
 }
-
 #header .searchIcon path {
   fill: rgb(114, 114, 114);
 }
