@@ -54,7 +54,6 @@ body, html {
   font-size: 70px;
   margin-bottom: 10px; /* Adjust spacing between title and sentence */
 }
-
 #header .sentence {
   display: flex;
   justify-content: center;
