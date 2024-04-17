@@ -7,6 +7,7 @@ html {
   background-position: top right;
   background-position-x: 493px;
   background-position-y: 30px;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
