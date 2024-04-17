@@ -17,6 +17,7 @@ require_once("navbar.php");
     <div id="header">
         <div class="container">
             <div class="content-container">
+                <div class="svg-container">
                 <svg width="357" height="389" viewBox="0 0 357 389" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <ellipse cx="12.0021" cy="50.0015" rx="216" ry="269" transform="rotate(130 12.0021 50.0015)" fill="url(#paint0_linear_482_21)" />
                     <defs>
@@ -26,6 +27,7 @@ require_once("navbar.php");
                         </linearGradient>
                     </defs>
                 </svg>
+                </div>
 
                 <h2 class="title">Money Magnet</h2>
                 <div class="type-animation-text">
