@@ -47,13 +47,13 @@ html {
   width: 60%;
   margin-left: 35px;
 }
-.title,
+#header h2,
 .sentence {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-.title {
+#header h2 {
   font-size: 70px;
   margin-bottom: 10px; /* Adjust spacing between title and sentence */
 }
