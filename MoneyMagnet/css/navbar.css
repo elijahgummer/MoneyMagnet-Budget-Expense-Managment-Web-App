@@ -29,6 +29,7 @@ nav {
   backdrop-filter: blur(10px);
   width: 100%;  
   padding: 10px;
+  border-bottom: 1px solid rgb(227, 227, 227);
 }
 img.logo {
   width: 300px;
