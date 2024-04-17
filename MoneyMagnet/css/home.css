@@ -233,7 +233,6 @@ body, html {
   font-size: 16px;
   flex-wrap: flex;
 }
-
 #reviews .content-container {
   display: flex;
   align-items: center;
