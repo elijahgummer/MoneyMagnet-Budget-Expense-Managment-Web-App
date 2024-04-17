@@ -65,7 +65,6 @@ html {
   margin: 30px 10px 0 20px; /* Adjust margin for the sentence */
 }
 #header .fixed-container {
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
