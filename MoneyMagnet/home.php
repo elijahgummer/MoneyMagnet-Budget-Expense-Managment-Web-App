@@ -1,7 +1,7 @@
 <?php
-    require_once("navbar.php");
+require_once("navbar.php");
 ?>
-    
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,11 +12,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Money Magnet | Home</title>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
             <div class="content-container">
-                <div class="bubble"></div>
+                <svg width="357" height="389" viewBox="0 0 357 389" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="12.0021" cy="50.0015" rx="216" ry="269" transform="rotate(130 12.0021 50.0015)" fill="url(#paint0_linear_482_21)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_482_21" x1="12.0022" y1="-218.998" x2="12.0022" y2="319.002" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F9C803" />
+                            <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+
                 <h2 class="title">Money Magnet</h2>
                 <div class="type-animation-text">
                     <h3 class="typeHeader">Helps You, <span class="auto-type"></span></h3>
@@ -47,7 +57,7 @@
         </div>
     </div>
 
-     <!-- <div id="features">
+    <!-- <div id="features">
         <div class="container">
             <div class="content-container">
                 <h3 class="header">Features</h3>
