@@ -174,7 +174,6 @@ body, html {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-
 #features .feature-card {
   display: flex;
   align-items: center;
