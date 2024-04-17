@@ -310,14 +310,12 @@ body, html {
   background-color: #F5F5F5;
   margin-top: 40px;
 }
-
 #action .call-to-action-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
 }
-
 #action .header-container {
   display: flex;
   justify-content: flex-start;
