@@ -71,7 +71,6 @@ body, html {
   flex-direction: column;
   margin: 530px 0 0 0;
 }
-
 #header .InputContainer {
   height: 40px;
   display: flex;
