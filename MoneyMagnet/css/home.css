@@ -121,7 +121,6 @@ body, html {
 #header .micIcon path {
   fill: rgb(255, 81, 0);
 }
-
 #header .micButton:hover {
   background-color: rgb(255, 230, 230);
   transition-duration: 0.3s;
