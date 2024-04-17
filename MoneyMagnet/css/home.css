@@ -38,7 +38,7 @@ html {
   mix-blend-mode: normal;
   margin-left: 20px; /* Adjust the margin to move the title to the left */
 }
-#header .container .content-container {
+#header .container .content {
   display: flex;
   align-items: flex-start; /* Align items in the center vertically */
   justify-content: flex-start;
@@ -68,11 +68,9 @@ html {
   position: absolute;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  margin: 30px;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
-  margin: 530px 0 0 0;
 }
 #header .InputContainer {
   height: 40px;

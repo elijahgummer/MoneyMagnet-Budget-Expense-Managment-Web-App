@@ -16,7 +16,7 @@ require_once("navbar.php");
 <body>
     <div id="header">
         <div class="container">
-            <div class="content-container">
+            <div class="content">
                 <h2>Money Magnet</h2>
                 <div class="type-animation-text">
                     <h3 class="typeHeader">Helps You, <span class="auto-type"></span></h3>
