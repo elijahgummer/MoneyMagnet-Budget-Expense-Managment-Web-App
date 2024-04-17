@@ -20,7 +20,7 @@ html {
 }
 .svg-container svg {
   position: absolute;
-  top: 0;
+  top: -100;
   left: 0;
 }
 #header .container {
