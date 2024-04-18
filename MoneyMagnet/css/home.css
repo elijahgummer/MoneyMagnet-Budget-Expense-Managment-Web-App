@@ -177,14 +177,13 @@ html {
 }
 #features h3::after {
   content: "";
-  margin: 45px auto;
-  width: 20%; 
+  width: 20%;
   height: 2px;
   background-color: white;
   position: absolute;
-  top: -1;
-  left: 0;
-  right: 0;
+  bottom: -10px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
 }
 #features img {
   width: 108px;
