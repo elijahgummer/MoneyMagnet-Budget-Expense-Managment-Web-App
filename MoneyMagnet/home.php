@@ -59,7 +59,7 @@ require_once("navbar.php");
                     </div>
                     <div class="feature-card">
                         <img src="images/growth-chart.png" alt="growth-chart">
-                        <h4 class="feature-header-smaller">INVESTMENT INSIGHTS</h4>
+                        <h4 class="feature-header">INVESTMENT INSIGHTS</h4>
                         <p class="content">Maximize Growth with Investment Insights – Uncover opportunities for smarter investments and financial success.</p>
                     </div>
                     <div class="feature-card">
