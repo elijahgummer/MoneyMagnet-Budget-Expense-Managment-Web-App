@@ -47,6 +47,9 @@ html {
   width: 60%;
   margin-left: 35px;
 }
+#header .container .content .content-container {
+  margin: 20px;
+}
 #header h2,
 .sentence {
   color: white;
