@@ -176,6 +176,7 @@ html {
 }
 #features h3::after {
   content: "";
+  margin: 45px auto;
   display: block;
   position: relative;
   background-color: white;
