@@ -185,12 +185,20 @@ html {
   text-align: center;
   width: 300px;
   height: 300px;
-  margin: -90px 0 0 0;
-  border-radius: 17px;
   background-color: #ffffff;
   padding: 25px;
   box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
   z-index: 2;
+  box-sizing: border-box;
+  background: linear-gradient(
+    227.01deg,
+    rgba(255, 255, 255, 0.42) 41.69%,
+    rgba(161, 161, 161, 0.6) 139.4%,
+    rgba(255, 255, 255, 0.24) 139.41%
+  );
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 24px;
 }
 #features .feature-header {
   font-size: 1.4em;
