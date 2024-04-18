@@ -172,6 +172,18 @@ html {
   font-size: 3em;
   font-weight: 700;
   color: white;
+
+}
+#features h3::after {
+  content: "";
+  display: block;
+  position: relative;
+  background-color: white;
+  bottom: 0;
+  left: 1;
+  right: 1;
+  width: 20%;
+  height: 2px;
 }
 #features img {
   width: 108px;
