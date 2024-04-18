@@ -59,7 +59,7 @@ html {
 }
 #header h2 {
   font-size: 70px;
-  margin-bottom: 10px; /* Adjust spacing between title and sentence */
+  margin-bottom: 10px;
 }
 #header .sentence {
   display: flex;
