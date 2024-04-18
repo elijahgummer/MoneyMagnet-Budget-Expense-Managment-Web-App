@@ -213,6 +213,7 @@ html {
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 24px;
+  margin: 30px;
 }
 #features .feature-header {
   font-size: 1.4em;
