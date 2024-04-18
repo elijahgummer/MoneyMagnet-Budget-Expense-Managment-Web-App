@@ -20,6 +20,18 @@ html {
   align-items: center;
   height: 800px;
 }
+#header .container .content {
+  display: flex;
+  align-items: flex-start; /* Align items in the center vertically */
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  z-index: 2;
+  width: 60%;
+  margin: 35px;
+}
+#header .container .content .content-container {
+  margin: 20px;
+}
 #header .typeHeader span {
   color: #f0f424;
   margin-left: 10px;
@@ -37,18 +49,6 @@ html {
   color: #ffffff;
   mix-blend-mode: normal;
   margin-left: 20px; /* Adjust the margin to move the title to the left */
-}
-#header .container .content {
-  display: flex;
-  align-items: flex-start; /* Align items in the center vertically */
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  z-index: 2;
-  width: 60%;
-  margin: 35px;
-}
-#header .container .content .content-container {
-  margin: 20px;
 }
 #header h2,
 .sentence {
