@@ -167,20 +167,21 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 #features h3 {
   font-size: 3em;
   font-weight: 700;
   color: white;
-
 }
 #features h3::after {
   content: "";
-  width: 50%; 
+  margin: 45px auto;
+  width: 20%; 
   height: 2px;
   background-color: white;
-  position: relative;
-  bottom: 0;
+  position: absolute;
+  top: -1;
   left: 0;
   right: 0;
 }
