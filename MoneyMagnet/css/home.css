@@ -49,6 +49,7 @@ html {
   color: #ffffff;
   mix-blend-mode: normal;
   margin-left: 20px; /* Adjust the margin to move the title to the left */
+  width: 100%;
 }
 #header h2,
 .sentence {
