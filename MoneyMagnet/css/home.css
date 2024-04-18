@@ -173,6 +173,7 @@ html {
   font-size: 3em;
   font-weight: 700;
   color: white;
+  position: relative; /* Make position relative for absolute positioning to work */
 }
 #features h3::after {
   content: "";
