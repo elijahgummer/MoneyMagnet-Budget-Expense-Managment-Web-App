@@ -22,7 +22,7 @@ html {
 }
 #header .container .content {
   display: flex;
-  align-items: flex-start; /* Align items in the center vertically */
+  align-items: center; /* Align items in the center vertically */
   justify-content: flex-start;
   flex-wrap: wrap;
   z-index: 2;
