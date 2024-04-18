@@ -214,6 +214,7 @@ html {
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 24px;
   margin: 30px;
+  border: 1px solid white;
 }
 #features .feature-header {
   font-size: 1.4em;
