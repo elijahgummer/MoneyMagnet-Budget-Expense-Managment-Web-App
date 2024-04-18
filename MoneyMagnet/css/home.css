@@ -73,6 +73,7 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  width: 80%;
 }
 #header .InputContainer {
   height: 40px;
