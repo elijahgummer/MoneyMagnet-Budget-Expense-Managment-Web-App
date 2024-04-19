@@ -48,6 +48,18 @@ require_once("navbar.php");
     </div>
 
     <div id="features">
+        <div class="svg-container3">
+            <svg width="500" height="654" viewBox="0 0 500 654" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="114.5" cy="327" rx="385.5" ry="327" fill="url(#paint0_linear_482_4)" />
+                <defs>
+                    <linearGradient id="paint0_linear_482_4" x1="114.5" y1="0" x2="114.5" y2="654" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F9C803" />
+                        <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+        </div>
         <div class="container">
             <div class="content-container">
                 <h3 class="header">Features</h3>
