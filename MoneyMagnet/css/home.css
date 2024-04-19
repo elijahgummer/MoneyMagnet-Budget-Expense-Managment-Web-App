@@ -200,6 +200,7 @@ html {
 #features img {
   width: 108px;
   height: 97px;
+  margin: 10px;
 }
 #features .features-container {
   display: flex;
