@@ -59,7 +59,7 @@ require_once("navbar.php");
                     </defs>
                 </svg>
                 <div class="svg-container4">
-                <svg width="350" height="500" viewBox="0 0 350 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="550" height="600" viewBox="0 0 350 500" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <ellipse cx="258.5" cy="250" rx="258.5" ry="250" fill="url(#paint0_linear_482_7)" />
                     <defs>
                         <linearGradient id="paint0_linear_482_7" x1="258.5" y1="0" x2="258.5" y2="500" gradientUnits="userSpaceOnUse">
