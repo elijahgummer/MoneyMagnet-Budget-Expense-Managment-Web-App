@@ -187,6 +187,18 @@ html {
   margin-top: 50px;
   left: 0;
 }
+.svg-container3 {
+    position: relative; /* Make sure the container is positioned relative */
+    width: 100%; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+    z-index: 0; /* Set a lower z-index so it goes behind the background */
+}
+.svg-container3 svg {
+  position: absolute;
+  top: 300;
+  margin-top: 50px;
+  left: 0;
+}
 #features h3::after {
   content: "";
   width: 60%;
