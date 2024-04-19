@@ -58,6 +58,7 @@ require_once("navbar.php");
                         </linearGradient>
                     </defs>
                 </svg>
+                <div class="svg-container4">
                 <svg width="350" height="500" viewBox="0 0 350 500" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <ellipse cx="258.5" cy="250" rx="258.5" ry="250" fill="url(#paint0_linear_482_7)" />
                     <defs>
@@ -67,7 +68,7 @@ require_once("navbar.php");
                         </linearGradient>
                     </defs>
                 </svg>
-
+                </div>
                 <div class="content-container">
                     <h3 class="header">Features</h3>
                     <div class="features-container">
