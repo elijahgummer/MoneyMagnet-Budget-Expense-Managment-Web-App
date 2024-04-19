@@ -195,8 +195,7 @@ html {
 }
 .svg-container4 svg {
   position: absolute;
-  top: 300;
-  right: 0;
+  left: -100;
 }
 #features h3::after {
   content: "";
