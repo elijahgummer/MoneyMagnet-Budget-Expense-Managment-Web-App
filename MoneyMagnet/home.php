@@ -117,8 +117,7 @@ require_once("navbar.php");
         </div>
         </div>
     </div>
-<!--
-    <div id="action">
+<!--<div id="action">
         <div class="call-to-action-container">
         <img class="call-to-action-image" src="images/callToAction.png" alt="call to action">
         </div>
