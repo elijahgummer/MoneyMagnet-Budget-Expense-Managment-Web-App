@@ -178,7 +178,7 @@ html {
 .svg-container3 svg {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
 }
 #features h3::after {
   content: "";
