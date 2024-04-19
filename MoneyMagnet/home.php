@@ -100,7 +100,6 @@ require_once("navbar.php");
                     <p class="location">Belgrade</p>
                     </div>
                     <i class="fa-solid fa-quote-right"></i>
-                
                 </div>
             </div>
             <div class="card">
