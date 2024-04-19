@@ -68,6 +68,7 @@ require_once("navbar.php");
                         </linearGradient>
                     </defs>
                 </svg>
+                </div>
                 <div class="content-container">
                     <h3 class="header">Features</h3>
                     <div class="features-container">
@@ -88,7 +89,6 @@ require_once("navbar.php");
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
         </div>
         <div id="reviews">
