@@ -175,6 +175,12 @@ html {
   color: white;
   position: relative; /* Make position relative for absolute positioning to work */
 }
+.svg-container3 svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
 #features h3::after {
   content: "";
   width: 60%;
