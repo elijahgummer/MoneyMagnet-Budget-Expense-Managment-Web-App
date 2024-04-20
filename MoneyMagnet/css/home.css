@@ -359,7 +359,12 @@ html {
   flex-direction: column;
   width: 50%;
   height: 505px;
-  background-color: ;
+  background: linear-gradient(
+    227.01deg,
+    rgba(255, 255, 255, 0.42) 41.69%,
+    rgba(161, 161, 161, 0.6) 139.4%,
+    rgba(255, 255, 255, 0.24) 139.41%
+  );
   margin-top: 40px;
 }
 #action .call-to-action-container {
