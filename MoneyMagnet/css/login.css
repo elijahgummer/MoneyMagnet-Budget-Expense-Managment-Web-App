@@ -63,7 +63,6 @@ h2 {
   font-size: 16px;
   color: #fff;
 }
-
 .input-field input:focus ~ label,
 .input-field input:valid ~ label {
   font-size: 0.8rem;
