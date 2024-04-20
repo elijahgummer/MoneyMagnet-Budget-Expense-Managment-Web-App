@@ -107,7 +107,6 @@ button {
   transition: 0.3s ease;
   margin: 10px;
 }
-
 button:hover {
   color: #fff;
   border-color: #fff;
