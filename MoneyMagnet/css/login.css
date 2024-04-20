@@ -196,7 +196,6 @@ p.message {
   .checkbox-wrapper-13 input[type="checkbox"]:disabled + label {
     cursor: not-allowed;
   }
-
   .checkbox-wrapper-13
     input[type="checkbox"]:hover:not(:checked):not(:disabled) {
     --bc: var(--border-hover);
