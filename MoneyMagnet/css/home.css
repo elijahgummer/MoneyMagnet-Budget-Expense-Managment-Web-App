@@ -367,7 +367,7 @@ html {
   );
   margin-top: 40px;
 }
-#action .call-to-action-container {
+#action .image-container {
   display: flex;
   align-items: center;
   justify-content: center;
