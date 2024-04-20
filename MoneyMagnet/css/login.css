@@ -200,7 +200,6 @@ p.message {
     input[type="checkbox"]:hover:not(:checked):not(:disabled) {
     --bc: var(--border-hover);
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:focus {
     box-shadow: 0 0 0 var(--focus);
   }
