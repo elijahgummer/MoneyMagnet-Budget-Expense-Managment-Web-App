@@ -193,7 +193,6 @@ p.message {
     --b: var(--disabled-inner);
     --bc: var(--border);
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:disabled + label {
     cursor: not-allowed;
   }
