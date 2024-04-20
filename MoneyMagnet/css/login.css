@@ -30,7 +30,6 @@ html {
   ); /* Update background color with opacity */
   margin-top: 70px;
 }
-
 form {
   display: flex;
   flex-direction: column;
