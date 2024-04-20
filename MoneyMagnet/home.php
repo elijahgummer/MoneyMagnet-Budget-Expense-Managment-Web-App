@@ -58,15 +58,15 @@ require_once("navbar.php");
                     </defs>
                 </svg>
                 <div class="svg-container4">
-                <svg width="550" height="600" viewBox="0 0 350 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <ellipse cx="258.5" cy="250" rx="258.5" ry="250" fill="url(#paint0_linear_482_7)" />
-                    <defs>
-                        <linearGradient id="paint0_linear_482_7" x1="258.5" y1="0" x2="258.5" y2="500" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F9C803" />
-                            <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
-                        </linearGradient>
-                    </defs>
-                </svg>
+                    <svg width="550" height="600" viewBox="0 0 350 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="258.5" cy="250" rx="258.5" ry="250" fill="url(#paint0_linear_482_7)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_482_7" x1="258.5" y1="0" x2="258.5" y2="500" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F9C803" />
+                                <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
                 </div>
                 <div class="content-container">
                     <h3 class="header">Features</h3>
@@ -91,52 +91,52 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-        <div id="reviews">
-            <div class="container">
-                <div class="content-container">
-                    <h5 class="header">Reviewed by People</h5>
-                    <h2 class="sub-header">Client's Testimonals</h2>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <p class="card-content">“I AM RICH IN WIZARD MONEY KNOW”</p>
-                        <div class="profile-content">
-                            <img src="images/harry.png" alt="user-image" class="profile-image">
-                            <div class="user-info">
-                                <p class="profile-name">Harry Potter</p>
-                                <p class="location">Belgrade</p>
-                            </div>
-                            <i class="fa-solid fa-quote-right"></i>
+    <div id="reviews">
+        <div class="container">
+            <div class="content-container">
+                <h5 class="header">Reviewed by People</h5>
+                <h2 class="sub-header">Client's Testimonals</h2>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <p class="card-content">“I AM RICH IN WIZARD MONEY KNOW”</p>
+                    <div class="profile-content">
+                        <img src="images/harry.png" alt="user-image" class="profile-image">
+                        <div class="user-info">
+                            <p class="profile-name">Harry Potter</p>
+                            <p class="location">Belgrade</p>
                         </div>
+                        <i class="fa-solid fa-quote-right"></i>
                     </div>
-                    <div class="card">
-                        <p class="card-content">“Bloody hell, this is the best wizard money tracker ever!!!!”</p>
-                        <div class="profile-content">
-                            <img src="images/Ron.png" alt="user-image" class="profile-image">
-                            <div class="user-info">
-                                <p class="profile-name">Ron Rizzly</p>
-                                <p class="location">London</p>
-                            </div>
-                            <i class="fa-solid fa-quote-right"></i>
+                </div>
+                <div class="card">
+                    <p class="card-content">“Bloody hell, this is the best wizard money tracker ever!!!!”</p>
+                    <div class="profile-content">
+                        <img src="images/Ron.png" alt="user-image" class="profile-image">
+                        <div class="user-info">
+                            <p class="profile-name">Ron Rizzly</p>
+                            <p class="location">London</p>
                         </div>
+                        <i class="fa-solid fa-quote-right"></i>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="action">
-            <div class="container">
-                <div class="image-container">
-                    <img src="images/callToAction.png" alt="call to action">
-                </div>
-                <div class="content">
-                    <h1 class="header">Catalyst for Financial Transformation</h1>
-                    <p>Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
-                    <button class="call-to-action-btn">Join Know</button>
-                </div>
+    </div>
+    <div id="action">
+        <div class="container">
+            <div class="image-container">
+                <img src="images/callToAction.png" alt="call to action">
+            </div>
+            <div class="content">
+                <h1 class="header">Catalyst for Financial Transformation</h1>
+                <p>Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
+                <button class="call-to-action-btn">Join Know</button>
             </div>
         </div>
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-        <script src="js/home.js"></script>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/home.js"></script>
 </body>
 
 </html>
