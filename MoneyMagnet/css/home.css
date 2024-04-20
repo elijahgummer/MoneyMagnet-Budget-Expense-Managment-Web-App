@@ -243,7 +243,7 @@ html {
 .svg-container3,
 .svg-container4 {
   position: absolute;
-  width: 50%; /* Adjust width as needed */
+  width: 100%; /* Adjust width as needed */
   height: 100%; /* Adjust height as needed */
 }
 
