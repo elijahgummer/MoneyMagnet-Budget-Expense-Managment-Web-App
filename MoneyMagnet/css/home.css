@@ -383,6 +383,9 @@ html {
   font-weight: 500;
   margin: 20px;
 }
+#action .content h1 {
+  color: white;
+}
 #action .call-to-action-btn {
   color: white;
   background-color: #f1c94b;
