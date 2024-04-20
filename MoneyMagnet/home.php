@@ -119,7 +119,6 @@ require_once("navbar.php");
 
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
