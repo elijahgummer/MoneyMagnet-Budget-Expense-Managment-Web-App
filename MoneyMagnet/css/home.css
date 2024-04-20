@@ -356,7 +356,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 #action .image-container {
   display: flex;
