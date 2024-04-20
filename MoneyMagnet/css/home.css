@@ -271,6 +271,7 @@ html {
   text-align: center;
   margin-top: 40px 10px 10px 10px;
   border-radius: 30px;
+  border: 1px solid white;
 }
 #reviews .header {
   font-weight: 100;
