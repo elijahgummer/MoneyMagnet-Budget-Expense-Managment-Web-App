@@ -386,6 +386,7 @@ html {
 #action .content h1 {
   color: white;
   font-weight: 800;
+  font-size: 30px;
 }
 #action .call-to-action-btn {
   color: white;
