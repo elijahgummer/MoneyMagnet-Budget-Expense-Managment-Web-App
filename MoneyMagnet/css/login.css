@@ -232,12 +232,10 @@ p.message {
     top: 4px;
     transform: rotate(var(--r, 20deg));
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:not(.switch):checked {
     --r: 43deg;
   }
 }
-
 .checkbox-wrapper-13 * {
   box-sizing: inherit;
 }
