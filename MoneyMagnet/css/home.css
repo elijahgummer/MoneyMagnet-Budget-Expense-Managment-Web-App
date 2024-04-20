@@ -258,6 +258,7 @@ html {
   position: absolute;
   top: 0;
   right: 0; /* Align SVG to the right */
+  margin-top: 200px;
 }
 
 /* REVIEWS */
