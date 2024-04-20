@@ -267,7 +267,7 @@ html {
     rgba(255, 255, 255, 0.24) 139.41%
   );
   width: 80%;
-  height: 650px;
+  height: 700px;
   text-align: center;
   margin-top: 40px 10px 10px 10px;
   border-radius: 30px;
@@ -381,8 +381,6 @@ html {
 #action .header-container .header {
   font-weight: 800;
   font-size: 2.5em;
-  margin: 10px;
-  top: 0;
   color: white;
 }
 #action .content {
