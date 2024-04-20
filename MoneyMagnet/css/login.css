@@ -145,7 +145,6 @@ p.message {
   text-align: center;
   margin-bottom: 10px;
 }
-
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
   .checkbox-wrapper-13 input[type="checkbox"] {
     --active: #fdd835; /* Yellow */
