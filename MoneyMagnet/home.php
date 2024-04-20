@@ -87,7 +87,7 @@ require_once("navbar.php");
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         </div>
         <div id="reviews">
             <div class="container">
@@ -122,20 +122,21 @@ require_once("navbar.php");
             </div>
         </div>
         <div id="action">
-        <div class="call-to-action-container">
-        <img class="call-to-action-image" src="images/callToAction.png" alt="call to action">
-        </div>
-        <div class="container">
-            <div class="header-container">
-                <h1 class="header">Catalyst for Financial Transformation</h1>
+            <div class="call-to-action-container">
+                <img class="call-to-action-image" src="images/callToAction.png" alt="call to action">
             </div>
-        <div class="content-container">
-            <p class="content">Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
-            <button class="call-to-action-btn">Join Know</button>
+            <div class="container">
+                <div class="header-container">
+                    <h1 class="header">Catalyst for Financial Transformation</h1>
+                </div>
+                <div class="content-container">
+                    <p class="content">Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
+                    <button class="call-to-action-btn">Join Know</button>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script src="js/home.js"></script>
 </body>
+
 </html>
