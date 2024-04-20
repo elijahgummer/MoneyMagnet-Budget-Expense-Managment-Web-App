@@ -137,7 +137,6 @@ require_once("navbar.php");
             
             <p class="content">Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
             <button class="call-to-action-btn">Join Know</button>
-            
         </div>
         </div>
     </div>
