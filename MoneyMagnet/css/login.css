@@ -206,7 +206,6 @@ p.message {
   .checkbox-wrapper-13 input[type="checkbox"]:not(.switch) {
     width: 21px;
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:not(.switch):after {
     opacity: var(--o, 0);
   }
