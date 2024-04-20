@@ -121,10 +121,10 @@ require_once("navbar.php");
             </div>
         </div>
         <div id="action">
-            <div class="image-container">
-                <img src="images/callToAction.png" alt="call to action">
-            </div>
             <div class="container">
+                <div class="image-container">
+                    <img src="images/callToAction.png" alt="call to action">
+                </div>
                 <div class="content">
                     <h1 class="header">Catalyst for Financial Transformation</h1>
                     <p>Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
