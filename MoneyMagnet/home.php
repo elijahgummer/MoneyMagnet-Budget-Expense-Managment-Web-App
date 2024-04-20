@@ -92,7 +92,7 @@ require_once("navbar.php");
         <div id="reviews">
             <div class="container">
                 <div class="content-container">
-                    <h5 class="header">Reviewed by people</h5>
+                    <h5 class="header">Reviewed by People</h5>
                     <h2 class="sub-header">Client's Testimonals</h2>
                     <p class="content">Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
                 </div>
