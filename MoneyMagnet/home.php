@@ -3,6 +3,7 @@ require_once("navbar.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@ require_once("navbar.php");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Money Magnet | Home</title>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -127,7 +129,7 @@ require_once("navbar.php");
                     <h1 class="header">Catalyst for Financial Transformation</h1>
                     <p>Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
                     <button class="call-to-action-btn">Join Know</button>
-                    </div>
+                </div>
             </div>
         </div>
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
