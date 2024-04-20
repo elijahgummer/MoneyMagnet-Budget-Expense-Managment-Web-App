@@ -168,7 +168,6 @@ p.message {
     background: var(--b, var(--background));
     transition: background 0.3s, border-color 0.3s, box-shadow 0.2s;
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:after {
     content: "";
     display: block;
