@@ -123,7 +123,7 @@ require_once("navbar.php");
                 </div>
             </div>
         </div>
-        <!--<div id="action">
+        <div id="action">
         <div class="call-to-action-container">
         <img class="call-to-action-image" src="images/callToAction.png" alt="call to action">
         </div>
@@ -140,7 +140,7 @@ require_once("navbar.php");
             
         </div>
         </div>
-    </div> -->
+    </div>
 
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script src="js/home.js"></script>
