@@ -252,6 +252,8 @@ html {
 /* REVIEWS */
 #reviews {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #reviews .container {
   display: flex;
