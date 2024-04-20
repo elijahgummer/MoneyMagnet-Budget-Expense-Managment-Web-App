@@ -213,7 +213,6 @@ p.message {
   .checkbox-wrapper-13 input[type="checkbox"]:not(.switch):checked {
     --o: 1;
   }
-
   .checkbox-wrapper-13 input[type="checkbox"] + label {
     display: inline-block;
     vertical-align: middle;
