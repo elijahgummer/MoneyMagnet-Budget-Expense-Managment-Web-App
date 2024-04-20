@@ -373,11 +373,6 @@ html {
   justify-content: center;
   margin-top: 40px;
 }
-#action .header-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
 #action .header-container .header {
   font-weight: 800;
   font-size: 2.5em;
