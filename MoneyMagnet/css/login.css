@@ -243,7 +243,6 @@ p.message {
 .checkbox-wrapper-13 *:after {
   box-sizing: inherit;
 }
-
 .forget .checkbox-wrapper-13 p {
   display: inline-block;
   margin: 2px;
@@ -251,7 +250,6 @@ p.message {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
-
 .checkbox-wrapper-13 {
   margin-left: 10px;
 }
