@@ -177,7 +177,6 @@ p.message {
     transition: transform var(--d-t, 0.3s) var(--d-t-e, ease),
       opacity var(--d-o, 0.2s);
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:checked {
     --b: var(--active);
     --bc: var(--active);
