@@ -45,52 +45,7 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-    <div id="features">
-        <div class="container">
-            <div class="svg-container3">
-                <svg width="850" height="1154" viewBox="0 0 500 654" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <ellipse cx="114.5" cy="327" rx="385.5" ry="327" fill="url(#paint0_linear_482_4)" />
-                    <defs>
-                        <linearGradient id="paint0_linear_482_4" x1="114.5" y1="0" x2="114.5" y2="654" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F9C803" />
-                            <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
-                        </linearGradient>
-                    </defs>
-                </svg>
-                <div class="svg-container4">
-                    <svg width="550" height="600" viewBox="0 0 350 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="258.5" cy="250" rx="258.5" ry="250" fill="url(#paint0_linear_482_7)" />
-                        <defs>
-                            <linearGradient id="paint0_linear_482_7" x1="258.5" y1="0" x2="258.5" y2="500" gradientUnits="userSpaceOnUse">
-                                <stop stop-color="#F9C803" />
-                                <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </div>
-                <div class="content-container">
-                    <h3 class="header">Features</h3>
-                    <div class="features-container">
-                        <div class="feature-card">
-                            <img src="images/wallet-magnify-glass.png" alt="wallet-magnify-glass">
-                            <h4 class="feature-header">EXPENSE TRACKING</h4>
-                            <p class="content">Effortlessly track your<br> expenses and gain insights<br> into your spending habits<br> with our intuitive expense<br> tracking tools.</p>
-                        </div>
-                        <div class="feature-card">
-                            <img src="images/growth-chart.png" alt="growth-chart">
-                            <h4 class="feature-header">INVESTMENT INSIGHTS</h4>
-                            <p class="content">Maximize Growth with Investment Insights – Uncover opportunities for smarter investments and financial success.</p>
-                        </div>
-                        <div class="feature-card">
-                            <img src="images/budget-notepad.png" alt="budget-notepad">
-                            <h4 class="feature-header">BUDGETING TOOLS</h4>
-                            <p class="content">Seamlessly manage your<br> finances and achieve your<br> goals with our powerful<br> budgeting tools.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div id="reviews">
         <div class="container">
             <div class="content-container">
