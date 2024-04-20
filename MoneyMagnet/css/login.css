@@ -184,7 +184,6 @@ p.message {
     --d-t: 0.6s;
     --d-t-e: cubic-bezier(0.2, 0.85, 0.32, 1.2);
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:disabled {
     --b: var(--disabled);
     cursor: not-allowed;
