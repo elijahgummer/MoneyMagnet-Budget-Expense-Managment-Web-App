@@ -54,7 +54,6 @@ h2 {
   pointer-events: none;
   transition: 0.15s ease;
 }
-
 .input-field input {
   width: 100%;
   height: 40px;
