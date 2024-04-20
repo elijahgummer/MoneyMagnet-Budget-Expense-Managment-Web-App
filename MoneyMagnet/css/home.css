@@ -250,6 +250,9 @@ html {
   margin: 10px 0;
 }
 /* REVIEWS */
+#reviews {
+  display: flex;
+}
 #reviews .container {
   display: flex;
   align-items: center;
