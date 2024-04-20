@@ -189,7 +189,6 @@ p.message {
     cursor: not-allowed;
     opacity: 0.9;
   }
-
   .checkbox-wrapper-13 input[type="checkbox"]:disabled:checked {
     --b: var(--disabled-inner);
     --bc: var(--border);
