@@ -357,15 +357,6 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
-  height: 605px;
-  background: linear-gradient(
-    227.01deg,
-    rgba(255, 255, 255, 0.42) 41.69%,
-    rgba(161, 161, 161, 0.6) 139.4%,
-    rgba(255, 255, 255, 0.24) 139.41%
-  );
-  margin-top: 40px;
 }
 #action .image-container {
   display: flex;
@@ -382,6 +373,15 @@ html {
   font-size: 16px;
   font-weight: 500;
   margin: 20px;
+  width: 50%;
+  height: 605px;
+  background: linear-gradient(
+    227.01deg,
+    rgba(255, 255, 255, 0.42) 41.69%,
+    rgba(161, 161, 161, 0.6) 139.4%,
+    rgba(255, 255, 255, 0.24) 139.41%
+  );
+  margin-top: 40px;
 }
 #action .content h1 {
   color: white;
