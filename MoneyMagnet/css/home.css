@@ -380,6 +380,8 @@ html {
 }
 #action .image-container img {
   border: #f5f5f5 solid 3px;
+  height: auto;
+  width: 100%;
 }
 #action .header-container .header {
   font-weight: 800;
