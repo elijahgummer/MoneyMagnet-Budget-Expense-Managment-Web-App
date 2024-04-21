@@ -369,6 +369,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  height: 600px;
 }
 #action .image-container {
   display: flex;
