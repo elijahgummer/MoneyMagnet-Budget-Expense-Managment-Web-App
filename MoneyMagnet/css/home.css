@@ -382,6 +382,7 @@ html {
   color: white;
 }
 #action .content {
+  display: flex;
   font-size: 16px;
   font-weight: 500;
   margin: 20px;
