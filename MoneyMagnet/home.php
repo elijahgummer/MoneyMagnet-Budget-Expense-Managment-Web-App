@@ -129,7 +129,7 @@ require_once("navbar.php");
                 <img src="images/callToAction.png" alt="call to action">
             </div>
             <div class="content">
-                <h1 class="header">Catalyst for Financial Transformation</h1>
+                <h1>Catalyst for Financial Transformation</h1>
                 <p>Unlock financial success with Money Magnet. Join now for a smarter money management experience.</p>
                 <button class="call-to-action-btn">Join Know</button>
             </div>
