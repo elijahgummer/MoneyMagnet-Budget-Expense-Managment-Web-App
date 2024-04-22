@@ -125,7 +125,7 @@ nav .fa-solid {
       cursor: pointer;
   }
   img.logo {
-    width: 170px;
+    width: 100%;
     height: 65px;
   }
 }

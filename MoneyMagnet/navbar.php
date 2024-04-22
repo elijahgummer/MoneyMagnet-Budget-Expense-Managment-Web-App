@@ -35,7 +35,9 @@
             </svg>
             </div>
             <nav>
+                <div class="logo-container">
                 <img src="images/logo.png" alt="logo" class="logo">
+                </div>
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
