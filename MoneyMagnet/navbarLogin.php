@@ -40,7 +40,6 @@
             document.getElementById(tabname).classList.add("active-tab");
         }
 
-
         var sidemenu = document.getElementById("sidemenu");
 
         function openmenu() {
