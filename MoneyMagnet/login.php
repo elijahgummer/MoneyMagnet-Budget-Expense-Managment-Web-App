@@ -103,5 +103,4 @@ require_once("navbarLogin.php");
         });
     </script>
 </body>
-
 </html>
