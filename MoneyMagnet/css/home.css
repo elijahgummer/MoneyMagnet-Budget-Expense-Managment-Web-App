@@ -384,11 +384,7 @@ html {
   height: auto;
   width: 100%;
 }
-#action .content h1 {
-  font-weight: 800;
-  font-size: 26px;
-  color: white;
-}
+
 #action .content {
   display: flex;
   align-items: center;
