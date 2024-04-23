@@ -61,11 +61,9 @@ textarea {
     font-size: 16px;
     outline: none;
 }
-
 .select-wrapper {
     position: relative;
 }
-
 .select-wrapper select {
     appearance: none;
     -webkit-appearance: none;
