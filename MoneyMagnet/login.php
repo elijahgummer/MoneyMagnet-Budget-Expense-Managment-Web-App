@@ -9,7 +9,6 @@ require_once("navbarLogin.php");
         <title>Glassmorphism Login and Registration Form</title>
         <link rel="stylesheet" href="css/login.css">
     </head>
-
     <body>
         <div class="container">
             <div class="wrapper">
