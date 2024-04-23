@@ -44,7 +44,6 @@ require_once("navbar.php");
                     <input type="password" name="checkpwd" required>
                     <label>Enter your new password again</label>
                 </div>
-
                 <div class="forget">
                     <div class="checkbox-wrapper-13">
                         <input type="checkbox" id="c1-13">
