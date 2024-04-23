@@ -48,7 +48,6 @@
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-
         </div>
     </div>
 
