@@ -21,7 +21,6 @@
     position: relative;
     animation: slideIn 0.5s ease;
 }
-
 .close {
     color: #aaa;
     position: absolute;
