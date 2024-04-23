@@ -50,7 +50,6 @@ require_once("navbarLogin.php");
                 <button type="submit" name="submit">Log In</button>
                 <p class="message">Not Registered?<a href="#">Register</a></p>
             </form>
-
             <!-- Registration Form -->
             <form id="registration-form" action="includes/register.inc.php" method="post">
                 <h2>Register</h2>
