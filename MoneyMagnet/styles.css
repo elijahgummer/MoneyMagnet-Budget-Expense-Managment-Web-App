@@ -84,7 +84,6 @@ textarea {
     transform: translateY(-50%);
     pointer-events: none;
 }
-
 textarea {
     resize: vertical;
 }
