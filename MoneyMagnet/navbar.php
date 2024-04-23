@@ -50,7 +50,6 @@
             </nav>
         </div>
     </div>
-
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
