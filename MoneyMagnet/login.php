@@ -86,7 +86,6 @@ require_once("navbarLogin.php");
         </div>
     </div>
     <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
-
     <script>
         $('.message a').click(function() {
             $('form').animate({
