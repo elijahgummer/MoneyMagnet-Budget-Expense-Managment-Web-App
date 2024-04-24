@@ -111,7 +111,6 @@ textarea {
 .select-wrapper {
   position: relative;
 }
-
 .select-wrapper select {
   appearance: none;
   -webkit-appearance: none;
