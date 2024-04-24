@@ -106,7 +106,6 @@ textarea {
 .btn-save:hover {
     background-color: #45a049; /* Hovered save button background color */
 }
-
 .btn-cancel {
     background-color: #f44336; /* Cancel button background color */
     color: white;
