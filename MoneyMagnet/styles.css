@@ -113,7 +113,6 @@ textarea {
 .btn-cancel:hover {
     background-color: #d32f2f; /* Hovered cancel button background color */
 }
-
 /* Animation keyframes */
 @keyframes fadeIn {
     from {
