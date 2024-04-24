@@ -131,7 +131,6 @@ textarea {
     }
 }
 /* Note that you only needs to edit the config to customize the button! */
-
 .plusButton {
     /* Config start */
     --plus_sideLength: 2.5rem;
