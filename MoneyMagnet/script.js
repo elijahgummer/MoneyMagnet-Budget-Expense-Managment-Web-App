@@ -19,7 +19,6 @@ cancelModalBtn.addEventListener("click", closeModal);
 // Handle form submission (you can add your own logic here)
 budgetForm.addEventListener("submit", function (e) {
   e.preventDefault();
-
   // Get form values
   const category = document.getElementById("category").value;
   const budgetName = document.getElementById("budgetName").value;
