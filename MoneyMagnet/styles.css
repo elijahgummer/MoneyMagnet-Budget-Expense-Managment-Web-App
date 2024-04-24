@@ -175,8 +175,7 @@ textarea {
     z-index: 1;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
-  }
-  
+  } 
   .plusButton:hover>.plusIcon {
     fill: black;
     transform: rotate(180deg);
