@@ -4,7 +4,6 @@ const openModalBtn = document.getElementById("openModalBtn");
 const closeModalBtn = document.getElementById("closeModalBtn");
 const cancelModalBtn = document.getElementById("cancelModalBtn");
 const budgetForm = document.getElementById("budgetForm");
-
 // Function to open the modal
 function openModal() {
   modal.style.display = "block";
