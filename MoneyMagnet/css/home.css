@@ -415,6 +415,7 @@ html {
   margin: 10px;
   font-size: 17px;
   width: 90%;
+  border-radius: ;
 }
 #action .call-to-action-btn:hover {
   background-color: #ffc400;
