@@ -168,7 +168,6 @@ textarea {
   .plusButton:focus-visible::before {
     --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
   }
-  
   .plusButton>.plusIcon {
     fill: #FFC800;
     width: calc(var(--plus_sideLength) * 0.7);
