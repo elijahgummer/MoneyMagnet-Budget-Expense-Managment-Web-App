@@ -122,7 +122,6 @@ textarea {
         opacity: 1;
     }
 }
-
 @keyframes slideIn {
     from {
         transform: translateY(-20%);
