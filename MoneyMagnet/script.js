@@ -16,7 +16,6 @@ function closeModal() {
 openModalBtn.addEventListener("click", openModal);
 closeModalBtn.addEventListener("click", closeModal);
 cancelModalBtn.addEventListener("click", closeModal);
-
 // Handle form submission (you can add your own logic here)
 budgetForm.addEventListener("submit", function (e) {
   e.preventDefault();
