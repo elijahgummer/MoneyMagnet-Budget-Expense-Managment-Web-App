@@ -410,6 +410,7 @@ html {
 }
 #action .content p {
   width: 90%;
+  margin: 50px;
 }
 #action .call-to-action-btn {
   color: white;
