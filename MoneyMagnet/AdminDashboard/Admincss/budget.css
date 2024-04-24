@@ -153,12 +153,10 @@ textarea {
 .btn-save:hover {
   background-color: #45a049;
 }
-
 .btn-cancel {
   background-color: #f44336;
   color: white;
 }
-
 .btn-cancel:hover {
   background-color: #d32f2f;
 }
