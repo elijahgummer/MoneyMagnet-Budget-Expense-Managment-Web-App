@@ -28,7 +28,6 @@ budgetForm.addEventListener("submit", function (e) {
   console.log("Category:", category);
   console.log("Budget Name:", budgetName);
   console.log("Budget Limit:", budgetLimit);
-
   // Close the modal
   closeModal();
 });
