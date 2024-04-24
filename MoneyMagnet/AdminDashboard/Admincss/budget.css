@@ -213,26 +213,21 @@ textarea {
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
-
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
   background-color: #333;
   color: #fff;
 }
-
 .table tbody + tbody {
   border-top: 2px solid #dee2e6;
 }
-
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-
 .table-hover tbody tr:hover {
   background-color: rgba(0, 0, 0, 0.075);
 }
-
 /* Center-align text in specific columns */
 .table th.text-center,
 .table td.text-center {
