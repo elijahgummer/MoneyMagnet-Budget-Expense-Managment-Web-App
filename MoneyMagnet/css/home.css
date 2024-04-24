@@ -409,7 +409,7 @@ html {
   font-size: 2.5em;
 }
 #action .content p {
-  
+  width: 90%;
 }
 #action .call-to-action-btn {
   color: white;
