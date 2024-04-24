@@ -103,7 +103,6 @@ textarea {
     background-color: #4CAF50; /* Save button background color */
     color: white;
 }
-
 .btn-save:hover {
     background-color: #45a049; /* Hovered save button background color */
 }
