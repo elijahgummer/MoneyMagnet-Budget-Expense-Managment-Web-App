@@ -23,7 +23,6 @@ budgetForm.addEventListener("submit", function (e) {
   const category = document.getElementById("category").value;
   const budgetName = document.getElementById("budgetName").value;
   const budgetLimit = document.getElementById("budgetLimit").value;
-
   // You can process the form data here (e.g., send it to a server)
   // For now, let's log the values to the console
   console.log("Category:", category);
