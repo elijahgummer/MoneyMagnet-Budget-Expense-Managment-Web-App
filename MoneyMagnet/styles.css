@@ -165,7 +165,6 @@ textarea {
   .plusButton:hover::before {
     --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
   }
-  
   .plusButton:focus-visible::before {
     --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
   }
