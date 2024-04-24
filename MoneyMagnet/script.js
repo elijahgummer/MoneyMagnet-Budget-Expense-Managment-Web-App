@@ -12,7 +12,6 @@ function openModal() {
 function closeModal() {
   modal.style.display = "none";
 }
-
 // Event listeners
 openModalBtn.addEventListener("click", openModal);
 closeModalBtn.addEventListener("click", closeModal);
