@@ -248,18 +248,14 @@ textarea {
       -webkit-overflow-scrolling: touch;
       -ms-overflow-style: -ms-autohiding-scrollbar;
   }
-
   .table-responsive.table-bordered {
       border: 0;
   }
-
   .table-responsive.table-bordered th,
   .table-responsive.table-bordered td {
       border: 0;
   }
 }
-
-
 .crudButtons {
   display: flex;
   align-items: center;
