@@ -239,7 +239,6 @@ textarea {
   font-size: 14px;
   margin-right: 5px;
 }
-
 /* Responsive styles for smaller screens */
 @media (max-width: 767.98px) {
   .table-responsive {
