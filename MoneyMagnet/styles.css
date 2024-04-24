@@ -146,7 +146,6 @@ textarea {
     background-color: #000000;
     overflow: hidden;
   }
-  
   .plusButton::before {
     position: absolute;
     content: "";
