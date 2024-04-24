@@ -162,7 +162,6 @@ textarea {
   .plusButton:hover {
     cursor: pointer;
   }
-  
   .plusButton:hover::before {
     --plus_topRightTriangleSideLength: calc(var(--plus_sideLength) * 2);
   }
