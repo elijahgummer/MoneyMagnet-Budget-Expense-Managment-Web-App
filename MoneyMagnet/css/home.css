@@ -437,5 +437,6 @@ html {
 }
 #FAQ span {
   background: #f0f424;
-  padding: 15px;
+  padding: 15px 20px;
+  border-radius: 30px;
 }
