@@ -139,6 +139,9 @@ require_once("navbar.php");
         <div class="container">
             <div class="content">
                 <h1>FAQ</h1>
+                <div class="card">
+                    
+                </div>
             </div>
         </div>
     </div>
