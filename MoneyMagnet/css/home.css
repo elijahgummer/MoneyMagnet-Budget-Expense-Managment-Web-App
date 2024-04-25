@@ -443,6 +443,10 @@ html {
   flex-direction: column;
 }
 #FAQ .card {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: row;
   background: linear-gradient(
     227.01deg,
     rgba(255, 255, 255, 0.42) 41.69%,
