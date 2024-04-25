@@ -135,7 +135,7 @@ require_once("navbar.php");
     <div id="FAQ">
         <div class="container">
             <div class="content">
-                <h1>FAQ</h1>
+                <h1>FAQs</h1>
                 <div class="card">
                     <p>What is money magnet for?</p>
                     <span>
