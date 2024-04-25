@@ -429,3 +429,6 @@ html {
   background-color: #ffc400;
 }
 /* FAQ STYLING AREA */
+#FAQ p {
+  color: white;
+}
