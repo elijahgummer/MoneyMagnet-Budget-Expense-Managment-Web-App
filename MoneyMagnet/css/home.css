@@ -440,6 +440,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 #FAQ h1 {
   color: white;
