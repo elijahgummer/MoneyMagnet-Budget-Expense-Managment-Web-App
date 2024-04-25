@@ -142,7 +142,7 @@ require_once("navbar.php");
                 <div class="card">
                     <p>What is money magnet for?</p>
                     <span>
-                        
+                        <i class="fa-solid fa-plus"></i>
                     </span>
                 </div>
             </div>
