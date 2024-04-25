@@ -429,6 +429,11 @@ html {
   background-color: #ffc400;
 }
 /* FAQ STYLING AREA */
+#FAQ .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #FAQ h1 {
   color: white;
 }
@@ -439,8 +444,4 @@ html {
   background: #f0f424;
   padding: 15px 20px;
   border-radius: 30px;
-}
-#FAQ span i {
-  font-size: 17px;
-  font-weight: 600;
 }
