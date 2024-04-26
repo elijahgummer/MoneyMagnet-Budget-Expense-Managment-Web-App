@@ -454,6 +454,7 @@ html {
     rgba(255, 255, 255, 0.24) 139.41%
   );
   width: 90%;
+  margin: 15px;
 }
 #FAQ h1 {
   color: white;
