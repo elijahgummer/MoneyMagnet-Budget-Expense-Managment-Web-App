@@ -458,6 +458,7 @@ html {
   margin: 15px;
   border-radius: 30px;
   padding: 5px;
+  border: 1px solid white;
 }
 #FAQ .card .card-content{
   display: flex;
