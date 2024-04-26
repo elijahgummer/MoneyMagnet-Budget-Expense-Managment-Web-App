@@ -460,8 +460,9 @@ html {
 #FAQ .card .card-content{
   display: flex;
   align-items: center;
-  justify-self: center;
+  justify-self: space-between;
   flex-direction: row;
+  width: 100%;
 }
 #FAQ h1 {
   color: white;
@@ -469,6 +470,7 @@ html {
 }
 #FAQ p {
   color: white;
+  width: 100%;
 }
 #FAQ span {
   background: #f0f424;
