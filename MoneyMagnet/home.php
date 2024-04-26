@@ -11,6 +11,7 @@ require_once("navbar.php");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Money Magnet | Home</title>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -138,27 +139,27 @@ require_once("navbar.php");
                 <h1>FAQs</h1>
                 <div class="card">
                     <div class="card-content">
-                    <p>What is money magnet for?</p>
-                    <span>
-                        <i class="fa-solid fa-plus"></i>
-                    </span>
+                        <p>What is money magnet for?</p>
+                        <span>
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
                     </div>
                 </div>
                 <div class="card">
-                <div class="card-content">
-                    <p>How can I create a budget that works for me?</p>
-                    <span>
-                        <i class="fa-solid fa-plus"></i>
-                    </span>
-                </div>
+                    <div class="card-content">
+                        <p>How can I create a budget that works for me?</p>
+                        <span>
+                            <i class="fa-solid fa-plus"></i>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer">
-    <footer>
-
-    </footer>
+        <footer>
+            
+        </footer>
     </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="js/home.js"></script>
