@@ -456,7 +456,7 @@ html {
   );
   width: 90%;
   margin: 15px;
-  border-radius: ;
+  border-radius: 30px;
 }
 #FAQ .card .card-content{
   display: flex;
