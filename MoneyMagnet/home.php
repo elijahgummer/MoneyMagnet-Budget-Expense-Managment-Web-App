@@ -145,10 +145,12 @@ require_once("navbar.php");
                     </div>
                 </div>
                 <div class="card">
+                <div class="card-content">
                     <p>How can I create a budget that works for me?</p>
                     <span>
                         <i class="fa-solid fa-plus"></i>
                     </span>
+                </div>
                 </div>
             </div>
         </div>
