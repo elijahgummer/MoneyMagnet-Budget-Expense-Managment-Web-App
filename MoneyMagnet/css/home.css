@@ -446,6 +446,7 @@ html {
   display: flex;
   align-items: center;
   justify-self: center;
+  text-align: center;
   flex-direction: row;
   background: linear-gradient(
     227.01deg,
