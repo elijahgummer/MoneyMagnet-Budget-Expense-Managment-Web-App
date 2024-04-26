@@ -137,10 +137,12 @@ require_once("navbar.php");
             <div class="content">
                 <h1>FAQs</h1>
                 <div class="card">
+                    <div class="card-content">x
                     <p>What is money magnet for?</p>
                     <span>
                         <i class="fa-solid fa-plus"></i>
                     </span>
+                    </div>
                 </div>
                 <div class="card">
                     <p>How can I create a budget that works for me?</p>
