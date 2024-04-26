@@ -445,7 +445,7 @@ html {
 #FAQ .card {
   display: flex;
   align-items: center;
-  justify-self: center;
+  justify-self: space-between;
   text-align: center;
   flex-direction: row;
   background: linear-gradient(
