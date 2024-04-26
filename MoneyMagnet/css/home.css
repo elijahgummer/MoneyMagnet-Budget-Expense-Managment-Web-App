@@ -457,6 +457,12 @@ html {
   width: 90%;
   margin: 15px;
 }
+#FAQ .card .card-content{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: row;
+}
 #FAQ h1 {
   color: white;
   font-size: 60px;
