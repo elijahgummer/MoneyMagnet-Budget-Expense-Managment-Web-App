@@ -539,10 +539,8 @@ footer ul {
   justify-content: center;
   flex-direction: row;
 }
-footer .info-box i {
-  font-size: 24px;
-  color: #FF6600;
-  margin: 10px;
+footer ul li {
+  color: white;
 }
 footer .info-box h3 {
   font-weight: 800;
