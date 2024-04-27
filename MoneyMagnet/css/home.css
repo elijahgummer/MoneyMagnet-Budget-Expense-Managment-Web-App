@@ -539,15 +539,18 @@ footer ul {
   justify-content: center;
   flex-direction: row;
   list-style: none;
-  
+  text-decoration: none; /* Add this line to remove underlines */
 }
+
 footer ul li {
   color: white;
   margin: 10px;
 }
+
 footer ul li a {
   text-decoration: none;
 }
+
 footer .info-box h3 {
   font-weight: 800;
   color: #ffffff;
