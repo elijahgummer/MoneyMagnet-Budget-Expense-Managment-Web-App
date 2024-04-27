@@ -163,8 +163,6 @@ require_once("navbar.php");
 <footer>
     <div class="container">
         <div class="content">
-            <div class="logo-container">
-                <img src="images/logo.png" alt="logo" />
                 <div class="social-icons">
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-google-plus-g"></i>
