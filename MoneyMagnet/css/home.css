@@ -533,11 +533,11 @@ footer .social-icons i {
   color: #FF6600;
   margin: 10px;
 }
-footer . {
+footer ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 footer .info-box i {
   font-size: 24px;
