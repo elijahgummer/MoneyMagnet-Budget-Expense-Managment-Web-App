@@ -163,15 +163,18 @@ require_once("navbar.php");
 <footer>
     <div class="container">
         <div class="content">
-                <div class="social-icons">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
             </div>
-                <ul>
-                    <a href="home.php"><li>Home</li></a>
-                </ul>
         </div>
+        <ul>
+            <a href="home.php">
+                <li>Home</li>
+            </a>
+        </ul>
+    </div>
     </div>
 </footer>
+
 </html>
