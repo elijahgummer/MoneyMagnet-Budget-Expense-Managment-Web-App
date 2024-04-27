@@ -483,8 +483,16 @@ html {
 }
 /* Footer */
 footer {
-  background-color: #333333;
+
+  background: linear-gradient(
+    227.01deg,
+    rgba(255, 255, 255, 0.42) 41.69%,
+    rgba(161, 161, 161, 0.6) 139.4%,
+    rgba(255, 255, 255, 0.24) 139.41%
+  );
   padding: 50px;
+  backdrop-filter: blur(10px);
+  box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
 }
 footer .container {
   display: flex;
