@@ -170,7 +170,7 @@ require_once("navbar.php");
         </div>
         <ul>
             <a href="home.php"><li>Home</li></a>
-            <a href="home.php"><li>Home</li></a>
+            <a href="home.php"><li>About</li></a>
             <a href="home.php"><li>Home</li></a>
             <a href="home.php"><li>Home</li></a>
             <a href="home.php"><li>Home</li></a>
