@@ -174,6 +174,7 @@ require_once("navbar.php");
                 <li>About</li>
                 <li>Features</li>
                 <li>Process</li>
+                <li>Reviews</li>
             </a>
         </ul>
     </div>
