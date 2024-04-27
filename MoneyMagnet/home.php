@@ -165,9 +165,7 @@ require_once("navbar.php");
         <div class="content">
                 <div class="social-icons">
                     <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-google-plus-g"></i>
                     <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
                 </div>
             </div>
             <button>CALL NOW</button>
