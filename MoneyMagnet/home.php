@@ -168,7 +168,6 @@ require_once("navbar.php");
                     <i class="fa-brands fa-x-twitter"></i>
                 </div>
             </div>
-            <button>CALL NOW</button>
             <div class="info-box">
                 <i class="fa-solid fa-location-dot"></i>
                 <h3>AREA OF SERVICE</h3>
