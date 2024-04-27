@@ -541,7 +541,6 @@ footer ul {
   list-style: none;
   text-decoration: none; /* Add this line to remove underlines */
 }
-
 footer ul li {
   color: white;
   margin: 10px;
