@@ -171,6 +171,9 @@ require_once("navbar.php");
         <ul>
             <a href="home.php">
                 <li>Home</li>
+                <li>About</li>
+                <li>Features</li>
+                <li>Process</li>
             </a>
         </ul>
     </div>
