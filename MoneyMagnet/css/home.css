@@ -518,8 +518,8 @@ footer button:hover {
 footer .container .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
   width: 90%;
 }
 footer .social-icons {
