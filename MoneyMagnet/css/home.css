@@ -551,9 +551,10 @@ footer ul a li {
   color: white;
   margin: 10px;
   font-size: 20px;
+  
 }
 footer ul a li:hover {
-
+  color: #f0f424;
 }
 footer ul a {
   text-decoration: none;
