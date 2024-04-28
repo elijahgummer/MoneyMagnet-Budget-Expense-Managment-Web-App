@@ -194,6 +194,7 @@ require_once("navbar.php");
                     <i class="fa-brands fa-x-twitter"></i>
                 </span>
             </div>
+            <p>© Copyright 2023 - Money Magnet</p>
         </div>
     </div>
     </div>
