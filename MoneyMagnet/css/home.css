@@ -523,7 +523,7 @@ footer .container .content {
   width: 90%;
 }
 footer .social-icons span {
-  
+  border: 1px solid #101010;
 }
 footer .social-icons {
   display: flex;
