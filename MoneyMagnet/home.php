@@ -168,14 +168,7 @@ require_once("navbar.php");
                 <i class="fa-brands fa-x-twitter"></i>
             </div>
         </div>
-        <ul>
-            <a href="home.php"><li>Home</li></a>
-            <a href="about.php"><li>About</li></a>
-            <a href="features.php"><li>Features</li></a>
-            <a href="process.php"><li>Process</li></a>
-            <a href="reviews.php"><li>Reviews</li></a>
-            <a href="contact.php"><li>Contact</li></a>
-        </ul>
+        
     </div>
     </div>
 </footer>
