@@ -551,7 +551,7 @@ footer ul a li {
   color: white;
   margin: 10px;
   font-size: 20px;
-  
+  transition: all ease-in-out 0.5s;
 }
 footer ul a li:hover {
   color: #f0f424;
