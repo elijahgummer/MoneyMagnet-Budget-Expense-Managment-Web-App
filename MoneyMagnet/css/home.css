@@ -550,6 +550,7 @@ footer ul {
 footer ul a li {
   color: white;
   margin: 10px;
+  font-size: 20px;
 }
 footer ul a {
   text-decoration: none;
