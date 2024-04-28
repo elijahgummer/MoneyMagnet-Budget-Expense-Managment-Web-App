@@ -551,7 +551,7 @@ footer ul {
   justify-content: center;
   flex-direction: row;
   list-style: none;
-  text-decoration: none; /* Add this line to remove underlines */
+  
 }
 footer ul a li {
   color: white;
