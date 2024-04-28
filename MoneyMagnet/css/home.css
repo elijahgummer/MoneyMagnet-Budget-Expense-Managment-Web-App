@@ -528,6 +528,12 @@ footer .social-icons span {
   background: black;
   margin: 10px;
 }
+footer .social-icons span {
+  border: 2px solid #404040;
+  border-radius: 25px;
+  background: black;
+  margin: 10px;
+}
 footer .social-icons {
   display: flex;
   align-items: center;
