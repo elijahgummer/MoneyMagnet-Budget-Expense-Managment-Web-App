@@ -522,6 +522,9 @@ footer .container .content {
   flex-direction: column;
   width: 90%;
 }
+footer .social-icons span {
+  
+}
 footer .social-icons {
   display: flex;
   align-items: center;
