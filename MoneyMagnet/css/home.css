@@ -551,7 +551,7 @@ footer ul {
   justify-content: center;
   flex-direction: row;
   list-style: none;
-  
+  width: 100%;
 }
 footer ul a li {
   color: white;
