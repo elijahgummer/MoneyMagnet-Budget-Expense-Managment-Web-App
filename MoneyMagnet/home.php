@@ -187,6 +187,8 @@ require_once("navbar.php");
                 <span>
                 <i class="fa-brands fa-facebook"></i>
                 </span>
+                <span class="mid">
+                </span>
                 <span>
                 <i class="fa-brands fa-x-twitter"></i>
                 </span>
