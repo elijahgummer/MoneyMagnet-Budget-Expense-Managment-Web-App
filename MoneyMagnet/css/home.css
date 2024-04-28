@@ -525,6 +525,7 @@ footer .container .content {
 footer .social-icons span {
   border: 1px solid #101010;
   border-radius: 19px;
+  background: black;
 }
 footer .social-icons {
   display: flex;
