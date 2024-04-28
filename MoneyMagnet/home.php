@@ -184,8 +184,12 @@ require_once("navbar.php");
                 </a>
             </ul>
             <div class="social-icons">
+                <span>
                 <i class="fa-brands fa-facebook"></i>
+                </span>
+                <span>
                 <i class="fa-brands fa-x-twitter"></i>
+                </span>
             </div>
         </div>
     </div>
