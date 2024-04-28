@@ -524,6 +524,7 @@ footer .container .content {
 }
 footer .social-icons span {
   border: 1px solid #101010;
+  border-radius: ;
 }
 footer .social-icons {
   display: flex;
