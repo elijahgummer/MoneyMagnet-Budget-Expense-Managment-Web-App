@@ -168,7 +168,6 @@ require_once("navbar.php");
                 <i class="fa-brands fa-x-twitter"></i>
             </div>
         </div>
-        
     </div>
     </div>
 </footer>
