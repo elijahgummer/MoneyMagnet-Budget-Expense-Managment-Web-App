@@ -185,12 +185,13 @@ require_once("navbar.php");
             </ul>
             <div class="social-icons">
                 <span>
-                <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook"></i>
                 </span>
                 <span class="mid">
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </span>
                 <span>
-                <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
                 </span>
             </div>
         </div>
