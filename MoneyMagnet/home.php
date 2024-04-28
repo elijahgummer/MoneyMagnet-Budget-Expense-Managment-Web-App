@@ -198,5 +198,4 @@ require_once("navbar.php");
     </div>
     </div>
 </footer>
-
 </html>
