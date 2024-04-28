@@ -528,7 +528,7 @@ footer .social-icons span {
   background: black;
   margin: 10px;
 }
-footer .social-icons span {
+footer .social-icons .mid {
   border: 2px solid #404040;
   border-radius: 25px;
   background: black;
