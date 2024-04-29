@@ -100,7 +100,6 @@ require_once("navbar.php");
                     </linearGradient>
                 </defs>
             </svg>
-
             <div class="content-container">
                 <h5 class="header">Reviewed by People</h5>
                 <h2 class="sub-header">Client's Testimonals</h2>
