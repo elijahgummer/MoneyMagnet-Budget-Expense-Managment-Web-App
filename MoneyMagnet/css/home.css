@@ -358,22 +358,29 @@ html {
   text-align: center;
   font-weight: 500;
 }
-/* call to action area */
 #action {
+  position: relative; /* Ensure position context for absolutely positioned children */
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 #action .svg-container5 {
+  position: absolute;
+  top: 0;
   right: 0;
 }
+
 #action .container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   height: 600px;
+  position: relative; /* Ensure position context for absolutely positioned children */
+  z-index: 1; /* Ensure action elements are above the SVG */
 }
+
 #action .image-container {
   display: flex;
   align-items: center;
@@ -382,11 +389,13 @@ html {
   height: auto;
   width: 38%;
 }
+
 #action .image-container img {
   border: #f5f5f5 solid 3px;
   height: auto;
   width: 100%;
 }
+
 #action .content {
   display: flex;
   align-items: center;
@@ -406,16 +415,19 @@ html {
   margin-top: 40px;
   border: 1px solid white;
 }
+
 #action .content h1 {
   color: white;
   font-weight: 800;
   font-size: 2.5em;
 }
+
 #action .content p {
   width: 90%;
   margin: 50px;
   font-size: 18px;
 }
+
 #action .call-to-action-btn {
   color: white;
   background-color: #f1c94b;
@@ -428,9 +440,11 @@ html {
   font-size: 20px;
   font-weight: 600;
 }
+
 #action .call-to-action-btn:hover {
   background-color: #ffc400;
 }
+
 /* FAQ STYLING AREA */
 #FAQ .container {
   display: flex;
