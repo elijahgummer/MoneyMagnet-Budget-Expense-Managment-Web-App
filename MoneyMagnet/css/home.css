@@ -449,7 +449,7 @@ html {
 #FAQ .svg-container6 {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
 }
 #FAQ .container .content {
   display: flex;
