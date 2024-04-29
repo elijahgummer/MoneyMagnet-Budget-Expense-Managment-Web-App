@@ -438,6 +438,7 @@ html {
 }
 /* FAQ STYLING AREA */
 #FAQ .container {
+  position: relative; /* Ensure position context for absolutely positioned children */
   display: flex;
   align-items: center;
   justify-content: center;
