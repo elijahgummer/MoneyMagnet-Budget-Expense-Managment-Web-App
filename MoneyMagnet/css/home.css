@@ -380,7 +380,6 @@ html {
   position: relative; /* Ensure position context for absolutely positioned children */
   z-index: 1; /* Ensure action elements are above the SVG */
 }
-
 #action .image-container {
   display: flex;
   align-items: center;
