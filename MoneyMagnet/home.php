@@ -196,7 +196,7 @@ require_once("navbar.php");
             </div>
             <p>© Copyright 2023 - Money Magnet</p>
         </div>
-        <svg width="180" height="158" viewBox="0 0 180 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="180" height="258" viewBox="0 0 180 158" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="10.9909" height="170.84" transform="matrix(0.805208 0.592992 -0.760286 0.649589 130.265 0)" fill="url(#paint0_linear_310_13)" />
             <rect width="10.9909" height="170.84" transform="matrix(0.805208 0.592992 -0.760286 0.649589 150.364 20.0779)" fill="url(#paint1_linear_310_13)" />
             <rect width="10.9909" height="170.84" transform="matrix(0.805208 0.592992 -0.760286 0.649589 170.464 40.156)" fill="url(#paint2_linear_310_13)" />
