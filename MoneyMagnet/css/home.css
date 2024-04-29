@@ -364,6 +364,9 @@ html {
   align-items: center;
   justify-content: center;
 }
+#action .svg-container {
+  
+}
 #action .container {
   display: flex;
   align-items: center;
