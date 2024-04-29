@@ -446,6 +446,11 @@ html {
   width: 100%;
   z-index: 1; /* Ensure action elements are above the SVG */
 }
+#action .svg-container5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 #FAQ .container .content {
   display: flex;
   align-items: center;
