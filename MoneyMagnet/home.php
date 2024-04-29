@@ -197,6 +197,27 @@ require_once("navbar.php");
             <p>© Copyright 2023 - Money Magnet</p>
         </div>
     </div>
+    <svg width="180" height="158" viewBox="0 0 180 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="10.9909" height="170.84" transform="matrix(0.805208 0.592992 -0.760286 0.649589 130.265 0)" fill="url(#paint0_linear_310_13)" />
+        <rect width="10.9909" height="170.84" transform="matrix(0.805208 0.592992 -0.760286 0.649589 150.364 20.0779)" fill="url(#paint1_linear_310_13)" />
+        <rect width="10.9909" height="170.84" transform="matrix(0.805208 0.592992 -0.760286 0.649589 170.464 40.156)" fill="url(#paint2_linear_310_13)" />
+        <defs>
+            <linearGradient id="paint0_linear_310_13" x1="5.49546" y1="0" x2="5.49546" y2="170.84" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F9C803" />
+                <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient id="paint1_linear_310_13" x1="5.49546" y1="0" x2="5.49546" y2="170.84" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F9C803" />
+                <stop offset="0.84375" stop-color="#F9C803" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient id="paint2_linear_310_13" x1="5.49546" y1="0" x2="5.49546" y2="170.84" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F9C803" />
+                <stop offset="0.583333" stop-color="#F9C803" stop-opacity="0" />
+            </linearGradient>
+        </defs>
+    </svg>
+
     </div>
 </footer>
+
 </html>
