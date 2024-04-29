@@ -484,12 +484,7 @@ html {
 /* Footer */
 footer {
   background: transparent;
-  background: linear-gradient(
-    227.01deg,
-    #8b8b8b6b 41.69%,
-    rgba(78, 78, 78, 0.6) 139.4%,
-    rgba(39, 39, 39, 0.24) 139.41%
-  );
+  background: black;
   padding: 10px;
   backdrop-filter: blur(10px);
   box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
