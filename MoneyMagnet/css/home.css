@@ -358,6 +358,7 @@ html {
   text-align: center;
   font-weight: 500;
 }
+/* ACTION AREA */
 #action {
   position: relative; /* Ensure position context for absolutely positioned children */
   display: flex;

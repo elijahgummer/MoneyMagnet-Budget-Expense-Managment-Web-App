@@ -156,7 +156,6 @@ require_once("navbar.php");
                         </linearGradient>
                     </defs>
                 </svg>
-
             </div>
             <div class="content">
                 <h1>FAQs</h1>
