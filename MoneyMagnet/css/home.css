@@ -444,6 +444,7 @@ html {
   justify-content: center;
   height: auto;
   width: 100%;
+  z-index: 1; /* Ensure action elements are above the SVG */
 }
 #FAQ .container .content {
   display: flex;
