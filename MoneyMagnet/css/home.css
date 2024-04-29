@@ -364,8 +364,8 @@ html {
   align-items: center;
   justify-content: center;
 }
-#action .svg-container {
-  
+#action .svg-container5 {
+  right: 0;
 }
 #action .container {
   display: flex;
