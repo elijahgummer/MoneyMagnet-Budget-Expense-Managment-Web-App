@@ -446,7 +446,7 @@ html {
   width: 100%;
   z-index: 1; /* Ensure action elements are above the SVG */
 }
-#action .svg-container5 {
+#FAQ .svg-container6 {
   position: absolute;
   top: 0;
   right: 0;
