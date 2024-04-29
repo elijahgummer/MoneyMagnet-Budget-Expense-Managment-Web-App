@@ -448,7 +448,7 @@ html {
 }
 #FAQ .svg-container6 {
   position: absolute;
-  top: 0;
+  top: -100;
   left: 0;
 }
 #FAQ .container .content {
