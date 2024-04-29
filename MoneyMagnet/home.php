@@ -156,11 +156,7 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="js/home.js"></script>
-</body>
-<footer>
+    <footer>
     <div class="container">
         <div class="content">
             <ul>
@@ -218,4 +214,7 @@ require_once("navbar.php");
     </div>
     </div>
 </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/home.js"></script>
+</body>
 </html>
