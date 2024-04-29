@@ -91,15 +91,6 @@ require_once("navbar.php");
     </div>
     <div id="reviews">
         <div class="container">
-            <svg width="350" height="585" viewBox="0 0 350 585" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="285" cy="292.1" rx="240.516" ry="168.551" transform="rotate(131 285 292.1)" fill="url(#paint0_linear_482_17)" />
-                <defs>
-                    <linearGradient id="paint0_linear_482_17" x1="285" y1="123.548" x2="285" y2="460.651" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#F9C803" />
-                        <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
-                    </linearGradient>
-                </defs>
-            </svg>
             <div class="content-container">
                 <h5 class="header">Reviewed by People</h5>
                 <h2 class="sub-header">Client's Testimonals</h2>
@@ -132,6 +123,15 @@ require_once("navbar.php");
     </div>
     <div id="action">
         <div class="container">
+        <svg width="350" height="585" viewBox="0 0 350 585" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="285" cy="292.1" rx="240.516" ry="168.551" transform="rotate(131 285 292.1)" fill="url(#paint0_linear_482_17)" />
+                <defs>
+                    <linearGradient id="paint0_linear_482_17" x1="285" y1="123.548" x2="285" y2="460.651" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#F9C803" />
+                        <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+            </svg>
             <div class="image-container">
                 <img src="images/callToAction.png" alt="call to action">
             </div>
