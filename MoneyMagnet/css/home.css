@@ -592,3 +592,6 @@ footer .info-box p {
   margin: 5px;
 }
 /* responsivness for the web page */
+@media only screen and (max-width: 800px) {
+  
+}
