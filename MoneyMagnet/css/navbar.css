@@ -84,7 +84,7 @@ nav .fa-solid {
   color: #fff;
 }
 @media only screen and (max-width: 800px){
-  .svg-container svg {
+  .svg-container2 svg {
     display: none;
   }
   .header-text {
