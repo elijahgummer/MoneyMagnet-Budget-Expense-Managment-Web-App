@@ -596,6 +596,7 @@ footer .info-box p {
   #header .container .content {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    justify-content: center;
   }
 }
