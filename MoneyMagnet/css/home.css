@@ -12,6 +12,7 @@ html {
   padding: 0;
   width: 100%;
   background-color: black;
+  overflow-x: hidden;
 }
 /* HEADER AREA */
 #header .container {
