@@ -1,3 +1,60 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.svg-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.svg-container2 {
+  position: relative; /* Make sure the container is positioned relative */
+  width: 100%; /* Adjust width as needed */
+  height: 100%; /* Adjust height as needed */
+  z-index: 0; /* Set a lower z-index so it goes behind the background */
+}
+.svg-container2 svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+img.logo {
+  width: 300px;
+  height: 90px;
+}
+
+
+nav ul button a {
+  text-decoration: none;
+  color: #000;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+nav ul button:hover {
+  background: #ffc400;
+}
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #F1C94B;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+nav .fa-solid {
+  display: none;
+  color: #fff;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -24,7 +81,9 @@ html {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background-color: #ff6600;
+  background: linear-gradient(119.83deg, rgba(183, 183, 183, 0.7) 24.67%, rgba(0, 0, 0, 0.4) 76.97%);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgb(227, 227, 227);
   top: 60px;
   left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
@@ -51,27 +110,8 @@ html {
 .navbar .menu-list {
   display: inline-flex;
 }
-.navbar button {
-  background-color: #ff6600;
-  border: 1.5px solid white;
-  padding: 15px;
-  margin: 50px 10px 10px 10px;
-  width: 200px;
-  color:white;
-  border-radius: 50px;
-  font-size: 17px;
-  transition: all ease-in-out 0.5s;
-  display: none;
-}
-.navbar button:hover {
-  color: black;
-  background-color: white;
-}
 .menu-list li {
   list-style: none;
-}
-.menu-list li a:hover {
-  color: #2d2e32;
 }
 .icon {
   color: #ffffff;

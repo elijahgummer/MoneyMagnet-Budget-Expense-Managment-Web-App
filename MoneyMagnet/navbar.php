@@ -33,9 +33,6 @@
         </svg>
     </div>
     <nav class="navbar">
-      <div class="icon phone-btn">
-        <i class="fa-solid fa-phone"></i>
-      </div>
       <div class="logo-container">
         <img class="logo" src="images/logo.png" alt="logo" />
       </div>
@@ -49,9 +46,6 @@
         <li><a href="articles.html">Articles</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-      <div class="icon menu-btn">
-        <i class="fa-solid fa-bars"></i>
-      </div>
     </nav>
 </body>
 </html>
