@@ -49,17 +49,14 @@ img.logo {
 .navbar .menu-list {
   display: inline-flex;
 }
-
 .menu-list li {
   list-style: none;
 }
-
 .icon {
   color: #ffffff;
   font-size: 24px;
   cursor: pointer;
 }
-
 .icon:hover {
   color: #2d2e32;
   transition: all 0.3s;
