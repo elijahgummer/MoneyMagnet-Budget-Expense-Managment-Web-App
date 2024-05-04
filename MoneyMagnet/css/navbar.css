@@ -81,7 +81,6 @@ img.logo {
   .navbar ul {
     display: none; /* Hide the normal navbar links */
   }
-
   .navbar.show ul {
     display: flex; /* Show the navbar links when the navbar is shown */
   }
