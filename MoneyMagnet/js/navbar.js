@@ -1,8 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const icon = document.querySelector(".icon");
-    const navbarList = document.querySelector(".navbar-list");
-
-    icon.addEventListener("click", function () {
-        navbarList.classList.toggle("show");
-    });
-});
+const navbar = document.querySelector(".navbar");
+const menuBtn = document.querySelector(".menu-btn");
+const cancelBtn = document.querySelector(".cancel-btn");
+menuBtn.onclick = () => {
+  navbar.classList.add("show");
+  menuBtn.classList.add("hide");
+};
+cancelBtn.onclick = () => {
+  navbar.classList.remove("show");
+  menuBtn.classList.remove("hide");
+};
