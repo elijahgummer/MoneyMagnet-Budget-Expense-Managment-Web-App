@@ -103,7 +103,6 @@ img.logo {
     background: #ff6600;
     transition: all 0.3s ease;
   }
-
   .navbar.show .menu-list {
     left: 0%;
   }
