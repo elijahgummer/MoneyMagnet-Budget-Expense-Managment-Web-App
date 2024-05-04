@@ -41,11 +41,10 @@
           <i class="fa-solid fa-xmark"></i>
         </div>
         <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">About</a></li>
-        <li><a href="about.html">Features</a></li>
-        <li><a href="articles.html">Process</a></li>
-        <li><a href="contact.html">Reviews</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="process.html">Action</a></li>
+        <li><a href="contact.html">FAQ</a></li>
       </ul>
     </nav>
 </body>
