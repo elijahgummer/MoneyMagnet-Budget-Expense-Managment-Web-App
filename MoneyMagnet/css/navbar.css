@@ -42,12 +42,10 @@ img.logo {
   transition: all 0.23s;
   position: relative;
 }
-
 .navbar ul li {
   display: flex;
   align-items: center;
 }
-
 .navbar .menu-list {
   display: inline-flex;
 }
