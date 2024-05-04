@@ -84,7 +84,6 @@ img.logo {
   .navbar.show ul {
     display: flex; /* Show the navbar links when the navbar is shown */
   }
-
   .navbar {
     padding: 25px; /* Adjusted padding */
   }
