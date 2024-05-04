@@ -87,7 +87,6 @@ img.logo {
   .navbar {
     padding: 25px; /* Adjusted padding */
   }
-
   .navbar .menu-list {
     position: fixed;
     height: 100vh;
