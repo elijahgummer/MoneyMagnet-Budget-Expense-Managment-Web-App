@@ -61,13 +61,11 @@ img.logo {
   color: #2d2e32;
   transition: all 0.3s;
 }
-
 .menu-list .cancel-btn {
   position: absolute;
   right: 30px;
   top: 20px;
 }
-
 /* Media query for responsive design */
 @media (max-width: 868px) {
   body.disabled {
