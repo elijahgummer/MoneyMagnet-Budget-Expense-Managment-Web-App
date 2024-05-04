@@ -43,8 +43,8 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="features.html">Features</a></li>
         <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="process.html">Action</a></li>
-        <li><a href="contact.html">FAQ</a></li>
+        <li><a href="action.html">Action</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
       </ul>
     </nav>
 </body>
