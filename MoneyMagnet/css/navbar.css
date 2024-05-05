@@ -132,7 +132,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     padding: 40px 0;
     text-align: center;
-    background: #ff6600;
+    background: #333333;
     transition: all 0.3s ease;
   }
   .navbar.show .menu-list {
