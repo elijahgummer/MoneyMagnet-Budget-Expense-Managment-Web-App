@@ -74,6 +74,7 @@ img.logo {
   color: #ffffff;
   font-size: 24px;
   cursor: pointer;
+  display: none;
 }
 .icon:hover {
   color: yellow;
