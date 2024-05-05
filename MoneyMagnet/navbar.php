@@ -46,6 +46,9 @@
         <li><a href="action.html">Action</a></li>
         <li><a href="FAQ.html">FAQ</a></li>
       </ul>
+      <div class="icon menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </nav>
 </body>
 </html>
