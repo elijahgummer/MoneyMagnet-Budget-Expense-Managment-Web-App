@@ -76,7 +76,7 @@ img.logo {
   cursor: pointer;
 }
 .icon:hover {
-  color: #2d2e32;
+  color: yellow;
   transition: all 0.3s;
 }
 .menu-list .cancel-btn {
