@@ -50,6 +50,6 @@
         <i class="fa-solid fa-bars"></i>
       </div>
     </nav>
-    <script src="navbar.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 </html>
