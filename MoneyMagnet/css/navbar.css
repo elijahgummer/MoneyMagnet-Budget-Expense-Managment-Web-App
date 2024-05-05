@@ -117,7 +117,7 @@ nav ul li a:hover::after {
     display: flex; /* Show the navbar links when the navbar is shown */
   }
   .navbar {
-    padding: 25px; /* Adjusted padding */
+    padding: 50px; /* Adjusted padding */
   }
   .navbar .menu-list {
     position: fixed;
