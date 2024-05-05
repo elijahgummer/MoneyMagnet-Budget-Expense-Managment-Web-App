@@ -121,7 +121,7 @@ nav ul li a:hover::after {
   }
   .navbar .menu-list {
     position: fixed;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     max-width: 100%;
     left: -100%;
