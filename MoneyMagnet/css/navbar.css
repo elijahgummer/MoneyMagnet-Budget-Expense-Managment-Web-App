@@ -96,7 +96,7 @@ nav ul li a:hover::after {
 .menu-list .cancel-btn {
   position: absolute;
   right: 30px;
-  top: 20px;
+  top: 0;
 }
 /* Media query for responsive design */
 @media (max-width: 868px) {
