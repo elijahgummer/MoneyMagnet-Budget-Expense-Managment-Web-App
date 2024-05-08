@@ -50,7 +50,6 @@ img.logo {
   align-items: center;
   z-index: 10;
 }
-
 nav ul li a::after{
   content: '';
   width: 0;
