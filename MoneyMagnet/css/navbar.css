@@ -131,7 +131,6 @@ nav ul li a:hover::after {
       background: #272727;
       transition: all 0.3s ease;
     }
-  
     .navbar.show .menu-list {
       left: 0%;
     }
