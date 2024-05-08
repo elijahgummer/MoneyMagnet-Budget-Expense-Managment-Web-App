@@ -51,26 +51,6 @@ img.logo {
   z-index: 10;
 }
 
-.navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-}
-
-.navbar ul a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 600;
-  transition: all 0.23s;
-  margin: -5px;
-}
-
-.navbar ul li {
-  display: flex;
-  align-items: center;
-}
-
 nav ul li a::after{
   content: '';
   width: 0;
@@ -84,38 +64,43 @@ nav ul li a::after{
 nav ul li a:hover::after {
   width: 100%;
 }
-
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px; /* Adjusted gap */
+}
+.navbar ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.23s;
+  position: relative;
+}
+.navbar ul li {
+  display: flex;
+  align-items: center;
+}
 .navbar .menu-list {
   display: inline-flex;
 }
-
 .menu-list li {
   list-style: none;
 }
-
 .icon {
   color: #ffffff;
   font-size: 24px;
   cursor: pointer;
   display: none;
 }
-
 .icon:hover {
   color: yellow;
   transition: all 0.3s;
 }
-
 .menu-list .cancel-btn {
   position: absolute;
   right: 30px;
-  top: 20px;
-}
-
-.logo {
-  color: #ffffff;
-  font-size: 20px;
-  cursor: pointer;
-  font-weight: 800;
+  top: 0;
 }
 
 @media (max-width: 868px) {
