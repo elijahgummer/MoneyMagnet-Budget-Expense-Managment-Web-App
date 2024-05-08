@@ -1,80 +1,65 @@
+/* General styles */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-    transition: all ease-in-out 0.2s;
-  }
-  
-  body {
-    overflow-x: hidden;
-  }
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all ease-in-out 0.2s;
+}
+/* Font */
+body {
+  overflow-x: hidden;
+}
+/* Logo */
+img.logo {
+  width: 300px;
+  height: 90px;
+}
+.svg-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.svg-container2 {
+  position: relative; /* Make sure the container is positioned relative */
+  width: 100%; /* Adjust width as needed */
+  height: 100%; /* Adjust height as needed */
+  z-index: 0; /* Set a lower z-index so it goes behind the background */
+}
+.svg-container2 svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+/* Navbar */
 .navbar {
-    font-size: 1.7rem;
-    width: 100%;
-    height: auto;
-    padding: 25px 40px 25px 30px;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    background-color: #1e1e1e;
-    top: 0;
-    left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
-    align-items: center;
-    z-index: 10;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-  }
-  
-  .navbar ul a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 600;
-    transition: all 0.23s;
-    margin: -5px;
-  }
-  
-  .navbar ul li {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar .menu-list {
-    display: inline-flex;
-  }
-  
-  .menu-list li {
-    list-style: none;
-  }
-  
-  .menu-list li a:hover {
-    color: #147efb;
-  }
-  
-  .icon {
-    color: #ffffff;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-  }
-  
-  .icon:hover {
-    color: #147efb;
-    transition: all 0.3s;
-  }
-  
-  .menu-list .cancel-btn {
-    position: absolute;
-    right: 30px;
-    top: 20px;
-  }
-
-  
-  
+  font-size: 1.7rem;
+  width: 100%;
+  height: 60px; /* Adjusted height */
+  padding: 25px 40px 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background: linear-gradient(119.83deg, rgba(183, 183, 183, 0.7) 24.67%, rgba(0, 0, 0, 0.4) 76.97%);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgb(227, 227, 227);
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  align-items: center;
+  z-index: 5;
+}
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #F1C94B;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
