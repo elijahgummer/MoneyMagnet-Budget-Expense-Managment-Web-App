@@ -102,7 +102,6 @@ nav ul li a:hover::after {
   right: 30px;
   top: 0;
 }
-
 @media (max-width: 868px) {
   body.disabled {
       overflow: hidden;
