@@ -114,7 +114,6 @@ nav ul li a:hover::after {
     .icon.hide {
       display: none;
     }
-  
     .navbar .menu-list {
       position: fixed;
       height: 100vh;
