@@ -110,7 +110,6 @@ nav ul li a:hover::after {
   .icon {
       display: block;
     }
-  
     .icon.hide {
       display: none;
     }
