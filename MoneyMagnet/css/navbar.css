@@ -5,7 +5,6 @@
   box-sizing: border-box;
   transition: all ease-in-out 0.2s;
 }
-
 body {
   overflow-x: hidden;
 }
