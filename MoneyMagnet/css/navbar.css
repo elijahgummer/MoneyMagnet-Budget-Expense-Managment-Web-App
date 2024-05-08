@@ -1,152 +1,80 @@
-/* General styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* Font */
-body {
-  font-family: 'Poppins', sans-serif;
-}
-/* Logo */
-img.logo {
-  width: 300px;
-  height: 90px;
-}
-.svg-container svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.svg-container2 {
-  position: relative; /* Make sure the container is positioned relative */
-  width: 100%; /* Adjust width as needed */
-  height: 100%; /* Adjust height as needed */
-  z-index: 0; /* Set a lower z-index so it goes behind the background */
-}
-.svg-container2 svg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-}
-/* Navbar */
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
 .navbar {
-  font-size: 1.7rem;
-  width: 100%;
-  height: 60px; /* Adjusted height */
-  padding: 0 50px; /* Adjusted padding */
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  background: linear-gradient(119.83deg, rgba(183, 183, 183, 0.7) 24.67%, rgba(0, 0, 0, 0.4) 76.97%);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgb(227, 227, 227);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
-  align-items: center;
-  padding: 70px;
-  z-index: 5;
-}
-nav ul li a::after{
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #F1C94B;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  transition: 0.5s;
-}
-nav ul li a:hover::after {
-  width: 100%;
-}
-.navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 20px; /* Adjusted gap */
-}
-.navbar ul a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  transition: all 0.23s;
-  position: relative;
-}
-.navbar ul li {
-  display: flex;
-  align-items: center;
-}
-.navbar .menu-list {
-  display: inline-flex;
-}
-.menu-list li {
-  list-style: none;
-}
-.icon {
-  color: #ffffff;
-  font-size: 24px;
-  cursor: pointer;
-  display: none;
-}
-.icon:hover {
-  color: yellow;
-  transition: all 0.3s;
-}
-.menu-list .cancel-btn {
-  position: absolute;
-  right: 30px;
-  top: 0;
-}
-/* Media query for responsive design */
-@media (max-width: 868px) {
-  body.disabled {
-    overflow: hidden;
+    font-size: 1.7rem;
+    width: 100%;
+    height: auto;
+    padding: 25px 40px 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #1e1e1e;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+    align-items: center;
+    z-index: 10;
   }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .navbar ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.23s;
+    margin: -5px;
+  }
+  
+  .navbar ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .menu-list {
+    display: inline-flex;
+  }
+  
+  .menu-list li {
+    list-style: none;
+  }
+  
+  .menu-list li a:hover {
+    color: #147efb;
+  }
+  
   .icon {
-    display: block;
-    font-size: 27px;
-  }
-  .contact-row {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
     display: none;
   }
-  .navbar ul {
-    display: none; /* Hide the normal navbar links */
+  
+  .icon:hover {
+    color: #147efb;
+    transition: all 0.3s;
   }
-  .navbar.show ul {
-    display: flex; /* Show the navbar links when the navbar is shown */
+  
+  .menu-list .cancel-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
   }
-  .navbar {
-    padding: 50px; /* Adjusted padding */
-  }
-  .navbar .menu-list {
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    max-width: 100%;
-    left: -100%;
-    top: 60px; /* Adjusted top position to not overlap with the fixed navbar */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px 0;
-    text-align: center;
-    background: #333333;
-    transition: all 0.3s ease;
-  }
-  .navbar.show .menu-list {
-    left: 0%;
-  }
-  .navbar .menu-list li {
-    margin: 10px;
-  }
-  .navbar .menu-list li a {
-    font-size: 23px;
-    margin-left: -100%;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  .navbar.show .menu-list li a {
-    margin-left: 0px;
-  }
-}
+
+  
+  
