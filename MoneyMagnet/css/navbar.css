@@ -149,4 +149,7 @@ nav ul li a:hover::after {
     .navbar.show .menu-list li a {
       margin-left: 0px;
     }
+    .svg-container {
+      display: none;
+    }
 }
