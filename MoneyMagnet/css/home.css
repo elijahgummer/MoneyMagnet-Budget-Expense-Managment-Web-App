@@ -612,6 +612,7 @@ footer .info-box p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 600px;
   }
   #header .container .content {
     display: flex;
