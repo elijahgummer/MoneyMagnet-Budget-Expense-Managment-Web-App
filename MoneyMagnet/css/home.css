@@ -622,4 +622,8 @@ footer .info-box p {
     justify-content: center;
     width: 100%;
   }
+  #header h2 {
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
 }
