@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 /* Logo */
+.logo-container {
+  
+}
+
 img.logo {
   width: 300px;
   height: 90px;
