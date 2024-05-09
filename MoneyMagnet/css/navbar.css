@@ -148,4 +148,7 @@ nav ul li a:hover::after {
     .svg-container {
       display: none;
     }
+    .logo-container {
+      width: 60%;
+    }
 }
