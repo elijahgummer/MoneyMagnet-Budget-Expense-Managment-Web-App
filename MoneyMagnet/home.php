@@ -42,7 +42,7 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-    <div id="features">
+    <!-- <div id="features">
         <div class="container">
             <div class="content-container">
                 <h3 class="header">Features</h3>
@@ -234,7 +234,7 @@ require_once("navbar.php");
             </svg>
         </div>
         </div>
-    </footer>
+    </footer> -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="js/home.js"></script>
 </body>
