@@ -216,10 +216,10 @@ html {
   box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
   background: linear-gradient(
-      227.01deg,
-      rgba(255, 255, 255, 0.42) 41.69%,
-      rgba(161, 161, 161, 0.6) 139.4%,
-      rgba(255, 255, 255, 0.24) 139.41%
+    227.01deg,
+    rgba(255, 255, 255, 0.42) 41.69%,
+    rgba(161, 161, 161, 0.6) 139.4%,
+    rgba(255, 255, 255, 0.24) 139.41%
   );
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
@@ -476,7 +476,7 @@ html {
   padding: 5px;
   border: 1px solid white;
 }
-#FAQ .card .card-content{
+#FAQ .card .card-content {
   display: flex;
   align-items: center;
   justify-self: space-between;
@@ -540,9 +540,9 @@ footer .social-icons span {
   margin: 10px;
 }
 footer .social-icons .mid {
-  border: 2px solid #CCB510;
+  border: 2px solid #ccb510;
   border-radius: 25px;
-  background: #D8C204;
+  background: #d8c204;
   margin: 10px;
 }
 footer .social-icons {
@@ -594,6 +594,20 @@ footer .info-box p {
 }
 /* responsivness for the web page */
 @media only screen and (max-width: 800px) {
+  body {
+    background-image: url("../images/house.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: top right;
+    background-position-x: 70px;
+    background-position-y: 50px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+  }
   #header .container {
     display: flex;
     align-items: center;
