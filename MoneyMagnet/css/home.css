@@ -597,9 +597,9 @@ footer .info-box p {
   body {
     background-image: url("../images/house.png");
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 90%;
     background-position: top right;
-    background-position-x: 70px;
+    background-position-x: 10px;
     background-position-y: 50px;
     overflow-x: hidden;
     margin: 0;
