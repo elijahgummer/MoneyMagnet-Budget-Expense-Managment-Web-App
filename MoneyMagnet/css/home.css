@@ -629,16 +629,6 @@ footer .info-box p {
     font-size: 25px;
   }
   #header .typeHeader {
-    font-family: "Montserrat", sans-serif;
-    font-style: bold;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 57px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    mix-blend-mode: normal;
-    width: 100%;
+    font-size: 25px;
   }
 }
