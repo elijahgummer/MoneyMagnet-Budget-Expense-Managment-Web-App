@@ -1,16 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 body,
 html {
-  background-image: url("../images/house.png");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: top right;
-  background-position-x: 493px;
-  background-position-y: 30px;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  width: 100%;
   background-color: black;
   overflow-x: hidden;
 }
