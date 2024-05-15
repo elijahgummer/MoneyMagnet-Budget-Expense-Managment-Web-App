@@ -46,6 +46,7 @@ html {
   font-size: 30px;
 }
 #header .typeHeader {
+  position: absolute;
   font-family: "Montserrat", sans-serif;
   font-style: bold;
   font-weight: 700;
