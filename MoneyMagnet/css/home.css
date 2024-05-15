@@ -36,16 +36,21 @@ html {
 }
 #header .type-animation-text {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%; /* Adjusted width to occupy the full width */
-  margin-top: 20px; /* Added margin-top for spacing */
+  position: relative; /* Added position relative */
+}
+
+#header .type-animation-text h3 {
+  position: absolute; /* Set position to absolute */
+  left: 0; /* Aligns to the left */
+  top: 0; /* Aligns to the top */
 }
 
 #header .type-animation-text span {
   color: #f0f424;
   font-size: 30px;
-  margin-right: 5px; /* Adjusted margin for spacing */
 }
 
 #header .typeHeader {
@@ -57,8 +62,9 @@ html {
   mix-blend-mode: normal;
   flex-wrap: wrap;
   white-space: nowrap; /* Prevents wrapping */
-  position: absolute;
 }
+
+
 #header h2,
 .sentence {
   color: white;
