@@ -34,7 +34,7 @@ html {
   margin: 20px;
   width: 90%;
 }
-#header .typeHeader span {
+#header .type-animation-text span {
   color: #f0f424;
   margin-left: 10px;
   font-size: 30px;
@@ -634,10 +634,12 @@ footer .info-box p {
   }
   #header .typeHeader {
     flex-wrap: wrap;
+    width: 80%; 
+    height: 30px;
   }
   #header .typeHeader span {
     font-size: 22px;
-    width: 100%;
+
     margin: 0;
   }
   #header .typeHeader {
