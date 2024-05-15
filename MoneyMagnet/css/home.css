@@ -600,7 +600,7 @@ footer .info-box p {
     background-size: 90%;
     background-position: top right;
     background-position-x: 10px;
-    background-position-y: 50px;
+    background-position-y: 450px;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -612,7 +612,7 @@ footer .info-box p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 100px;
     width: 100%;
   }
   #header .container .content {
@@ -631,4 +631,5 @@ footer .info-box p {
   #header .typeHeader {
     font-size: 25px;
   }
+  
 }
