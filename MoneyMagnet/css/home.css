@@ -34,30 +34,30 @@ html {
   margin: 20px;
   width: 90%;
 }
-#header .type-animation-text{
+#header .type-animation-text {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  width: 100%; /* Adjusted width to occupy the full width */
+  margin-top: 20px; /* Added margin-top for spacing */
 }
+
 #header .type-animation-text span {
   color: #f0f424;
-  margin-left: 10px;
   font-size: 30px;
+  margin-right: 5px; /* Adjusted margin for spacing */
 }
+
 #header .typeHeader {
-  position: absolute;
   font-family: "Montserrat", sans-serif;
   font-style: bold;
   font-weight: 700;
   font-size: 30px;
-  line-height: 57px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #ffffff;
   mix-blend-mode: normal;
-  width: 100%;
+  flex-wrap: wrap;
+  white-space: nowrap; /* Prevents wrapping */
+  position: absolute;
 }
 #header h2,
 .sentence {
@@ -643,6 +643,7 @@ footer .info-box p {
     flex-wrap: wrap;
     width: 80%; 
     height: 30px;
+    position: absolute;
   }
   #header .type-animation-text span {
     font-size: 22px;
