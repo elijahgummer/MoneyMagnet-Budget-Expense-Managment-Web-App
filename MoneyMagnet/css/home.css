@@ -623,12 +623,22 @@ footer .info-box p {
     width: 100%;
     margin: 0;
   }
+  #header .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   #header h2 {
     font-size: 35px;
+  }
+  #header .typeHeader {
+    flex-wrap: wrap;
   }
   #header .typeHeader span {
     font-size: 22px;
     width: 100%;
+    margin: 0;
   }
   #header .typeHeader {
     font-size: 22px;
