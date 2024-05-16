@@ -43,6 +43,7 @@ html {
   display: flex;
   align-items: center; /* Align items in the center vertically */
   justify-content: flex-start;
+  flex-direction: row;
   flex-wrap: wrap;
   z-index: 2;
   width: 70%;
