@@ -19,8 +19,7 @@ require_once("navbar.php");
                 <div class="content-container">
                     <h2>Money Magnet</h2>
                     <div class="type-animation-text">
-                        <h3 class="typeHeader">Helps You,</h3>
-                        <span class="auto-type"></span>
+                        <h3 class="typeHeader">Helps You,<span class="auto-type"></span></h3>
                     </div>
                     <div class="fixed-container">
                         <!-- <div class="InputContainer">

@@ -89,7 +89,6 @@ html {
 }
 
 #header .type-animation-text h3 {
-  position: absolute; /* Set position to absolute */
   left: 0; /* Aligns to the left */
   top: 0; /* Aligns to the top */
   width: 500px; /* Adjust the width as needed */
