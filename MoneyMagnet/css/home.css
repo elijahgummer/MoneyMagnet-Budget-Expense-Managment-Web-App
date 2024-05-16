@@ -4,6 +4,23 @@ html {
   background: linear-gradient(115deg, #F8D77A 50%, #000 50%);
   overflow-x: hidden;
 }
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bcbcbcc0;
+}
+
+::selection {
+  background: #147efb;
+  color: #ffffff;
+}
 /* HEADER AREA */
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
