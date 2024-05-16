@@ -87,7 +87,6 @@ html {
   width: 100%; /* Adjusted width to occupy the full width */
   position: relative; /* Added position relative */
 }
-
 #header .type-animation-text h3 {
   left: 0; /* Aligns to the left */
   top: 0; /* Aligns to the top */
@@ -95,7 +94,6 @@ html {
   white-space: nowrap; /* Prevents wrapping */
   overflow: hidden; /* Hides any overflow */
 }
-
 #header .typeHeader {
   font-family: "Montserrat", sans-serif;
   font-style: bold;
@@ -106,11 +104,9 @@ html {
   flex-wrap: wrap;
   white-space: nowrap; /* Prevents wrapping */
 }
-
 #header .auto-type {
   color: #E0D019;
 }
-
 #header h2,
 .sentence {
   color: #333333;
