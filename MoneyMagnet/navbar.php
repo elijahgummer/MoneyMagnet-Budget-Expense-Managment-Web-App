@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav>
       <div class="logo-container">
         <img class="logo" src="images/logo.png" alt="logo" />
       </div>
