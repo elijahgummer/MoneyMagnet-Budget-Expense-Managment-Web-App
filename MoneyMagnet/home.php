@@ -36,7 +36,7 @@ require_once("navbar.php");
                                 </svg>
                             </button>
                         </div> -->
-                        <button class="getStarted">Get Started</button>
+                        <button>Get Started</button>
                     </div>
                 </div>
                 <div class="svg-container">
