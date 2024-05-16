@@ -19,22 +19,22 @@ html {
   height: 100%;
   background: radial-gradient(
     circle,
-    rgba(76, 0, 255, 0.8),
-    rgba(76, 0, 255, 0.5),
-    transparent
-  ); /* Amethyst-Midnight gradient */
-  opacity: 0.7; /* Adjust the opacity as needed */
-  filter: blur(30px); /* Adjust the blur intensity as needed */
+    rgba(255, 255, 0, 0.3),
+    rgba(255, 255, 0, 0.1) 30%,
+    transparent 60%
+  ); /* Yellow gradient with small scattered shapes */
+
+  opacity: 0.5; /* Adjust the opacity as needed */
+  filter: blur(20px); /* Adjust the blur intensity as needed */
   animation: moveShapes 30s linear infinite alternate; /* Animation */
 }
+
 @keyframes moveShapes {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(10%, 10%);
+  to {
+    transform: translateX(-100%);
   }
 }
+
 #header .container .content {
   display: flex;
   align-items: center; /* Align items in the center vertically */
