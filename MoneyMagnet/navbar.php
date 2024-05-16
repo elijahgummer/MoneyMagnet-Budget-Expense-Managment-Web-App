@@ -10,17 +10,6 @@
 </head>
 
 <body>
-    <div class="svg-container2">
-        <svg width="446" height="450" viewBox="0 0 246 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <ellipse cx="214.738" cy="40" rx="131.521" ry="169.961" transform="rotate(130 214.738 40)" fill="url(#paint0_linear_482_23)" />
-            <defs>
-                <linearGradient id="paint0_linear_482_23" x1="214.738" y1="-129.961" x2="214.738" y2="209.961" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#F9C803" />
-                    <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
-                </linearGradient>
-            </defs>
-        </svg>
-    </div>
     <nav class="navbar">
       <div class="logo-container">
         <img class="logo" src="images/logo.png" alt="logo" />
