@@ -107,6 +107,10 @@ html {
   white-space: nowrap; /* Prevents wrapping */
 }
 
+#header .auto-type {
+  color: #f0f424;
+}
+
 #header h2,
 .sentence {
   color: white;
