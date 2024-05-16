@@ -21,7 +21,7 @@ img.logo {
   font-size: 1.7rem;
   width: 100%;
   height: auto;
-  padding: 25px 40px 25px 30px;
+  padding: 0px 40px;
   display: flex;
   justify-content: space-between;
   position: fixed;
