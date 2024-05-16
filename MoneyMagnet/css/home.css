@@ -137,26 +137,6 @@ html {
   width: 80%;
   margin: 20px 0;
 }
-#header .InputContainer {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  overflow: hidden;
-  cursor: pointer;
-  padding-left: 15px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
-}
-#header .input {
-  width: 300px;
-  height: 100%;
-  border: none;
-  outline: none;
-  font-size: 0.9em;
-  caret-color: rgb(255, 81, 0);
-}
 #header .labelforsearch {
   cursor: text;
   padding: 0px 12px;
