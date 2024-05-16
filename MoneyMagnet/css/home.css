@@ -1,7 +1,7 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 body,
 html {
-  background: linear-gradient(115deg, #F8D77A 50%, #000 50%);
+  background: linear-gradient(115deg, #f8d77a 50%, #000 50%);
   overflow-x: hidden;
 }
 /* Custom scroll bar */
@@ -92,6 +92,9 @@ html {
   position: absolute; /* Set position to absolute */
   left: 0; /* Aligns to the left */
   top: 0; /* Aligns to the top */
+  width: 500px; /* Adjust the width as needed */
+  white-space: nowrap; /* Prevents wrapping */
+  overflow: hidden; /* Hides any overflow */
 }
 
 #header .type-animation-text span {
@@ -109,7 +112,6 @@ html {
   flex-wrap: wrap;
   white-space: nowrap; /* Prevents wrapping */
 }
-
 
 #header h2,
 .sentence {
@@ -693,7 +695,7 @@ footer .info-box p {
   }
   #header .typeHeader {
     flex-wrap: wrap;
-    width: 80%; 
+    width: 80%;
     height: 30px;
     position: absolute;
   }
@@ -704,5 +706,4 @@ footer .info-box p {
   #header .typeHeader {
     font-size: 22px;
   }
-  
 }
