@@ -137,7 +137,7 @@ html {
   width: 80%;
   margin: 20px 0;
 }
-#header .getStarted {
+#header . {
   display: flex;
   justify-content: space-between;
   align-items: center;
