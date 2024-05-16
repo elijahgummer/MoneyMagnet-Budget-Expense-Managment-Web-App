@@ -91,7 +91,7 @@ html {
 #header .type-animation-text h3 {
   left: 0; /* Aligns to the left */
   top: 0; /* Aligns to the top */
-  width: 500px; /* Adjust the width as needed */
+  width: 800px; /* Adjust the width as needed */
   white-space: nowrap; /* Prevents wrapping */
   overflow: hidden; /* Hides any overflow */
 }
