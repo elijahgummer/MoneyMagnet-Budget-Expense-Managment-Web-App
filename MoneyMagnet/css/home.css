@@ -129,20 +129,7 @@ html {
   margin: 30px 10px 0 20px; /* Adjust margin for the sentence */
 }
 #header .content-container button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 17px;
-  background-color: #ffc400;
-  color: white;
-  padding: 8px 20px 8px 20px;
-  margin: 35px 30px 10px 10px;
-  border: none;
-  border-radius: 30px;
-  transition: background 0.5s;
-  width: 341px;
-  text-align: center;
-  font-weight: 500;
+  
 }
 #header .content-container button:hover {
   background-color: #f1c94b;
