@@ -137,7 +137,7 @@ html {
   width: 80%;
   margin: 20px 0;
 }
-#header .content-container {
+#header .content-container button {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,7 +153,7 @@ html {
   text-align: center;
   font-weight: 500;
 }
-#header .getStarted:hover {
+#header .content-container button:hover {
   background-color: #f1c94b;
 }
 #header .getStarted i {
