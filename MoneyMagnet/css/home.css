@@ -129,7 +129,11 @@ html {
   margin: 30px 10px 0 20px; /* Adjust margin for the sentence */
 }
 #header .content-container button {
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
   background: #E0D019;
+  color: #000;
 }
 #header .content-container button:hover {
   background-color: #f1c94b;
