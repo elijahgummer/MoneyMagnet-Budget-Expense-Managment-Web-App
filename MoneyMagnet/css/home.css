@@ -96,11 +96,6 @@ html {
   overflow: hidden; /* Hides any overflow */
 }
 
-#header .type-animation-text span {
-  color: #f0f424;
-  font-size: 30px;
-}
-
 #header .typeHeader {
   font-family: "Montserrat", sans-serif;
   font-style: bold;
@@ -136,6 +131,7 @@ html {
   flex-wrap: wrap;
   flex-direction: column;
   width: 80%;
+  margin: 20px 0;
 }
 #header .InputContainer {
   height: 40px;
