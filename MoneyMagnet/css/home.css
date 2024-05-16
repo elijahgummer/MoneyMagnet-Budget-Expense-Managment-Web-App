@@ -134,6 +134,7 @@ html {
   border-radius: 10px;
   background: #E0D019;
   color: #000;
+  padding: 10px 20px;
 }
 #header .content-container button:hover {
   background-color: #f1c94b;
