@@ -17,7 +17,7 @@ img.logo {
   width: 100%;
   height: auto;
 }
-.navbar {
+nav {
   font-size: 1.7rem;
   width: 100%;
   height: auto;
@@ -47,12 +47,12 @@ nav ul li a::after{
 nav ul li a:hover::after {
   width: 100%;
 }
-.navbar ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 20px; /* Adjusted gap */
 }
-.navbar ul a {
+nav ul a {
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
@@ -60,11 +60,11 @@ nav ul li a:hover::after {
   transition: all 0.23s;
   position: relative;
 }
-.navbar ul li {
+nav ul li {
   display: flex;
   align-items: center;
 }
-.navbar .menu-list {
+nav .menu-list {
   display: inline-flex;
 }
 .menu-list li {
@@ -95,7 +95,7 @@ nav ul li a:hover::after {
     .icon.hide {
       display: none;
     }
-    .navbar .menu-list {
+    nav .menu-list {
       position: fixed;
       height: 100vh;
       width: 100%;
@@ -111,18 +111,18 @@ nav ul li a:hover::after {
       background: #272727;
       transition: all 0.3s ease;
     }
-    .navbar.show .menu-list {
+    nav.show .menu-list {
       left: 0%;
     }
-    .navbar .menu-list li {
+    nav .menu-list li {
       margin: 10px;
     }
-    .navbar .menu-list li a {
+    nav .menu-list li a {
       font-size: 23px;
       margin-left: -100%;
       transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-    .navbar.show .menu-list li a {
+    nav.show .menu-list li a {
       margin-left: 0px;
     }
     .svg-container2 {
