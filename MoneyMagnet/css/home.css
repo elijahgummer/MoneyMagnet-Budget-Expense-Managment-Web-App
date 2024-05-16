@@ -38,8 +38,8 @@ html {
 }
 .svg-container {
   position: relative; /* Set position to relative */
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
+  width: 500px; /* Adjust width as needed */
+  height: 500px; /* Adjust height as needed */
 }
 
 .svg-container svg {
