@@ -25,9 +25,9 @@ img.logo {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background: linear-gradient(119.83deg, rgba(183, 183, 183, 0.7) 24.67%, rgba(0, 0, 0, 0.4) 76.97%);
+  background: rgba(0, 0, 0, 0.1); /* Dark semi-transparent background */
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgb(227, 227, 227);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional shadow */
   top: 0;
   left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
