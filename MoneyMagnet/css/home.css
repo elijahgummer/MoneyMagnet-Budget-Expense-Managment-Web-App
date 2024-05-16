@@ -139,7 +139,7 @@ html {
   border: 2px solid #E0D019;
   color: white;
 }
-#header .content-container .get-started {
+#header .content-container .learn-more {
   font-size: 17px;
   border: none;
   border-radius: 10px;
@@ -149,7 +149,7 @@ html {
   transition: all ease-in-out 0.4s;
   margin: 10px 0;
 }
-#header .content-container .get-started:hover {
+#header .content-container .learn-more:hover {
   background: black;
   border: 2px solid #E0D019;
   color: white;
