@@ -101,7 +101,7 @@ html {
   font-style: bold;
   font-weight: 700;
   font-size: 30px;
-  color: #ffffff;
+  color: #f2f2f2;
   mix-blend-mode: normal;
   flex-wrap: wrap;
   white-space: nowrap; /* Prevents wrapping */
@@ -113,7 +113,7 @@ html {
 
 #header h2,
 .sentence {
-  color: black;
+  color: #333333;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
 }
