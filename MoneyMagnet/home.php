@@ -13,6 +13,7 @@ require_once("navbar.php");
 </head>
 <body>
     <div id="header">
+        <div class="shapes-background"></div>
         <div class="container">
             <div class="content">
                 <div class="content-container">
