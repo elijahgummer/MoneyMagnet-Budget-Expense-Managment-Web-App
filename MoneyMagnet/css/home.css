@@ -9,7 +9,9 @@ html {
   height: auto; /* Set the container height to 100% of the viewport height */
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 800px;
+  width: 100%;
 }
 .shapes-background {
   position: absolute;
@@ -50,16 +52,16 @@ html {
 #header .container .content {
   display: flex;
   align-items: center; /* Align items in the center vertically */
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   z-index: 2;
-  width: 70%;
+  width: 100%;
   margin: 35px;
 }
 #header .container .content .content-container {
   margin: 20px;
-  width: 90%;
+  width: 50%;
 }
 #header .type-animation-text {
   display: flex;
