@@ -34,7 +34,11 @@ html {
     transform: translateX(-100%);
   }
 }
-
+.svg-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #header .container .content {
   display: flex;
   align-items: center; /* Align items in the center vertically */
