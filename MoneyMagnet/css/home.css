@@ -124,7 +124,7 @@ html {
   font-size: 16px; /* Adjust sentence font size */
   margin: 30px 10px 0 20px; /* Adjust margin for the sentence */
 }
-#header .content-container button {
+#header .content-container .get-started {
   font-size: 17px;
   border: none;
   border-radius: 10px;
@@ -134,15 +134,10 @@ html {
   transition: all ease-in-out 0.4s;
   margin: 10px 0;
 }
-#header .content-container button:hover {
+#header .content-container .get-started:hover {
   background: black;
   border: 2px solid #E0D019;
   color: white;
-}
-#header .getStarted i {
-  margin-right: 10px;
-  padding: 10px;
-  font-size: 20px;
 }
 /* FEATURES */
 #features .container {
