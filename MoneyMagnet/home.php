@@ -36,7 +36,6 @@ require_once("navbar.php");
                                 </svg>
                             </button>
                         </div> -->
-                        <p class="sentence">Empower your financial journey with<br> Money Magnet, where smart budgeting<br> and seamless expense tracking come <br>together to help you achieve your <br>financial goals and build a secure future.</p>
                         <button class="getStarted">Get Started<i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </div>
