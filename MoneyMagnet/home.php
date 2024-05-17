@@ -608,18 +608,24 @@ require_once("navbar.php");
                 <div class="features-container">
                     <div class="feature-card">
                         <img src="images/wallet-magnify-glass.png" alt="wallet-magnify-glass">
+                        <div class="card-content-container">
                         <h4 class="feature-header">EXPENSE TRACKING</h4>
                         <p class="content">Effortlessly track your<br> expenses and gain insights<br> into your spending habits<br> with our intuitive expense<br> tracking tools.</p>
+                        </div>
                     </div>
                     <div class="feature-card">
                         <img src="images/growth-chart.png" alt="growth-chart">
+                        <div class="card-content-container">
                         <h4 class="feature-header">INVESTMENT INSIGHTS</h4>
                         <p class="content">Maximize Growth with Investment Insights – Uncover opportunities for smarter investments and financial success.</p>
+                        </div>
                     </div>
                     <div class="feature-card">
                         <img src="images/budget-notepad.png" alt="budget-notepad">
+                        <div class="card-content-container">
                         <h4 class="feature-header">BUDGETING TOOLS</h4>
                         <p class="content">Seamlessly manage your<br> finances and achieve your<br> goals with our powerful<br> budgeting tools.</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -209,7 +209,7 @@ html {
   );
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
-  border-radius: 35px;
+  border-radius: 45px;
   box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
 
 }
@@ -226,15 +226,6 @@ html {
   height: 325px;
   padding: 25px;
   box-sizing: border-box;
-  background: linear-gradient(
-    227.01deg,
-    rgba(255, 255, 255, 0.42) 41.69%,
-    rgba(161, 161, 161, 0.6) 139.4%,
-    rgba(255, 255, 255, 0.24) 139.41%
-  );
-  backdrop-filter: blur(10px);
-  /* Note: backdrop-filter has minimal browser support */
-  border-radius: 24px;
   margin: 30px;
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
