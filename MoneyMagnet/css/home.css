@@ -169,8 +169,10 @@ html {
   height: 800px;
   position: relative; /* Add position relative for absolute positioning */
   overflow: hidden;
-  background-color: #000;
+  background-color: #1c1b1b;
   width: 100%;
+  height: auto;
+  padding: 90px 0;
 }
 #features .container .content-container {
   display: flex;
