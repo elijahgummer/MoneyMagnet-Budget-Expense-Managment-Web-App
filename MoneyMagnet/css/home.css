@@ -26,6 +26,10 @@ html {
 #header .svg-container1 {
   width: 100px;
   height: 100px;
+  position: absolute; /* or relative, fixed, sticky */
+  /* Adjust these values to move the SVG */
+  bottom: 0;
+  left: 50px; /* Adjust these values to move the SVG */
 }
 /* HEADER AREA */
 #header .container {
