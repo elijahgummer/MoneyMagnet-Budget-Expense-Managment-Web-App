@@ -133,6 +133,7 @@ html {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional shadow */
   color: white;
   border-radius: 17px;
+  padding: 10px;
 }
 /* FEATURES */
 #features .container {
