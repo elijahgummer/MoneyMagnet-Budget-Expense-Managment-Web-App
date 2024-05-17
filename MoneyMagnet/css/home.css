@@ -249,12 +249,7 @@ html {
   margin: 10px 0;
 }
 
-.svg-container3,
-.svg-container4 {
-  position: absolute;
-  width: 100%; /* Adjust width as needed */
-  height: 100%; /* Adjust height as needed */
-}
+
 
 .svg-container3 svg {
   position: absolute;
