@@ -229,6 +229,7 @@ html {
   margin: 30px;
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
+
 #features .feature-header {
   font-size: 1.4em;
   font-weight: 700;
