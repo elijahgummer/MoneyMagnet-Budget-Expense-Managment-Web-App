@@ -150,6 +150,7 @@ html {
   align-items: center;
   justify-self: center;
   flex-direction: column;
+  overflow: hidden;
 }
 @keyframes bouncey {
   0% {

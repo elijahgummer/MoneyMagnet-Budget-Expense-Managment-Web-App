@@ -585,6 +585,7 @@ require_once("navbar.php");
                             </filter>
                         </defs>
                     </svg>
+                    
                 </div>
                 <div class="see-more-container">
                 <div class="see-more">
@@ -597,8 +598,10 @@ require_once("navbar.php");
                 </div>
                 </div>
             </div>
+            
         </div>
     </div>
+    <!--
     <div id="features">
         <div class="container">
             <div class="content-container">
