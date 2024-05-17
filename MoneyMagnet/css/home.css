@@ -139,6 +139,11 @@ html {
   width: 30px;
   height: 30px;
 }
+#header .svg-container-arrow svg {
+  animation: bouncey 0.5s ease infinite alternate; /* Bounce animation */
+
+}
+
 
 @keyframes bouncey {
   0% {
