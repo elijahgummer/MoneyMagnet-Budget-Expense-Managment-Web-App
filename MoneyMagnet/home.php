@@ -601,7 +601,6 @@ require_once("navbar.php");
             
         </div>
     </div>
-    <!--
     <div id="features">
         <div class="container">
             <div class="content-container">
