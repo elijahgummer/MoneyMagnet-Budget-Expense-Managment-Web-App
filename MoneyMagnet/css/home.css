@@ -139,6 +139,15 @@ html {
   width: 30px;
   height: 30px;
 }
+
+@keyframes bouncey {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px); /* Adjust the bounce height */
+  }
+}
 /* FEATURES */
 #features .container {
   display: flex;
