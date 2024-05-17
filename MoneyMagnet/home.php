@@ -746,7 +746,7 @@ require_once("navbar.php");
     <div id="action">
         <div class="container">
             <div class="image-container">
-                <img src="images/callToAction.png" alt="call to action">
+                
             </div>
             <div class="content">
                 <h1>Catalyst for Financial Transformation</h1>
