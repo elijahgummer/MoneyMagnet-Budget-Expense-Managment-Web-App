@@ -22,6 +22,11 @@ html {
   background: #147efb;
   color: #ffffff;
 }
+/* SVGS */
+#header .svg-container1 {
+  width: 100px;
+  height: 100px;
+}
 /* HEADER AREA */
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
