@@ -285,10 +285,6 @@ html {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
-  backdrop-filter: blur(10px);
-  box-shadow: 0 2px 4px rgba(41, 41, 41, 0.9); /* Optional shadow */
-  color: white;
 }
 #reviews .card {
   display: flex;
@@ -298,31 +294,31 @@ html {
   width: 400px;
   height: 200px;
   color: #ffffff;
-  box-shadow: 4px 2px 4px 3px rgba(0, 0, 0, 0.2);
+  background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(53, 53, 53, 0.9); /* Optional shadow */
   border-radius: 17px;
   margin: 40px;
 }
 #reviews .card .profile-name {
   font-weight: 800;
-  color: black;
+  color: #f8d77a;
   font-size: 16px;
 }
 #reviews .card .location {
   font-weight: 500;
-  color: black;
+  color: #fff;
   font-size: 16px;
 }
 #reviews .card .profile-content .fa-solid {
-  color: yellow;
+  color: #f8d77a;
   font-size: 70px;
   margin: 10px;
 }
 #reviews .card .profile-content {
   display: flex;
   align-items: center;
-}
-#reviews .card .profile-content .user-info {
-  margin: 10px;
+  justify-content: center;
 }
 #reviews .card img {
   width: 70px;
@@ -333,7 +329,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
   text-align: center;
   font-weight: 500;
 }
