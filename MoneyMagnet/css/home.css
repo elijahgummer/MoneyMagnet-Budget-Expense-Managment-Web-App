@@ -24,12 +24,12 @@ html {
 }
 /* SVGS */
 #header .svg-container1 {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
-  bottom: 0;
-  left: 50px; /* Adjust these values to move the SVG */
+  bottom: 45px;
+  left: 55px; /* Adjust these values to move the SVG */
 }
 #header .svg-container2 {
   width: 100px;
