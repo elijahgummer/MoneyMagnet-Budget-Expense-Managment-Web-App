@@ -183,7 +183,7 @@ html {
 #features h3 {
   font-size: 3em;
   font-weight: 700;
-  color: white;
+  color: #E0D019;
   position: relative;
 }
 #features h3::after {
