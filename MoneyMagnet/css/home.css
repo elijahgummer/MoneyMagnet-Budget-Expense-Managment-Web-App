@@ -472,7 +472,7 @@ html {
   height: 360px;
   width: 300px;
 }
-.accordion .image-box img{
+.accordion .image-box svg{
   height: 100%;
   width: 100%;
   object-fit: contain;
