@@ -232,11 +232,13 @@ html {
   font-size: 1.4em;
   font-weight: 700;
   margin: 0;
+  color: #E0D019;
 }
 #features .content {
   font-size: 15px;
   font-weight: 450;
   margin: 10px 0;
+  color: #ffffff;
 }
 /* REVIEWS */
 #reviews {
