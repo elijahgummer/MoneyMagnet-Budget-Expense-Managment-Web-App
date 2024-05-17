@@ -130,7 +130,7 @@ html {
 #header .see-more {
   background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 4px rgba(82, 82, 82, 0.9); /* Optional shadow */
+  box-shadow: 0 2px 4px rgba(41, 41, 41, 0.9); /* Optional shadow */
   color: white;
   border-radius: 17px;
   padding: 10px;
@@ -143,8 +143,6 @@ html {
   animation: bouncey 0.5s ease infinite alternate; /* Bounce animation */
 
 }
-
-
 @keyframes bouncey {
   0% {
     transform: translateY(0);
