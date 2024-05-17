@@ -127,6 +127,10 @@ html {
   background: #E0D019;
   color: white;
 }
+#header .see-more {
+  background: ;
+  
+}
 /* FEATURES */
 #features .container {
   display: flex;
