@@ -265,6 +265,7 @@ html {
   font-size: 1.75em;
   font-family: "Mulish", sans-serif;
   margin: 40px 10px 10px 10px;
+  color: #f2f2f2;
 }
 #reviews .sub-header {
   font-size: 2.75em;
@@ -343,11 +344,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-#action .svg-container5 {
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 #action .container {
   display: flex;
