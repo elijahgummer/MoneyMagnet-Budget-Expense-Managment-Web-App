@@ -201,6 +201,15 @@ html {
   width: 108px;
   height: 97px;
   margin: 10px;
+  background: linear-gradient(
+    227.01deg,
+    rgba(255, 255, 255, 0.42) 41.69%,
+    rgba(161, 161, 161, 0.6) 139.4%,
+    rgba(255, 255, 255, 0.24) 139.41%
+  );
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 24px;
 }
 #features .features-container {
   display: flex;
