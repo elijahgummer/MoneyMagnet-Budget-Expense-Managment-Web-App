@@ -757,17 +757,6 @@ require_once("navbar.php");
     </div>
     <div id="FAQ">
         <div class="container">
-            <div class="svg-container6">
-                <svg width="224" height="703" viewBox="0 0 224 703" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <ellipse cx="-140.886" cy="351.289" rx="288" ry="222.838" transform="rotate(-143 -140.886 351.289)" fill="url(#paint0_linear_491_9)" />
-                    <defs>
-                        <linearGradient id="paint0_linear_491_9" x1="-140.886" y1="128.451" x2="-140.886" y2="574.127" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F9C803" />
-                            <stop offset="1" stop-color="#F9C803" stop-opacity="0" />
-                        </linearGradient>
-                    </defs>
-                </svg>
-            </div>
             <div class="content">
                 <h1>FAQs</h1>
                 <div class="card">
