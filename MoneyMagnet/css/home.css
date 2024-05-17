@@ -31,6 +31,14 @@ html {
   bottom: 0;
   left: 50px; /* Adjust these values to move the SVG */
 }
+#header .svg-container2 {
+  width: 200px;
+  height: 200px;
+  position: absolute; /* or relative, fixed, sticky */
+  /* Adjust these values to move the SVG */
+  bottom: 0;
+  left: 190px; /* Adjust these values to move the SVG */
+}
 /* HEADER AREA */
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
