@@ -266,6 +266,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(195deg, #f8d77a 50%, #000 50%);
 }
 #reviews .container {
   display: flex;
@@ -276,6 +277,7 @@ html {
   height: 700px;
   text-align: center;
   border-radius: 30px;
+
 }
 #reviews .header {
   font-weight: 100;
@@ -361,6 +363,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #1e1e1e;
 }
 #action .container {
   display: flex;
