@@ -23,7 +23,7 @@
       <li><a href="reviews.html">Reviews</a></li>
       <li><a href="action.html">Action</a></li>
       <li><a href="FAQ.html">FAQ</a></li>
-      <button>
+      <button class="sign-up">
         Sign up
         <div class="arrow-wrapper">
           <div class="arrow"></div>
