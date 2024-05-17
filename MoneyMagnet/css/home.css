@@ -143,6 +143,12 @@ html {
   animation: bouncey 0.5s ease infinite alternate; /* Bounce animation */
 
 }
+#header .see-more-container {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
 @keyframes bouncey {
   0% {
     transform: translateY(0);
