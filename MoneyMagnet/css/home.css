@@ -305,16 +305,19 @@ html {
   font-weight: 800;
   color: #f8d77a;
   font-size: 16px;
+  margin: 5px;
 }
 #reviews .card .location {
   font-weight: 500;
   color: #fff;
   font-size: 16px;
+  margin: 5px;
 }
 #reviews .card .profile-content .fa-solid {
   color: #f8d77a;
   font-size: 70px;
-  margin: 10px;
+  margin: 15px;
+
 }
 #reviews .card .profile-content {
   display: flex;
@@ -324,7 +327,8 @@ html {
 #reviews .card svg {
   width: 70px;
   height: 70px;
-  margin: 10px;
+  margin: 15px;
+
 }
 #reviews .card-content {
   display: flex;
