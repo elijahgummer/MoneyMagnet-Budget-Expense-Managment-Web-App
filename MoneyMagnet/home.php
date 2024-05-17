@@ -26,7 +26,7 @@ require_once("navbar.php");
                     <button class="get-started">Get Started</button>
                 </div>
                 <div class="svg-container">
-                    <svg class="animated" id="freepik_stories-investment-data" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
+                    <svg class="animated" id="freepik_stories-investment-data" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
                         <style>
                             svg#freepik_stories-investment-data:not(.animated) .animable {
                                 opacity: 0;
