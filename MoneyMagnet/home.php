@@ -589,8 +589,11 @@ require_once("navbar.php");
                 <div class="see-more">
                     <p>✨See more below✨</p>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="DownArrow"><path d="M11.293,22.707a1,1,0,0,0,1.414,0l5-5a1,1,0,0,0-1.414-1.414L13,19.586V2a1,1,0,0,0-2,0V19.586L7.707,16.293a1,1,0,0,0-1.414,1.414Z" fill="#ffffff" class="color000000 svgShape"></path></svg>
-
+                <div class="svg-container-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="DownArrow">
+                        <path d="M11.293,22.707a1,1,0,0,0,1.414,0l5-5a1,1,0,0,0-1.414-1.414L13,19.586V2a1,1,0,0,0-2,0V19.586L7.707,16.293a1,1,0,0,0-1.414,1.414Z" fill="#ffffff" class="color000000 svgShape"></path>
+                    </svg>
+                </div>
             </div>
         </div>
     </div>
