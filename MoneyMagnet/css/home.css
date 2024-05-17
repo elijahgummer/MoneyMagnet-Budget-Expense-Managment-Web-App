@@ -1,7 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/poppins");
 body,
 html {
-  background: linear-gradient(115deg, #f8d77a 50%, #000 50%);
   overflow-x: hidden;
   overflow-y: auto; /* Ensure vertical scrolling is normal */
 }
@@ -47,6 +46,7 @@ html {
   justify-content: center;
   height: 700px;
   width: 100%;
+  background: linear-gradient(115deg, #f8d77a 50%, #000 50%);
 }
 
 @keyframes moveShapes {
