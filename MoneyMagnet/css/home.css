@@ -172,7 +172,6 @@ html {
   background-color: #000;
   width: 100%;
 }
-
 #features .container .content-container {
   display: flex;
   justify-content: center;
@@ -181,14 +180,12 @@ html {
   text-align: center;
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
-
 #features h3 {
   font-size: 3em;
   font-weight: 700;
   color: white;
   position: relative;
 }
-
 #features h3::after {
   content: "";
   width: 60%;
@@ -200,13 +197,11 @@ html {
   transform: translateX(-50%); /* Center horizontally */
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
-
 #features img {
   width: 108px;
   height: 97px;
   margin: 10px;
 }
-
 #features .features-container {
   display: flex;
   justify-content: space-around;
@@ -214,7 +209,6 @@ html {
   flex-wrap: wrap;
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
-
 #features .feature-card {
   text-align: center;
   width: 325px;
@@ -236,13 +230,11 @@ html {
   border: 1px solid white;
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
-
 #features .feature-header {
   font-size: 1.4em;
   font-weight: 700;
   margin: 0;
 }
-
 #features .content {
   font-size: 15px;
   font-weight: 450;
