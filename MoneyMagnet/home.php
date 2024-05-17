@@ -586,6 +586,9 @@ require_once("navbar.php");
                         </defs>
                     </svg>
                 </div>
+                <div class="see-more">
+                    
+                </div>
             </div>
         </div>
     </div>
