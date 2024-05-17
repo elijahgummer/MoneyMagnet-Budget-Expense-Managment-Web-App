@@ -363,7 +363,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1e1e;
+  background: linear-gradient(to right, #f8d77a 50%, #000 50%);
+
 }
 #action .container {
   display: flex;
