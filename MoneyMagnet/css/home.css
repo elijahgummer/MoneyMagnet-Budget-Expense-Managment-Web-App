@@ -198,8 +198,8 @@ html {
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
 #features img {
-  width: 108px;
-  height: 97px;
+  width: 118px;
+  height: 107px;
   margin: 10px;
   background: linear-gradient(
     227.01deg,
@@ -209,7 +209,8 @@ html {
   );
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
-  border-radius: 45px;
+  border-radius: 50%;
+  padding: 10px;
   box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
 
 }
@@ -229,7 +230,6 @@ html {
   margin: 30px;
   z-index: 1; /* Set higher z-index to be above SVGs */
 }
-
 #features .feature-header {
   font-size: 1.4em;
   font-weight: 700;
