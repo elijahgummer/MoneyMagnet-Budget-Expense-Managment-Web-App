@@ -1323,24 +1323,8 @@ require_once("navbar.php");
                     </ul>
                 </div>
             </div>
-
-
-            <script>
-                let li = document.querySelectorAll(".faq-text li");
-                for (var i = 0; i < li.length; i++) {
-                    li[i].addEventListener("click", (e) => {
-                        let clickedLi;
-                        if (e.target.classList.contains("question-arrow")) {
-                            clickedLi = e.target.parentElement;
-                        } else {
-                            clickedLi = e.target.parentElement.parentElement;
-                        }
-                        clickedLi.classList.toggle("showAnswer");
-                    });
-                }
-            </script>
-
         </div>
+    </div>
         <footer>
             <div class="container">
                 <div class="content">
