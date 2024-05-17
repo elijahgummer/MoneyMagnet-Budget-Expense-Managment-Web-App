@@ -631,7 +631,6 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
-    <!--
     <div id="reviews">
         <div class="container">
             <div class="content-container">
@@ -664,6 +663,7 @@ require_once("navbar.php");
             </div>
         </div>
     </div>
+    <!--
     <div id="action">
         <div class="container">
             <div class="svg-container5">
