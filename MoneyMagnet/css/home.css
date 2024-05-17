@@ -291,6 +291,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column-reverse;
   width: 400px;
   height: 200px;
   color: #ffffff;
