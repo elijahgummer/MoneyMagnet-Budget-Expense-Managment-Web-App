@@ -320,7 +320,7 @@ html {
   align-items: center;
   justify-content: center;
 }
-#reviews .card img {
+#reviews .card svg {
   width: 70px;
   height: 70px;
   margin: 10px;
