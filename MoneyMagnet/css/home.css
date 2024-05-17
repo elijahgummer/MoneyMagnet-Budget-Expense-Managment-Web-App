@@ -32,12 +32,12 @@ html {
   left: 50px; /* Adjust these values to move the SVG */
 }
 #header .svg-container2 {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
-  bottom: 0;
-  left: 190px; /* Adjust these values to move the SVG */
+  bottom: 150px;
+  left: 220px; /* Adjust these values to move the SVG */
 }
 /* HEADER AREA */
 #header .container {
