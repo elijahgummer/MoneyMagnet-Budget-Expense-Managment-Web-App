@@ -128,12 +128,16 @@ html {
   color: white;
 }
 #header .see-more {
-  background: rgba(0, 0, 0, 0.1); /* Dark semi-transparent background */
+  background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional shadow */
+  box-shadow: 0 2px 4px rgba(82, 82, 82, 0.9); /* Optional shadow */
   color: white;
   border-radius: 17px;
   padding: 10px;
+}
+#header .svg-container-arrow {
+  width: 20px;
+  height: 20px;
 }
 /* FEATURES */
 #features .container {
