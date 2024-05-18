@@ -61,8 +61,8 @@ html {
   height: 100px;
   position: relative; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
-  bottom: 0px;
-  right: 30px; /* Adjust these values to move the SVG */
+  top: 0;
+  right: 0; /* Adjust these values to move the SVG */
 }
 /* HEADER AREA */
 #header .container {
