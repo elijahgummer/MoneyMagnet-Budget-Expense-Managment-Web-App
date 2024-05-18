@@ -56,7 +56,7 @@ html {
   right: 30px; /* Adjust these values to move the SVG */
   transform: rotate(-25deg);
 }
-#features .svg-container5 {
+#reviews .svg-container5 {
   width: 100px;
   height: 100px;
   position: absolute; /* or relative, fixed, sticky */
