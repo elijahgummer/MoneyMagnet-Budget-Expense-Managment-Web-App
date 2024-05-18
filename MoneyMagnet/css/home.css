@@ -56,6 +56,15 @@ html {
   right: 30px; /* Adjust these values to move the SVG */
   transform: rotate(-25deg);
 }
+#features .svg-container5 {
+  width: 100px;
+  height: 100px;
+  position: absolute; /* or relative, fixed, sticky */
+  /* Adjust these values to move the SVG */
+  bottom: 40px;
+  right: 30px; /* Adjust these values to move the SVG */
+  transform: rotate(-25deg);
+}
 /* HEADER AREA */
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
