@@ -59,11 +59,10 @@ html {
 #reviews .svg-container5 {
   width: 100px;
   height: 100px;
-  position: absolute; /* or relative, fixed, sticky */
+  position: relative; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
-  bottom: 40px;
+  bottom: 0px;
   right: 30px; /* Adjust these values to move the SVG */
-  transform: rotate(-25deg);
 }
 /* HEADER AREA */
 #header .container {
