@@ -57,12 +57,13 @@ html {
   transform: rotate(-25deg);
 }
 #reviews .svg-container5 {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   position: relative; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
   top: 0;
-  right: 0; /* Adjust these values to move the SVG */
+  left: 10px; /* Adjust these values to move the SVG */
+  transform: rotate(35deg);
 }
 /* HEADER AREA */
 #header .container {

@@ -741,6 +741,7 @@ require_once("navbar.php");
         </div>
     </div>
     <div id="reviews">
+        
         <div class="container">
             <div class="content-container">
                 <h5 class="header">Reviewed by People</h5>
