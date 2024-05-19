@@ -457,7 +457,7 @@ html {
   padding: 8px 40px;
   font-size: 16px;
   font-weight: 500;
-  width: 38%;
+  width: 43%;
   height: 468px;
   background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
   backdrop-filter: blur(10px);
@@ -471,7 +471,7 @@ html {
 }
 #action .content p {
   width: 90%;
-  margin: 50px;
+  margin: 50px 0;
   font-size: 18px;
   color: #d6d6d6;
   width: 100%;
