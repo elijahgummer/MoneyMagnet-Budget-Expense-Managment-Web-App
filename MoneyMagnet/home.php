@@ -1475,6 +1475,7 @@ require_once("navbar.php");
                 </div>
                 <p>© Copyright 2023 - Money Magnet</p>
             </div>
+            svg-container
         </div>
         </div>
     </footer>
