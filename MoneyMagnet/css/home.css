@@ -108,6 +108,7 @@ footer .svg-container10 {
   bottom: 0;
   right: 0; /* Adjust these values to move the SVG */
   overflow: hidden;
+  transform: rotate(-180deg);
 }
 /* HEADER AREA */
 #header .container {
