@@ -468,7 +468,15 @@ html {
   width: 100%;
 }
 #action .call-to-action-btn {
-  
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  background: #E0D019;
+  color: #fff;
+  padding: 15px 20px;
+  transition: all ease-in-out 0.4s;
+  margin: 20px 5px;
+  border: 2px solid #E0D019;
 }
 #action .call-to-action-btn:hover {
   background: #f8d77a;
