@@ -451,7 +451,7 @@ html {
 }
 #action .content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   padding: 8px 40px;
