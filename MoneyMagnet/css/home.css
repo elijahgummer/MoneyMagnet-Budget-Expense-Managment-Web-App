@@ -458,12 +458,13 @@ html {
 #action .content h1 {
   color: white;
   font-weight: 800;
-  font-size: 2.5em;
+  font-size: 1.8em;
 }
 #action .content p {
   width: 90%;
   margin: 50px;
   font-size: 18px;
+  color: #;
 }
 #action .call-to-action-btn {
   color: white;
