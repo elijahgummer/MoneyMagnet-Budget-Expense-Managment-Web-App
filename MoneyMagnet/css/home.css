@@ -75,8 +75,8 @@ html {
   transform: rotate(35deg);
 }
 #action .svg-container7 {
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
   bottom: 0;
