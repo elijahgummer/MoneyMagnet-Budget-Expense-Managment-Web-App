@@ -108,10 +108,12 @@ footer .svg-container10 {
   bottom: 0;
   right: -240px; /* Adjust these values to move the SVG */
   overflow: hidden;
-  transform: scaleX(-1) rotate(-180deg); /* Flip and rotate the SVG */  
+  transform: scaleX(-1) rotate(-180deg); /* Flip and rotate the SVG */ 
+   
 }
 footer .svg-container10 svg {
-  z-index: -12;
+  filter: blur(3px);
+  box-shadow: rgba(255, 230, 9, 0.9);
 }
 /* HEADER AREA */
 #header .container {
