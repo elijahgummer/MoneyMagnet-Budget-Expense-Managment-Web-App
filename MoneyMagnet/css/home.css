@@ -552,7 +552,7 @@ html {
 .accordion-text li .question-arrow .question{
   font-size: 18px;
   font-weight: 500;
-  color: #595959;
+  color: #f2f2f2;
   transition: all 0.3s ease;
 }
 .accordion-text li .question-arrow .arrow{
