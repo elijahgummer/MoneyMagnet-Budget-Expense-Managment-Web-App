@@ -655,7 +655,7 @@ footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
   background: rgba(0, 0, 0, 0.1); /* Dark semi-transparent background */
   backdrop-filter: blur(15px);
   box-shadow: 0 2px 4px rgba(39, 39, 39, 0.9); /* Optional shadow */
