@@ -480,7 +480,7 @@ html {
   font-weight: 600;
 }
 #action .call-to-action-btn:hover {
-  background-color: #ffc400;
+  background: #f8d77a;
 }
 /* FAQ STYLING AREA */
 #FAQ .container {
