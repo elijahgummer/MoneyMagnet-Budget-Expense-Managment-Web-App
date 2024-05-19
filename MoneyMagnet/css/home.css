@@ -110,6 +110,9 @@ footer .svg-container10 {
   overflow: hidden;
   transform: scaleX(-1) rotate(-180deg); /* Flip and rotate the SVG */  
 }
+footer .svg-container10 svg {
+  z-index: -12;
+}
 /* HEADER AREA */
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
