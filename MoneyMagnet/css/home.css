@@ -101,15 +101,14 @@ html {
   right: 10%; /* Adjust these values to move the SVG */
 }
 footer .svg-container10 {
-  width: 190px;
-  height: 190px;
+  width: 300px;
+  height: 300px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
   bottom: 0;
   right: 0; /* Adjust these values to move the SVG */
   overflow: hidden;
-  transform: rotate(-180deg);
-  transform: skew(115deg);
+  transform: scaleX(-1) rotate(-180deg); /* Flip and rotate the SVG */  
 }
 /* HEADER AREA */
 #header .container {
