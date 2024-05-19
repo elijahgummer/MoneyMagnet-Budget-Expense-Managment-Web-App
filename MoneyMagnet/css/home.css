@@ -89,7 +89,7 @@ html {
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
   top: 10px;
-  left: 39%; /* Adjust these values to move the SVG */
+  left: 50%; /* Adjust these values to move the SVG */
   transform: rotate(90deg);
 }
 /* HEADER AREA */
