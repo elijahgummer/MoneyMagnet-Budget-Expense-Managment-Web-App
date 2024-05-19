@@ -825,7 +825,7 @@ require_once("navbar.php");
             <svg class="w-10 h-10" viewBox="0 0 163 160" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <g clip-path="url(#clip0_103_6621)">
                             <path d="M153.199 6.92285V149.861H9.50098V159.244H162.632V6.92285H153.199Z" fill="#f8d77a"/>
-                            <path d="M153.199 6.92285V149.861H9.50098V159.244H162.632V6.92285H153.199Z" fill="currentColor" fill-opacity="0.2"/>
+                            <path d="M153.199 6.92285V149.861H9.50098V159.244H162.632V6.92285H153.199Z" fill="#f8d77a" fill-opacity="0.2"/>
                           </g>
                           <defs>
                             <clipPath id="clip0_103_6621">
