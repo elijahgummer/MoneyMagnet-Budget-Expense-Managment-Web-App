@@ -443,9 +443,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
   height: auto;
-  width: 38%;
+  width: 45%;
   background-color: #1e1e1e;
   border-radius: 25%;
   padding: 30px;
