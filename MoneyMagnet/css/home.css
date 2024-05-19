@@ -557,7 +557,7 @@ html {
 }
 .accordion-text li .question-arrow .arrow{
   font-size: 20px;
-  color: #595959;
+  color: #f2f2f2;
   transition: all 0.3s ease;
 }
 .accordion-text li.showAnswer .question-arrow .arrow{
