@@ -92,6 +92,15 @@ html {
   left: 50%; /* Adjust these values to move the SVG */
   transform: rotate(90deg);
 }
+#action .svg-container9 {
+  width: 130px;
+  height: 130px;
+  position: absolute; /* or relative, fixed, sticky */
+  /* Adjust these values to move the SVG */
+  top: 10px;
+  left: 50%; /* Adjust these values to move the SVG */
+  transform: rotate(90deg);
+}
 /* HEADER AREA */
 #header .container {
   height: auto; /* Set the container height to 100% of the viewport height */
