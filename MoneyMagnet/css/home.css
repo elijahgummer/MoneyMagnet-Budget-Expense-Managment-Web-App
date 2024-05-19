@@ -688,7 +688,6 @@ footer .social-icons span {
   border: 2px solid #404040;
   border-radius: 25px;
   background: black;
-  margin: 10px;
 }
 footer .social-icons .mid {
   border: 2px solid #ccb510;
@@ -700,7 +699,7 @@ footer .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
 }
 footer .social-icons i {
   font-size: 25px;
