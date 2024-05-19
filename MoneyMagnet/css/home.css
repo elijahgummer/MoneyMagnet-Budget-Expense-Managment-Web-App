@@ -649,7 +649,7 @@ footer {
   background: transparent;
   background: linear-gradient(115deg, #f8d77a 50%, #000 50%);
   box-shadow: 0 2px 4px rgba(39, 39, 39, 0.9); /* Optional shadow */
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
 }
 footer .container {
   display: flex;
