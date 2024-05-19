@@ -101,8 +101,8 @@ html {
   right: 10%; /* Adjust these values to move the SVG */
 }
 #action .svg-container10 {
-  width: 90px;
-  height: 90px;
+  width: 190px;
+  height: 190px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
   bottom: 0;
