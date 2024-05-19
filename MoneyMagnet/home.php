@@ -1476,16 +1476,16 @@ require_once("navbar.php");
                 <p>© Copyright 2023 - Money Magnet</p>
             </div>
             <div class="svg-container10">
-            <svg class="w-10 h-10" viewBox="0 0 104 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M2.80002 0L54.1 51.2H51.3L0 0H2.80002Z" fill="#f8d77a"/>
-                          <path d="M2.80002 0L54.1 51.2H51.3L0 0H2.80002Z" fill="#f8d77a" fill-opacity="0.2"/>
-                          <path d="M19.4 0L70.6 51.2H67.8L16.5 0H19.4Z" fill="#f8d77a"/>
-                          <path d="M19.4 0L70.6 51.2H67.8L16.5 0H19.4Z" fill="#f8d77a" fill-opacity="0.2"/>
-                          <path d="M35.8996 0L87.1996 51.2H84.2996L33.0996 0H35.8996Z" fill="#f8d77a"/>
-                          <path d="M35.8996 0L87.1996 51.2H84.2996L33.0996 0H35.8996Z" fill="#f8d77a" fill-opacity="0.2"/>
-                          <path d="M52.4996 0L103.7 51.2H100.9L49.5996 0H52.4996Z" fill="#f8d77a"/>
-                          <path d="M52.4996 0L103.7 51.2H100.9L49.5996 0H52.4996Z" fill="#f8d77a" fill-opacity="0.2"/>
-                        </svg>
+                <svg class="w-10 h-10" viewBox="0 0 104 52" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.80002 0L54.1 51.2H51.3L0 0H2.80002Z" fill="#f8d77a" />
+                    <path d="M2.80002 0L54.1 51.2H51.3L0 0H2.80002Z" fill="#f8d77a" fill-opacity="0.2" />
+                    <path d="M19.4 0L70.6 51.2H67.8L16.5 0H19.4Z" fill="#f8d77a" />
+                    <path d="M19.4 0L70.6 51.2H67.8L16.5 0H19.4Z" fill="#f8d77a" fill-opacity="0.2" />
+                    <path d="M35.8996 0L87.1996 51.2H84.2996L33.0996 0H35.8996Z" fill="#f8d77a" />
+                    <path d="M35.8996 0L87.1996 51.2H84.2996L33.0996 0H35.8996Z" fill="#f8d77a" fill-opacity="0.2" />
+                    <path d="M52.4996 0L103.7 51.2H100.9L49.5996 0H52.4996Z" fill="#f8d77a" />
+                    <path d="M52.4996 0L103.7 51.2H100.9L49.5996 0H52.4996Z" fill="#f8d77a" fill-opacity="0.2" />
+                </svg>
             </div>
         </div>
         </div>

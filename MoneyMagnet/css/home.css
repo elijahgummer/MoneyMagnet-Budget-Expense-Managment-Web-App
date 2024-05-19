@@ -105,8 +105,9 @@ html {
   height: 90px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
-  bottom: 50px;
-  right: 10%; /* Adjust these values to move the SVG */
+  bottom: 0;
+  right: 0; /* Adjust these values to move the SVG */
+  overflow: hidden;
 }
 /* HEADER AREA */
 #header .container {
