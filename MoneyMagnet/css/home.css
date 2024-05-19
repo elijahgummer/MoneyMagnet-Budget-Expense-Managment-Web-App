@@ -507,7 +507,9 @@ html {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  background: #fff;
+  background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(53, 53, 53, 0.9); /* Optional shadow */
   border-radius: 25px;
   padding: 45px 90px 45px 60px;
   margin: 50px;
