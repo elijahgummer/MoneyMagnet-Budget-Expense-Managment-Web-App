@@ -75,12 +75,12 @@ html {
   transform: rotate(35deg);
 }
 #action .svg-container7 {
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 220px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
   bottom: 0;
-  left: 30%; /* Adjust these values to move the SVG */
+  left: 0; /* Adjust these values to move the SVG */
 }
 /* HEADER AREA */
 #header .container {
