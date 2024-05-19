@@ -88,9 +88,9 @@ html {
   height: 130px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
-  bottom: 10px;
+  top: 10px;
   left: 39%; /* Adjust these values to move the SVG */
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 /* HEADER AREA */
 #header .container {
