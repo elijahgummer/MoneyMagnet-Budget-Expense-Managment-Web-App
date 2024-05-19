@@ -634,18 +634,19 @@ html {
 /* Footer */
 footer {
   background: transparent;
-  background: #333333; /* Dark semi-transparent background */
+  background: linear-gradient(115deg, #f8d77a 50%, #000 50%);
   box-shadow: 0 2px 4px rgba(39, 39, 39, 0.9); /* Optional shadow */
-  padding: 10px;
   backdrop-filter: blur(10px);
 }
 footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.1); /* Dark semi-transparent background */
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   box-shadow: 0 2px 4px rgba(39, 39, 39, 0.9); /* Optional shadow */
+  height: auto;
 }
 footer button {
   display: none;
