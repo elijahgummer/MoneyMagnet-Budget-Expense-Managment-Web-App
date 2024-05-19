@@ -93,8 +93,8 @@ html {
   transform: rotate(90deg);
 }
 #action .svg-container9 {
-  width: 130px;
-  height: 130px;
+  width: 90px;
+  height: 90px;
   position: absolute; /* or relative, fixed, sticky */
   /* Adjust these values to move the SVG */
   top: 10px;
