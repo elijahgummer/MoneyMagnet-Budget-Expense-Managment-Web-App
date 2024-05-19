@@ -477,6 +477,7 @@ html {
   transition: all ease-in-out 0.4s;
   margin: 20px 5px;
   border: 2px solid #E0D019;
+  width: 50%;
 }
 #action .call-to-action-btn:hover {
   background: #f8d77a;
