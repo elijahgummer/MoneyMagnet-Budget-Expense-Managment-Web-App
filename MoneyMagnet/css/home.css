@@ -437,6 +437,7 @@ html {
   height: 600px;
   position: relative; /* Ensure position context for absolutely positioned children */
   z-index: 1; /* Ensure action elements are above the SVG */
+  width: 90%;
 }
 #action .image-container {
   display: flex;
