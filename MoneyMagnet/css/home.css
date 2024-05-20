@@ -307,6 +307,9 @@ footer .svg-container10 svg {
   box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
 
 }
+#features img:hover {
+  transform: translateY(10px);
+}
 #features .features-container {
   display: flex;
   justify-content: space-around;
