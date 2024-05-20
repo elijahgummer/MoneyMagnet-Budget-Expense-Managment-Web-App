@@ -1404,7 +1404,7 @@ require_once("navbar.php");
                         </li>
                         <li>
                             <div class="question-arrow">
-                                <span class="question">What do you mean by JavaScript?</span>
+                                <span class="question">How do I start using Money Magnet?</span>
                                 <i class="bx bxs-chevron-down arrow"></i>
                             </div>
                             <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive</p>
