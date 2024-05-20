@@ -8,6 +8,9 @@
 body {
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* SIGN UP BUTTON */
 .sign-up {
   --primary-color: #f8d77a;
