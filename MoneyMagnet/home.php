@@ -1459,7 +1459,7 @@ require_once("navbar.php");
                         <li>Action</li>
                     </a>
                     <a href="contact.php">
-                        <li>Contact</li>
+                        <li>FAQ</li>
                     </a>
                 </ul>
                 <div class="social-icons">
