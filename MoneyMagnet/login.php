@@ -41,7 +41,7 @@ require_once("navbarLogin.php");
                     <label>Enter your password</label>
                 </div>
                 <div class="forget">
-                    <div class="checkbox-wrapper-13">
+                    <div class="checkbox-wrapper">
                         <input type="checkbox" id="c1-13">
                         <p>Remember me</p>
                     </div>
