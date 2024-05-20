@@ -1396,7 +1396,7 @@ require_once("navbar.php");
                     <ul class="faq-text">
                         <li>
                             <div class="question-arrow">
-                                <span class="question">What do you mean by HTML & CSS?</span>
+                                <span class="question">What is Money Magnet?</span>
                                 <i class="bx bxs-chevron-down arrow"></i>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloribus.</p>
