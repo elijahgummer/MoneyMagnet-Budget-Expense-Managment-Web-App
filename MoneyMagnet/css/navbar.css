@@ -32,6 +32,8 @@ html {
   align-items: center;
   gap: 0.6em;
   font-weight: bold;
+  font-size: 13.3px;
+  margin: 0 5px;
   color: var(--secondary-color);
   text-decoration: none; /* Ensure the text has no underline */
   transition: color 0.2s; /* Optional: smooth color transition */
