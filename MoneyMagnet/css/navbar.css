@@ -14,6 +14,7 @@ html {
 /* SIGN UP BUTTON */
 .sign-up {
   --primary-color: #f8d77a;  
+  --secondary-color: #fff;
   --arrow-width: 10px;
   --arrow-stroke: 2px;
   box-sizing: border-box;
@@ -27,11 +28,13 @@ html {
   
 }
 .sign-up a {
-  --hover-color: #333333;
-  --secondary-color: #fff;
+  display: flex;
+  align-items: center;
   gap: 0.6em;
   font-weight: bold;
   color: var(--secondary-color);
+  text-decoration: none; /* Ensure the text has no underline */
+  transition: color 0.2s; /* Optional: smooth color transition */
 }
 .sign-up .arrow-wrapper {
   display: flex;
