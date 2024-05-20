@@ -1407,7 +1407,7 @@ require_once("navbar.php");
                                 <span class="question">How do I start using Money Magnet?</span>
                                 <i class="bx bxs-chevron-down arrow"></i>
                             </div>
-                            <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive</p>
+                            <p>Sign up, link your bank accounts, and set up your budget categories.</p>
                             <span class="line"></span>
                         </li>
                         <li>
