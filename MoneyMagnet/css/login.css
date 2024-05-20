@@ -5,6 +5,7 @@ html {
   padding: 0;
   height: 100%;
   font-family: "Open Sans", sans-serif;
+  background: linear-gradient(115deg, #f8d77a 50%, #000 50%);
 }
 .container {
   display: flex;
