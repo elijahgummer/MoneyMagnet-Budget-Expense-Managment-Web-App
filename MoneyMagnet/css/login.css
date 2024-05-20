@@ -154,9 +154,9 @@ p.message {
 }
 
 .ui-checkbox {
-  --primary-color: #1677ff;
+  --primary-color: #f8d77a;
   --secondary-color: #fff;
-  --primary-hover-color: #4096ff;
+  --primary-hover-color: #ffd152;
   /* checkbox */
   --checkbox-diameter: 20px;
   --checkbox-border-radius: 5px;
