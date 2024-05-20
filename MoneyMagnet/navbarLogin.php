@@ -18,7 +18,7 @@
             <div class="icon cancel-btn">
                 <i class="fa-solid fa-xmark"></i>
             </div>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li><a href="features.html">Features</a></li>
             <li><a href="reviews.html">Reviews</a></li>
             <li><a href="action.html">Action</a></li>
