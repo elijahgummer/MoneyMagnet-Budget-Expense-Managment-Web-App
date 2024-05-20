@@ -1415,7 +1415,7 @@ require_once("navbar.php");
                                 <span class="question"> Is my data secure with Money Magnet?</span>
                                 <i class="bx bxs-chevron-down arrow"></i>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, necessitatibus.</p>
+                            <p>Yes, we use bank-level encryption to ensure your data is safe.</p>
                             <span class="line"></span>
                         </li>
                         <li>
