@@ -24,7 +24,7 @@
       <li><a href="action.html">Action</a></li>
       <li><a href="FAQ.html">FAQ</a></li>
       <button class="sign-up">
-        Sign up
+        <a href="login.php">Sign up</a>
         <div class="arrow-wrapper">
           <div class="arrow"></div>
         </div>
