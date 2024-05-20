@@ -19,10 +19,6 @@
                 <i class="fa-solid fa-xmark"></i>
             </div>
             <li><a href="home.php">Home</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="reviews.html">Reviews</a></li>
-            <li><a href="action.html">Action</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
             <button class="sign-up">
                 <a href="login.php">Sign up</a>
                 <div class="arrow-wrapper">
