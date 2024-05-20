@@ -1443,7 +1443,7 @@ require_once("navbar.php");
         <div class="container">
             <div class="content">
                 <ul>
-                    <a href="home.php">
+                    <a href="#header">
                         <li>Home</li>
                     </a>
                     <a href="#features">
