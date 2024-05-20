@@ -712,9 +712,7 @@ footer .social-icons i {
   margin: 10px;
 }
 footer .social-icons i:hover {
-  font-size: 25px;
   color: #333333;
-  margin: 10px;
 }
 footer ul {
   display: flex;
