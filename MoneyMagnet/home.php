@@ -1428,10 +1428,10 @@ require_once("navbar.php");
                         </li>
                         <li>
                             <div class="question-arrow">
-                                <span class="question">Software you use for video editing?</span>
+                                <span class="question">How do I create a budget?</span>
                                 <i class="bx bxs-chevron-down arrow"></i>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, repudiandae!</p>
+                            <p>Navigate to the "Budget" section, create a new budget, and set your income and spending limits.</p>
                             <span class="line"></span>
                         </li>
                     </ul>
