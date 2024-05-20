@@ -1420,10 +1420,10 @@ require_once("navbar.php");
                         </li>
                         <li>
                             <div class="question-arrow">
-                                <span class="question">Which code editor do you use?</span>
+                                <span class="question">How do I change my password?</span>
                                 <i class="bx bxs-chevron-down arrow"></i>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, labore.</p>
+                            <p>Go to account settings in your profile and select "Change Password."</p>
                             <span class="line"></span>
                         </li>
                         <li>
