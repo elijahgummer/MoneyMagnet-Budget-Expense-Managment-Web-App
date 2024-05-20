@@ -1447,7 +1447,7 @@ require_once("navbar.php");
                         <li>Home</li>
                     </a>
                     <a href="about.php">
-                        <li>About</li>
+                        <li>Features</li>
                     </a>
                     <a href="features.php">
                         <li>Features</li>
