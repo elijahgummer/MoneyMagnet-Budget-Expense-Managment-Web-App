@@ -507,7 +507,8 @@ footer .svg-container10 svg {
   width: 50%;
 }
 #action .call-to-action-btn:hover {
-  background: #f8d77a;
+  background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
+  backdrop-filter: blur(10px);
 }
 /* FAQ STYLING AREA */
 #FAQ .container {
