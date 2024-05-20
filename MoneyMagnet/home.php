@@ -1456,7 +1456,7 @@ require_once("navbar.php");
                         <li>Process</li>
                     </a>
                     <a href="#action">
-                        <li>Reviews</li>
+                        <li>Action</li>
                     </a>
                     <a href="contact.php">
                         <li>Contact</li>
