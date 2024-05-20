@@ -398,6 +398,10 @@ footer .svg-container10 svg {
   box-shadow: 0 2px 4px rgba(53, 53, 53, 0.9); /* Optional shadow */
   border-radius: 17px;
   margin: 40px;
+  transition: all ease-in-out 0.4s;
+}
+#reviews .card:hover {
+  transform: translateY(-10px);
 }
 #reviews .card .profile-name {
   font-weight: 800;
