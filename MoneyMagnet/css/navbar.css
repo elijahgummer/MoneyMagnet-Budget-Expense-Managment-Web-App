@@ -17,6 +17,7 @@ html {
   --secondary-color: #fff;
   --arrow-width: 10px;
   --arrow-stroke: 2px;
+  --hover-color: #333333;
   box-sizing: border-box;
   border: 0;
   border-radius: 20px;
