@@ -305,7 +305,7 @@ footer .svg-container10 svg {
   border-radius: 50%;
   padding: 10px;
   box-shadow: 9px 9px 40px 3px rgba(0, 0, 0, 0.25);
-
+  transition: all ease-in-out 0.4s;
 }
 #features img:hover {
   transform: translateY(-10px);
