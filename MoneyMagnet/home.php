@@ -1450,7 +1450,7 @@ require_once("navbar.php");
                         <li>Features</li>
                     </a>
                     <a href="features.php">
-                        <li>Features</li>
+                        <li>Reviews</li>
                     </a>
                     <a href="process.php">
                         <li>Process</li>
