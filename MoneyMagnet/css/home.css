@@ -308,7 +308,7 @@ footer .svg-container10 svg {
 
 }
 #features img:hover {
-  transform: translateY(10px);
+  transform: translateY(-10px);
 }
 #features .features-container {
   display: flex;
