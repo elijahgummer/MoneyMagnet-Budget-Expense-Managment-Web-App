@@ -1399,7 +1399,7 @@ require_once("navbar.php");
                                 <span class="question">What is Money Magnet?</span>
                                 <i class="bx bxs-chevron-down arrow"></i>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, doloribus.</p>
+                            <p>Money Magnet is a tool for budgeting and expense tracking to help you manage your finances and achieve financial goals.</p>
                             <span class="line"></span>
                         </li>
                         <li>
