@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <title>Responsive Navbar</title>
@@ -7,47 +8,33 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
 <body>
-    <div id="header">
-        <div class="container1">
-            <nav>
-                <img src="images/logo.png" alt="logo" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#process">Process</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <button><a href="login.php">Sign In</a></button>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>  
+    <nav>
+        <div class="logo-container">
+            <img class="logo" src="images/logo.png" alt="logo" />
         </div>
-    </div>
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu() {
-            sidemenu.style.right = "0"
-        }
-
-        function closemenu() {
-            sidemenu.style.right = "-200px"
-        }
-    </script>
+        <ul id="sidemenu" class="menu-list">
+            <div class="icon cancel-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="action.html">Action</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <button class="sign-up">
+                <a href="login.php">Sign up</a>
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+                </div>
+            </button>
+        </ul>
+        <div class="icon menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <script src="js/navbar.js"></script>
 </body>
+
 </html>
