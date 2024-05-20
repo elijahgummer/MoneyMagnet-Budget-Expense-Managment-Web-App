@@ -13,22 +13,25 @@ html {
 }
 /* SIGN UP BUTTON */
 .sign-up {
-  --primary-color: #f8d77a;
-  --secondary-color: #fff;
-  --hover-color: #333333;
+  --primary-color: #f8d77a;  
   --arrow-width: 10px;
   --arrow-stroke: 2px;
   box-sizing: border-box;
   border: 0;
   border-radius: 20px;
-  color: var(--secondary-color);
   padding: 0.7em 1.8em;
   background: var(--primary-color);
   display: flex;
   transition: 0.2s background;
   align-items: center;
+  
+}
+.sign-up a {
+  --hover-color: #333333;
+  --secondary-color: #fff;
   gap: 0.6em;
   font-weight: bold;
+  color: var(--secondary-color);
 }
 .sign-up .arrow-wrapper {
   display: flex;
