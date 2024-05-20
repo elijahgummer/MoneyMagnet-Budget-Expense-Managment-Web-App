@@ -1458,7 +1458,7 @@ require_once("navbar.php");
                     <a href="#action">
                         <li>Action</li>
                     </a>
-                    <a href="contact.php">
+                    <a href="#FAQ">
                         <li>FAQ</li>
                     </a>
                 </ul>
