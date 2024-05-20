@@ -5,7 +5,6 @@ html {
   padding: 0;
   height: 100%;
   font-family: "Open Sans", sans-serif;
-  background: url("../images/loginBackground.jpg") center/cover no-repeat, #000;
 }
 .container {
   display: flex;
