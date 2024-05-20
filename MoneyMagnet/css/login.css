@@ -146,6 +146,13 @@ p.message {
   margin-bottom: 10px;
 }
 
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .ui-checkbox {
   --primary-color: #1677ff;
   --secondary-color: #fff;
@@ -158,6 +165,7 @@ p.message {
   --checkbox-border-style: solid;
   /* checkmark */
   --checkmark-size: 1.2;
+  margin: 5px;
 }
 
 .ui-checkbox, 

@@ -41,8 +41,10 @@ require_once("navbarLogin.php");
                     <label>Enter your password</label>
                 </div>
                 <div class="forget">
+                    <div class="checkbox-wrapper">
                     <input type="checkbox" class="ui-checkbox">
                     <p>Remember me</p>
+                    </div>
                     <a href="forgotpwd.php">Forgot password?</a>
                 </div>
                 <button type="submit" name="submit">Log In</button>
