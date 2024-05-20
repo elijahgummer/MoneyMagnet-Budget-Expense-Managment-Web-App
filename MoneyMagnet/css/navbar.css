@@ -27,13 +27,11 @@ body {
   gap: 0.6em;
   font-weight: bold;
 }
-
 .sign-up .arrow-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .sign-up .arrow {
   margin-top: 1px;
   width: var(--arrow-width);
@@ -42,7 +40,6 @@ body {
   position: relative;
   transition: 0.2s;
 }
-
 .sign-up .arrow::before {
   content: "";
   box-sizing: border-box;
@@ -56,15 +53,12 @@ body {
   padding: 3px;
   transform: rotate(-45deg);
 }
-
 .sign-up:hover {
   background-color: var(--hover-color);
 }
-
 .sign-up:hover .arrow {
   background: var(--secondary-color);
 }
-
 .sign-up:hover .arrow:before {
   right: 0;
 }
