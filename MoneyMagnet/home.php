@@ -1452,9 +1452,6 @@ require_once("navbar.php");
                     <a href="#reviews">
                         <li>Reviews</li>
                     </a>
-                    <a href="#process">
-                        <li>Process</li>
-                    </a>
                     <a href="#action">
                         <li>Action</li>
                     </a>
