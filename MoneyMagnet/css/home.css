@@ -768,8 +768,8 @@ footer .info-box p {
   }
   /* SVG RESPONSIVNESS */
   #header .svg-container {
-    width: 140px;
-    height: 140px;
+    width: 40px;
+    height: 40px;
     position: absolute; /* or relative, fixed, sticky */
     /* Adjust these values to move the SVG */
     bottom: 0;
