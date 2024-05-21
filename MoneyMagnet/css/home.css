@@ -796,6 +796,7 @@ footer .info-box p {
   justify-content: flex-start;
   flex-direction: row;
   width: 100%;
+  margin: 20px 0;
 }
   #header h2 {
     font-size: 35px;
