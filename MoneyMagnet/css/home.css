@@ -767,6 +767,14 @@ footer .info-box p {
     overflow-x: hidden;
   }
   /* SVG RESPONSIVNESS */
+  #header .svg-container1 {
+    width: 140px;
+    height: 140px;
+    position: absolute; /* or relative, fixed, sticky */
+    /* Adjust these values to move the SVG */
+    bottom: 45px;
+    left: 55px; /* Adjust these values to move the SVG */
+  }
   #header .container {
     display: flex;
     align-items: center;
