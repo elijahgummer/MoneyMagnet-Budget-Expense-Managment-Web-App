@@ -24,9 +24,10 @@ require_once("navbar.php");
                     <div class="type-animation-text">
                         <h3 class="typeHeader">Helps You, <span class="auto-type"></span></h3>
                     </div>
-                    <div class="button-container"></div>
-                    <button class="learn-more">Learn More</button>
-                    <button class="get-started">Get Started</button>
+                    <div class="button-container"><button class="learn-more">Learn More</button>
+                        <button class="get-started">Get Started</button>
+                    </div>
+
                 </div>
                 <div class="svg-container">
                     <svg class="animated" id="freepik_stories-investment-data" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
