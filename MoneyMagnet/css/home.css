@@ -789,6 +789,8 @@ footer .info-box p {
   }
   #header h2 {
     font-size: 35px;
+    margin: 0;
+    width: 100%;
   }
   #header .typeHeader {
     flex-wrap: wrap;
