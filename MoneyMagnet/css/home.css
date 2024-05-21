@@ -789,6 +789,13 @@ footer .info-box p {
     width: 90%;
     margin: 0;
   }
+
+#header .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
   #header h2 {
     font-size: 35px;
     margin: 0;
