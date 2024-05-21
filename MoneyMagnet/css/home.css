@@ -766,6 +766,7 @@ footer .info-box p {
     background-color: black;
     overflow-x: hidden;
   }
+  /* SVG RESPONSIVNESS */
   #header .container {
     display: flex;
     align-items: center;
