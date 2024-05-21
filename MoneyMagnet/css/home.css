@@ -792,9 +792,10 @@ footer .info-box p {
 
 #header .button-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: row;
+  width: 100%;
 }
   #header h2 {
     font-size: 35px;
