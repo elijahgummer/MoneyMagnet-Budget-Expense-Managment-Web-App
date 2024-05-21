@@ -751,7 +751,7 @@ footer .info-box p {
   margin: 5px;
 }
 /* responsivness for the web page */
-@media only screen and (max-width: 800px) {
+@media(max-width: 800px) {
   body {
     background-image: url("../images/house.png");
     background-repeat: no-repeat;
@@ -781,11 +781,13 @@ footer .info-box p {
     width: 100%;
     margin: 0;
   }
-  #header .content-container {
+  #header .container .content .content-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 90%;
+    margin: 0;
   }
   #header h2 {
     font-size: 35px;
