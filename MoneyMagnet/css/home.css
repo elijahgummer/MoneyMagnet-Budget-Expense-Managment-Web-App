@@ -808,12 +808,11 @@ footer .info-box p {
     width: 80%;
     height: 30px;
     position: absolute;
+    margin: 10px 0;
+    font-size: 22px;
   }
   #header .type-animation-text span {
     font-size: 22px;
     margin: 0;
-  }
-  #header .typeHeader {
-    font-size: 22px;
   }
 }
