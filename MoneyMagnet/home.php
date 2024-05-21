@@ -24,6 +24,7 @@ require_once("navbar.php");
                     <div class="type-animation-text">
                         <h3 class="typeHeader">Helps You, <span class="auto-type"></span></h3>
                     </div>
+                    <div class="button-container"></div>
                     <button class="learn-more">Learn More</button>
                     <button class="get-started">Get Started</button>
                 </div>
