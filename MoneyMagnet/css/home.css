@@ -843,6 +843,7 @@ footer .info-box p {
 @media (max-width: 820px) {
   .accordion{
     flex-direction: column;
+    width: 90%;
   }
   .accordion .image-box{
     height: 360px;
