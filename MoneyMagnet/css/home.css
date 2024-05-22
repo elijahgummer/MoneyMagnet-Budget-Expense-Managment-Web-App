@@ -780,7 +780,8 @@ footer .info-box p {
     left: 30px;
   }
   #features .svg-container4{
-    
+    bottom: 10px;
+    right: 10px;
   }
   /* HEADER RESPONSIVNESS */
   #header .container {
