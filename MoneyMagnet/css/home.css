@@ -836,4 +836,7 @@ footer .info-box p {
   #features h3 {
     font-size: 40px;
   }
+  #features .feature-card {
+    margin: 5px 0;
+  }
 }
