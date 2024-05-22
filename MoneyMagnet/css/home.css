@@ -829,6 +829,9 @@ footer .info-box p {
   footer ul{
     flex-wrap: wrap;
   }
+  footer p {
+    width: 100%;
+  }
   
 }
 
