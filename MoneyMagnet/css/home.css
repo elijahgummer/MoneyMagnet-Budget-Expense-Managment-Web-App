@@ -779,6 +779,9 @@ footer .info-box p {
     top: 30px;
     left: 30px;
   }
+  #features .svg-container4{
+    
+  }
   /* HEADER RESPONSIVNESS */
   #header .container {
     display: flex;
