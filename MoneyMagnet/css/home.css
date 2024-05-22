@@ -844,6 +844,7 @@ footer .info-box p {
   .accordion{
     flex-direction: column;
     width: 90%;
+    margin: 40px 0;
   }
   .accordion .image-box{
     height: 360px;
