@@ -776,8 +776,9 @@ footer .info-box p {
     left: 0; /* Adjust these values to move the SVG */
   }
   #features .svg-container3 {
-    top: 10px;
-    left: 10px;
+
+    top: 30px;
+    left: 30px;
   }
   /* HEADER RESPONSIVNESS */
   #header .container {
