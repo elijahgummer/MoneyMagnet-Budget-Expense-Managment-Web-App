@@ -824,4 +824,7 @@ footer .info-box p {
     margin: 0;
   }
   /* Features responsivness area */
+  #features h3 {
+    font-size: 40px;
+  }
 }
