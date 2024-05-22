@@ -826,7 +826,7 @@ footer .info-box p {
   }
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
-  footer{
+  footer ul{
     flex-wrap: wrap;
   }
   
