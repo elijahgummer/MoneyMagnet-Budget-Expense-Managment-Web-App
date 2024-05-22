@@ -849,8 +849,9 @@ footer .info-box p {
     flex-direction: column;
   }
   #reviews .card {
-    width: 80%;
+    width: 90%;
     height: 150px;
+    margin: 20px 40px;
   }
   #reviews .header {
     font-size: 1.35em;
