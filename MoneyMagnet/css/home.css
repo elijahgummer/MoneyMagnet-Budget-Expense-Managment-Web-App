@@ -782,6 +782,9 @@ footer .info-box p {
     bottom: 10px;
     right: 10px;
   }
+  #reviews .svg-container5 {
+    
+  }
   /* HEADER RESPONSIVNESS */
   #header .container {
     display: flex;
