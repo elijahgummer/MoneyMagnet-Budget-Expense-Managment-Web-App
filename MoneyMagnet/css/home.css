@@ -826,6 +826,10 @@ footer .info-box p {
   }
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
+  footer{
+    flex-wrap: wrap;
+  }
+  
 }
 
 @media (max-width: 994px) {
