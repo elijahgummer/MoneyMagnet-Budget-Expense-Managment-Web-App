@@ -850,6 +850,7 @@ footer .info-box p {
   }
   #reviews .card {
     width: 80%;
+    height: 150px;
   }
   #reviews .header {
     font-size: 1.35em;
