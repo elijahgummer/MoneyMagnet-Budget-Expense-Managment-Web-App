@@ -847,5 +847,6 @@ footer .info-box p {
   }
   #reviews .sub-header {
     font-size: 2.35em;
+    width: 90%;
   }
 }
