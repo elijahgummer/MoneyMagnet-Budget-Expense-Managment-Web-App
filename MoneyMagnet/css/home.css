@@ -840,9 +840,6 @@ footer .info-box p {
   }
   /* REVIEWS RESPONSIVNESS AREA */
   #reviews .card-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: row;
   }
 }
