@@ -848,6 +848,9 @@ footer .info-box p {
   #reviews .card-container {
     flex-direction: column;
   }
+  #reviews .card {
+    
+  }
   #reviews .header {
     font-size: 1.35em;
   }
