@@ -788,6 +788,12 @@ footer .info-box p {
     top: 20px;
     right: 20px;
   }
+  #reviews .svg-container5 {
+    width: 40px;
+    height: 40px; 
+    top: 20px;
+    right: 20px;
+  }
   /* HEADER RESPONSIVNESS */
   #header .container {
     display: flex;
