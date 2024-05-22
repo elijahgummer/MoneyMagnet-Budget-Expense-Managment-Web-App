@@ -829,6 +829,13 @@ footer .info-box p {
   footer ul{
     flex-wrap: wrap;
   }
+  footer .container {
+    width: 100%;
+    padding: 10px;
+  }
+  footer .content {
+    width: 100%;
+  }
   footer p {
     width: 100%;
   }
