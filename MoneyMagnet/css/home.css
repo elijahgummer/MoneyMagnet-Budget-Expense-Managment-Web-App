@@ -840,6 +840,6 @@ footer .info-box p {
   }
   /* REVIEWS RESPONSIVNESS AREA */
   #reviews .card-container {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
