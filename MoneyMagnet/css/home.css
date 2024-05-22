@@ -839,5 +839,10 @@ footer .info-box p {
     margin: 5px 0;
   }
   /* REVIEWS RESPONSIVNESS AREA */
-
+  #reviews .card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
 }
