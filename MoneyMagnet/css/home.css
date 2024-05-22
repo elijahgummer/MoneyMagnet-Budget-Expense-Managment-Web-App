@@ -842,4 +842,17 @@ footer .info-box p {
   #reviews .card-container {
     flex-direction: column;
   }
+  #reviews .header {
+    font-weight: 100;
+    font-size: 1.75em;
+    font-family: "Mulish", sans-serif;
+    margin: 10px 10px 10px 10px;
+    color: #f2f2f2;
+  }
+  #reviews .sub-header {
+    font-size: 2.75em;
+    font-weight: 700;
+    margin: 5px;
+    color: #ffffff;
+  }
 }
