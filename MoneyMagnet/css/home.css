@@ -825,7 +825,7 @@ footer .info-box p {
   }
   /* ACTIONS RESPONSIVNESS */
   #action {
-    
+    background: linear-gradient(to top, #1e1e1e 50%, #f8d77a 50%);
   }
   #action .container {
     flex-direction: column-reverse;
