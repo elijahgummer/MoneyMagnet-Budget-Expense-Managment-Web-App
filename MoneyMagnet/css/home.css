@@ -768,8 +768,8 @@ footer .info-box p {
     height: 50px;
   }
   #action .svg-container10 {
-    left: 0;
-    top: 10px;
+    right: 0;
+    bottom: 10px;
     width: 50px;
     height: 50px;
   }
