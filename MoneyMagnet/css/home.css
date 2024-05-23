@@ -824,6 +824,9 @@ footer .info-box p {
     width: 80%;
   }
   /* ACTIONS RESPONSIVNESS */
+  #action {
+    
+  }
   #action .container {
     flex-direction: column-reverse;
     width: 100%;
