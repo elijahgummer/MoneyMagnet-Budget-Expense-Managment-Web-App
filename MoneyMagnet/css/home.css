@@ -845,7 +845,7 @@ footer .info-box p {
     margin: 80px 50px;
     height: 350px;
   }
-  #action p {
+  #action .content p {
     margin: 0;
   }
   /* FAQ AREA RESPONSIVNESS */
