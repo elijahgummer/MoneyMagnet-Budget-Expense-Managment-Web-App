@@ -847,9 +847,11 @@ footer .info-box p {
   }
   #action .content p {
     margin: 0;
+    font-size: 15px;
   }
   #action .content h1 {
     font-size: 19px;
+    margin: 5px;
   }
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
