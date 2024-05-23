@@ -848,6 +848,9 @@ footer .info-box p {
   #action .content p {
     margin: 0;
   }
+  #action .content h1 {
+    font-size: 19px;
+  }
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
   footer ul{
