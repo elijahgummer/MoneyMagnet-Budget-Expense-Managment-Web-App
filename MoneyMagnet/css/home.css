@@ -850,10 +850,14 @@ footer .info-box p {
   #action .image-container {
     width: 70%;
   }
-  #action .content {
-    width: 90%;
+  #action .card {
+    width: 80%;
     margin: 50px 0 0 0;
     height: 350px;
+    padding: 0 20px;
+  }
+  #action .card .content {
+    width: 100%;
   }
   #action .content p {
     margin: 0;
