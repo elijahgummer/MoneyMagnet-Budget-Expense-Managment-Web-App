@@ -829,7 +829,9 @@ footer .info-box p {
     flex-direction: column-reverse;
     width: 100%;
   }
-  
+  #action .image-container {
+    width: 80%;
+  }
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
   footer ul{
