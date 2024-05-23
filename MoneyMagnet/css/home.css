@@ -466,6 +466,10 @@ footer .svg-container10 svg {
   padding: 30px;
 }
 #action .card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
   width: 43%;
   height: 468px;
   background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
