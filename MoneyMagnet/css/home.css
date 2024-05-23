@@ -845,7 +845,7 @@ footer .info-box p {
     width: 70%;
   }
   #action .content {
-    width: 80%;
+    width: 90%;
     margin: 50px 0 0 0;
     height: 350px;
   }
@@ -859,7 +859,7 @@ footer .info-box p {
     width: 100%;
   }
   #action .call-to-action-btn {
-    
+    font-size: 14px;
   }
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
