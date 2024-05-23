@@ -767,6 +767,10 @@ footer .info-box p {
     width: 50px;
     height: 50px;
   }
+  #action .svg-container10 {
+    width: 50px;
+    height: 50px;
+  }
   /* HEADER RESPONSIVNESS */
   #header .container {
     display: flex;
