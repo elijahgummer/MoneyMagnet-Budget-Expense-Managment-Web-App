@@ -827,7 +827,9 @@ footer .info-box p {
   /* ACTIONS RESPONSIVNESS */
   #action .container {
     flex-direction: column-reverse;
+    width: 100%;
   }
+  
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
   footer ul{
