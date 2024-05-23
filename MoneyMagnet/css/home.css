@@ -352,9 +352,10 @@ footer .svg-container10 svg {
   justify-content: center;
   flex-direction: column;
   width: 80%;
-  height: 700px;
+  height: auto;
   text-align: center;
   border-radius: 30px;
+  padding: 50px 0 80px 0;
 }
 #reviews .header {
   font-weight: 100;
