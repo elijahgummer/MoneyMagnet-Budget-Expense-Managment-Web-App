@@ -451,7 +451,7 @@ footer .svg-container10 svg {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  height: 600px;
+  height: auto;
   position: relative; /* Ensure position context for absolutely positioned children */
   z-index: 1; /* Ensure action elements are above the SVG */
   width: 90%;
