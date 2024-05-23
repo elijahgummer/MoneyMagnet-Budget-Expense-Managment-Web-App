@@ -754,8 +754,8 @@ footer .info-box p {
   #action .svg-container8 {
     left: 0;
     top: 10px;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
   }
   /* HEADER RESPONSIVNESS */
   #header .container {
@@ -842,7 +842,7 @@ footer .info-box p {
   }
   #action .content {
     width: 80%;
-    margin: 80px 50px;
+    margin: 50px 0 0 0;
     height: 350px;
   }
   #action .content p {
@@ -852,6 +852,7 @@ footer .info-box p {
   #action .content h1 {
     font-size: 19px;
     margin: 5px;
+    width: 100%;
   }
   /* FAQ AREA RESPONSIVNESS */
   /* FOOTER RESPONSIVNESS */
