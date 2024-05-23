@@ -465,20 +465,22 @@ footer .svg-container10 svg {
   border-radius: 25%;
   padding: 30px;
 }
-#action .content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  padding: 8px 40px;
-  font-size: 16px;
-  font-weight: 500;
+#action .card {
   width: 43%;
   height: 468px;
   background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 4px rgba(53, 53, 53, 0.9); /* Optional shadow */
   margin-top: 40px;
+  padding: 8px 40px;
+}
+#action .content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
 }
 #action .content h1 {
   color: white;
