@@ -791,6 +791,7 @@ footer .info-box p {
     justify-content: center;
     width: 100%;
     margin: 0;
+    text-align: center;
   }
   #header .container .content .content-container {
     display: flex;
@@ -823,7 +824,7 @@ footer .info-box p {
   }
   #header .typeHeader {
     width: 10px;
-    height: 30px;
+    height: 60px;
     position: absolute;
     margin: 10px 0;
     font-size: 22px;
