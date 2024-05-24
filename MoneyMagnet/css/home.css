@@ -769,7 +769,7 @@ footer .info-box p {
     height: 50px;
   }
   #action .svg-container7 {
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 10px;
     width: 50px;
