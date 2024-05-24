@@ -819,6 +819,7 @@ footer .info-box p {
     width: 100%; /* Adjust the width as needed */
     flex-wrap: wrap;
     white-space: normal;
+    word-break: break-word;
   }
   #header .typeHeader {
     width: 10px;
