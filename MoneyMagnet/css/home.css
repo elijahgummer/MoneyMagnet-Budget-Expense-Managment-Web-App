@@ -803,7 +803,7 @@ footer .info-box p {
 
 #header .button-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: row;
   width: 100%;
