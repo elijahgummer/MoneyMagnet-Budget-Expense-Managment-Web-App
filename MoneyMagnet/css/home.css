@@ -818,6 +818,7 @@ footer .info-box p {
   #header .type-animation-text h3 {
     width: 100%; /* Adjust the width as needed */
     flex-wrap: wrap;
+    white-space: normal;
   }
   #header .typeHeader {
     width: 10px;
