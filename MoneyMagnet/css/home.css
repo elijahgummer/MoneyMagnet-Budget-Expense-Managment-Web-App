@@ -178,7 +178,6 @@ footer .svg-container10 svg {
   color: #f2f2f2;
   mix-blend-mode: normal;
   flex-wrap: wrap;
-  white-space: nowrap; /* Prevents wrapping */
 }
 #header .auto-type {
   color: #E0D019;
@@ -799,6 +798,7 @@ footer .info-box p {
     flex-direction: column;
     width: 90%;
     margin: 0;
+    flex-wrap: wrap;
   }
 
 #header .button-container {
@@ -814,9 +814,11 @@ footer .info-box p {
     margin: 10px 0;
     width: 100%;
   }
+  #header .type-animation-text h3 {
+    width: 500px; /* Adjust the width as needed */
+  }
   #header .typeHeader {
-    flex-wrap: wrap;
-    width: 80%;
+    width: 10px;
     height: 30px;
     position: absolute;
     margin: 10px 0;
