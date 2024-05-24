@@ -782,6 +782,7 @@ footer .info-box p {
     align-items: center;
     justify-content: center;
     width: 100%;
+    text-align: center;
   }
   #header .container .content {
     display: flex;
