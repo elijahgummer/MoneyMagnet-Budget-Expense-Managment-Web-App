@@ -798,7 +798,7 @@ footer .info-box p {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    margin: 0;
+    margin: 10px 0;
     flex-wrap: wrap;
   }
 
@@ -816,7 +816,7 @@ footer .info-box p {
     width: 100%;
   }
   #header .type-animation-text h3 {
-    width: 500px; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     flex-wrap: wrap;
   }
   #header .typeHeader {
