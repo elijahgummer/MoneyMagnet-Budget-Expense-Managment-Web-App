@@ -777,6 +777,7 @@ footer .info-box p {
   #action .image-container {
     width: 80%;
     height: 300px;
+    padding: 0;
   }
   /* HEADER RESPONSIVNESS */
   #header .container {
