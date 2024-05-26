@@ -122,7 +122,6 @@ footer .svg-container10 svg {
   width: 100%;
   background: linear-gradient(115deg, #f8d77a 50%, #000 50%);
 }
-
 @keyframes moveShapes {
   to {
     transform: translateX(-100%);
