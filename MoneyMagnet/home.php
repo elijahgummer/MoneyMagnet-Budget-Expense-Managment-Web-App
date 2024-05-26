@@ -666,9 +666,6 @@ require_once("navbar.php");
                     <path d="M97.6996 0.6C98.4996 -0.2 99.6996 -0.2 100.5 0.6C101.3 1.4 101.3 2.6 100.5 3.4C99.6996 4.2 98.4996 4.2 97.6996 3.4C96.8996 2.7 96.8996 1.4 97.6996 0.6Z" fill="#333333" fill-opacity="0.2" />
                 </svg>
             </div>
-            <div class="svg-container2">
-
-            </div>
         </div>
     </div>
     <div id="features">
