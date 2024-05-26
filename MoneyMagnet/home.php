@@ -818,7 +818,6 @@ require_once("navbar.php");
                     </svg>
                 </div>
             </div>
-
         </div>
     </div>
     <div id="action">
