@@ -2,7 +2,7 @@
 body,
 html {
   overflow-x: hidden;
-  overflow-y: auto; /* Ensure vertical scrolling is normal */
+  overflow-y: auto;/* Ensure vertical scrolling is normal */
 }
 /* Custom scroll bar */
 ::-webkit-scrollbar {
