@@ -19,7 +19,7 @@
       <li><a href="#header">Home</a></li>
       <li><a href="#features">Features</a></li>
       <li><a href="#reviews">Reviews</a></li>
-      <li><a href="action.html">Action</a></li>
+      <li><a href="#action">Action</a></li>
       <li><a href="FAQ.html">FAQ</a></li>
       <button class="sign-up">
         <a href="login.php">Sign up</a>
