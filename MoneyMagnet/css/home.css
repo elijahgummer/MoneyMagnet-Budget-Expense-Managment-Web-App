@@ -469,8 +469,8 @@ footer .svg-container10 svg {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 43%;
-  height: 468px;
+  width: 39%;
+  height: 400px;
   background: rgba(43, 43, 43, 0.9); /* Dark semi-transparent background */
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 4px rgba(53, 53, 53, 0.9); /* Optional shadow */
