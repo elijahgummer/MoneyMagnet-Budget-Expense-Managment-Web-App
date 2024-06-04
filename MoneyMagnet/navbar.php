@@ -17,7 +17,7 @@
         <i class="fa-solid fa-xmark"></i>
       </div>
       <li><a href="#header">Home</a></li>
-      <li><a href="features.html">Features</a></li>
+      <li><a href="#features">Features</a></li>
       <li><a href="reviews.html">Reviews</a></li>
       <li><a href="action.html">Action</a></li>
       <li><a href="FAQ.html">FAQ</a></li>
