@@ -1,4 +1,4 @@
-const navbar = document.querySelector(".navbar");
+const navbar = document.querySelector("nav");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 
