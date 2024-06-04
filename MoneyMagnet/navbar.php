@@ -20,7 +20,7 @@
       <li><a href="#features">Features</a></li>
       <li><a href="#reviews">Reviews</a></li>
       <li><a href="#action">Action</a></li>
-      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#FAQ">FAQ</a></li>
       <button class="sign-up">
         <a href="login.php">Sign up</a>
         <div class="arrow-wrapper">
